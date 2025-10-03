@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+  <title>SLS 3</title>
+
+      <style>
+         * {
+         margin: 0;
+         padding:0;
+         box-sizing: border-box;
+         }
+      </style>
+</head>
+<body>
+  <script type="module" src="dist/lib.bundle.js">
+    
+  </script>
+
+   <script type="module" src="components/nav.js"></script>
+     <script type="module" src="components/footer.js"></script>
+  <div id="mount"></div>
+
+  <script type="module">
+ class ProductCard extends Base {
+      constructor(obj){
+        super();
+        this.obj = obj;
+      }
+
+      render(){
+        return new Wrapper()
+          .add([
+            new Image().set({
+              type: "img",
+              width: "300px",
+              isFull: true,
+              url: this.obj.url,
+              vtn: this.obj.name
+            }),
+            new Wrapper().set({
+              pad: [{a: 14}]
+            }).add([
+              new Text(this.obj.name).set({
+                color: "black",
+                weight: "bold",
+                exact: "1.6rem",
+                pad: [{tb: "0.3rem"}]
+              })
+            ])
+          ]);
+      } // 205954 WORKS
+      // locally have to type manually http://localhost:2000/detail?id=helix 
+    }
+
+    // ✅ Title
+    new Text("Team Blueseventy")
+      .set({
+        size: "S1",
+        font: "Arial",
+        pad: [{a: "3rem"}]
+      })
+      .render("#mount");
+
+    // ✅ Load products.json
+    /*import data from './products.json' assert { type: 'json' };
+
+    new FlexGrid()
+      .set({
+        colat: "700px",
+        wrap: true,
+        align: "center",
+        gap: "1rem",
+        pad: [{a: "1rem"}]
+      })
+      .items(
+        data.map(el =>
+          new Card()
+            .set({
+              width: "300px",
+              radius: "1rem",
+              border: "3px solid #ECF0F1",
+              background: "#ECF0F1",
+              inpad: "1rem",
+              mar: { sides: ["all"], value: "0.8rem" }
+            })
+            .items([ new ProductCard(el).render() ])
+        )
+      )
+      .render("#mount");
+*/
+
+
+
+
+
+ import { FooterEl } from "./components/footer.js";
+
+fetch("./team.json")
+  .then(res => res.json())
+  .then(data => {
+    new FlexGrid()
+      .set({
+        colat: "700px",
+        wrap: true,
+        align: "center",
+        gap: "1rem",
+        pad: [{a: "1rem"}]
+      })
+      .items(
+        data.map(el =>
+          new Card()
+            .set({
+              width: "300px",
+              radius: "1rem",
+              border: "3px solid #ECF0F1",
+              background: "#ECF0F1",
+              inpad: "1rem",
+              mar: { sides: ["all"], value: "0.8rem" }
+            })
+            .items([ new ProductCard(el).render() ])
+        )
+      )
+      .render("#mount");
+
+      
+    new FooterEl().render().render("#mount");
+  });
+
+
+
+
+
+
+    // ✅ Footer
+   
+  
+// We can host on github and redirect for free
+
+
+// UPDATE: npm i nodality@latest
+// BYPASS package.json
+
+
+ 
+// run with npx serve -l 2000
+// http://localhost:2000/publish
+  </script>
+
+</body>
+</html>

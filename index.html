@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+  <title>SLS 3</title>
+
+      <style>
+         * {
+         margin: 0;
+         padding:0;
+         box-sizing: border-box;
+         }
+      </style>
+</head>
+<body>
+  <script type="module" src="dist/lib.bundle.js"></script>
+  <script type="module" src="components/nav.js"></script>
+  <script type="module" src="components/footer.js"></script>
+  <div id="mount"></div>
+
+  <script type="module">
+
+
+class Blue70Link extends Base {
+  constructor(props) {
+    super();
+    this.props = props || {};
+  }
+
+  render() {
+    return new Link().set({
+      type: "a",
+      text: this.props.text ?? "Neopreny Blue70",
+      url: this.props.url ?? "#blue70",
+      background: this.props.background ?? "orange",
+      block: true,
+      width: this.props.width ?? "200px",
+      align: this.props.align ?? "center",
+      font: this.props.font ?? "Arial",
+      radius: this.props.radius ?? "0.3rem",
+      pad: this.props.pad ?? [{ a: 10 }],
+      mar: this.props.pad ?? [{ a: 10 }],
+      color: "white"
+    });
+  }
+}
+
+
+   
+
+ 
+new Text("Swim free").set({
+    size: "S1",
+    font: "Montserrat",
+        pad: [{tlr: "3rem"}]
+}).render("#mount"); 
+ 
+new Text("70% zemského povrchu je pokryto vodou. Žádné dráhy, žádný chlor, žádné obrátky. Ať se chystáte na svůj první triatlon, na svůj desátý Ironman nebo jen máte rádi plavání v řekách, jezerech či mořích, vězte, že jsme tady právě pro Vás.").set({
+    size: "S6",
+    font: "Arial",
+    pad: [{a: "3rem"}]
+}).render("#mount"); 
+ 
+new Image().set({
+  type: "img",
+  url: "img/blue70.jpg"
+}).render("#mount"); 
+ 
+
+
+
+
+new Center()
+ .items([
+
+new Blue70Link({ 
+  text: "Prohlédnout neopreny",
+  background: "#3498db",
+  url: "https://filipvabrousek.github.io/sls-beta/products?cat=wetsuits"
+ }).render(),
+
+ new Blue70Link({ 
+  text: "Categories",
+  background: "#3498db",
+  url: "https://filipvabrousek.github.io/sls-beta/categories"
+ }).render(),
+ 
+new Blue70Link({
+  color: "white",
+   text: "Podkolenky SLS3", 
+background: "#2c3e50",
+ url: "https://sls3.weebly.com/" 
+}).render(),
+ 
+new Blue70Link({ 
+  color: "white",
+  text: "petrvabrousek.cz",
+  background: "#2c3e50",
+  url: "https://www.petrvabrousek.cz"
+ }).render(),
+])
+.render("#mount"); 
+
+
+
+import {FooterEl} from "./components/footer.js";
+
+  new FooterEl()
+  .render()
+  .render("#mount");
+
+
+// We can host on github and redirect for free
+
+
+// UPDATE: npm i nodality@latest
+// BYPASS package.json
+
+
+ 
+// run with npx serve -l 2000
+// http://localhost:2000/publish
+  </script>
+
+</body>
+</html>

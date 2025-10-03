@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+  <title>SLS 3</title>
+
+      <style>
+         * {
+         margin: 0;
+         padding:0;
+         box-sizing: border-box;
+         }
+      </style>
+</head>
+<body>
+  <script type="module" src="dist/lib.bundle.js">
+  </script>
+
+  <script type="module" src="components/nav.js"></script>
+  <script type="module" src="components/footer.js"></script>
+  <div id="mount"></div>
+
+  <script type="module">
+// VISIT
+// http://localhost:2000/products?cat=wetsuits
+// http://localhost:2000/products?cat=swimskins
+// http://localhost:2000/products?cat=goggles
+// http://localhost:2000/products?cat=raceswimwear
+// http://localhost:2000/products?cat=amenities
+// http://localhost:2000/products?cat=triskins
+
+import {Blue70Button} from "./components/blue70Button.js";
+
+    class ProductDetail extends Base {
+      constructor(obj) {
+        super();
+        this.obj = obj;
+      }
+
+      render() {
+        return new Wrapper()
+        .set({})
+        .add([
+          new Image().set({
+            isFull: true,
+            width: "300px",
+            url: this.obj.imageURL,
+            vtn: this.obj.name
+          }),
+
+          new Wrapper().set({
+            pad: [{a: 10}]
+           // background: "green"
+          }).add([
+           
+            new Text(this.obj.name).set({
+              font: "Montserrat",
+              weight: "bold",
+              exact: "1.6rem",
+              height: "100px",
+              
+            }),
+
+          /*  new Link("Koupit").set({
+              font: "Montserrat",
+              exact: "1rem",
+              color: "#3498Db",
+             
+              url: this.obj.url,
+              pad: [{ tb: "1rem" }]
+            }),*/
+
+             new Blue70Button({
+                url: this.obj.url
+              }).render()
+           
+         
+          ])
+        ]);
+      }
+    }
+// http://localhost:2000/products?cat=wetsuits
+   fetch("./categories.json")
+  .then(res => res.json())
+  .then(data => {
+    new FlexGrid()
+      .set({
+        colat: "700px",
+        wrap: true,
+        align: "center",
+        gap: "1rem",
+        pad: [{a: "1rem"}]
+      })
+      .items(
+        data.map(el =>
+          new Card()
+            .set({
+              width: "300px",
+              radius: "1rem",
+            //  border: "3px solid #ECF0F1",
+              background: "#ECF0F1",
+              inpad: "1rem",
+              mar: { sides: ["all"], value: "0.8rem" }
+            })
+            .items([ 
+              new ProductDetail(el).render()
+             /* new Text(el.name),
+             new Link().set({
+              text: el.url,
+              url: el.url
+             })*/
+            
+            ])
+        )
+      )
+      .render("#mount");
+
+
+    // ✅ Footer after product load
+    import("./components/footer.js").then(({ FooterEl }) => {
+      new FooterEl().render().render("#mount");
+    });
+  })
+  .catch(err => {
+    console.error("Failed to load products.json", err);
+    new Text("Error loading product data").render("#mount");
+  });
+
+
+</script>
