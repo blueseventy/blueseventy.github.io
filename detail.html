@@ -44,7 +44,7 @@ const id = urlParams.get("id"); // e.g. detail.html?id=helix
         this.obj = obj;
         console.log("OBJI");
         console.log(this.obj);
-          console.log(this.obj.details);
+        console.log(this.obj.details);
       }
 
       render() {
@@ -134,8 +134,10 @@ const id = urlParams.get("id"); // e.g. detail.html?id=helix
 
     let images = product.images.map(url => new Image().set({
       url: url,
+      isFull: "uncover", // true or uncover
+     
       width: "400px",
-      height: "auto"
+      height: "400px"
     })
   );
 
