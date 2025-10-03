@@ -1,10 +1,10 @@
 let links = [
-  {text: "Neopreny", url: "https://filipvabrousek.github.io/sls-beta/products?cat=wetsuits"},
-  {text: "Plavecké kombinézy", url: "https://filipvabrousek.github.io/sls-beta/products?cat=swimskins"},
-  {text: "Plavecké brýle", url: "https://filipvabrousek.github.io/sls-beta/products?cat=goggles"},
-  {text: "Závodní plavky", url: "https://filipvabrousek.github.io/sls-beta/products?cat=racesswimwear"},
-  {text: "Doplňky", url: "https://filipvabrousek.github.io/sls-beta/products?cat=amenities"},
-  {text: "Triatlonové kombinézy", url: "https://filipvabrousek.github.io/sls-beta/products?cat=triskins"}
+  {text: "Neopreny", url: "https://blueseventy.github.io/products?cat=wetsuits"},
+  {text: "Plavecké kombinézy", url: "https://blueseventy.github.io/products?cat=swimskins"},
+  {text: "Plavecké brýle", url: "https://blueseventy.github.io/products?cat=goggles"},
+  {text: "Závodní plavky", url: "https://blueseventy.github.io/products?cat=racesswimwear"},
+  {text: "Doplňky", url: "https://blueseventy.github.io/products?cat=amenities"},
+  {text: "Triatlonové kombinézy", url: "https://blueseventy.github.io/products?cat=triskins"}
 ];
 //http://localhost:2000/products?cat=wetsuits
 // To link wrapper in dropdown: z-index: 9999px
