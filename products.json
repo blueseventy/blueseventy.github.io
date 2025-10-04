@@ -1,15 +1,18 @@
 {
-  "categories": [ 
+  "categories": [
     {
       "id": "wetsuits",
       "name": "Wetsuits",
       "products": [
-         {
+        {
           "id": "helix-thermal",
           "name": "Helix Thermal",
           "price": "16,990 Kč",
           "url": "https://blue70.weebly.com/uploads/4/0/5/5/40554337/s660476911256653682_p1_i24_w1500.jpg",
-          "description": ["Skok do ledové vody vám může skutečně vyrazit dech. Pokud do ní ale skočíte v tom nejlepším, co je na světovém trhu k dispozici, bude se vám plavat mnohem snáze! HELIX THERMAL je odvozen od 4 generací toho svého jmenovce a byl upraven speciálně pro mimořádně studenou vodu nebo pro ty, kteří jsou prostě méně otužilí a extrémní chlad snášejí hůře."," Samozřejmostí zůstává brezkonkurenční anatomické tvarování a jedinečná elasticita a životnost. Celý oblek je zevnitř potažen zirkoniovou vrstvou, která výrazně zvyšuje jeho hřejivost. Přesto je stále velmi lehký a pružný. Všechny švy jsou trojité, zaslepené a přelepené na místech, kde by potenciálně mohlo dojít k odřeninám. Konec strachu ze studené vody!"],
+          "description": [
+            "Skok do ledové vody vám může skutečně vyrazit dech. Pokud do ní ale skočíte v tom nejlepším, co je na světovém trhu k dispozici, bude se vám plavat mnohem snáze! HELIX THERMAL je odvozen od 4 generací toho svého jmenovce a byl upraven speciálně pro mimořádně studenou vodu nebo pro ty, kteří jsou prostě méně otužilí a extrémní chlad snášejí hůře.",
+            " Samozřejmostí zůstává brezkonkurenční anatomické tvarování a jedinečná elasticita a životnost. Celý oblek je zevnitř potažen zirkoniovou vrstvou, která výrazně zvyšuje jeho hřejivost. Přesto je stále velmi lehký a pružný. Všechny švy jsou trojité, zaslepené a přelepené na místech, kde by potenciálně mohlo dojít k odřeninám. Konec strachu ze studené vody!"
+          ],
           "details": [
             "ZIRKONOVÁ VRSTVA Celý oblek je zevnitř opatřen zirkonovou vrstvou, která nejen zabraňuje tepelný ztrátám,ale také snižuje nasákavost materiálu, takže oblek zůstává lehčí.",
             "PLÁSTVOVÝ ZÁBĚROVÝ PANEL NA PŘEDLOKTÍ Je celý z neoprenu aby se tak zvýšil hřejivý efekt a ztráty energie.",
@@ -20,16 +23,8 @@
             "NADNÁŠIVOST Helix je konstruován z velké většiny z 5mm neoprenu nejvyšší kvality Yamamoto Aerodome tak, že výrazně zvyšuje polohu nohou při plavání a pomáhá k účinné poloze “plavání z kopce”.",
             "ŽENSKÉ SPECIFICKÉ VELIKOSTI Tak jako všechny neopreny Blueseventy i Thermal Helix nabízí celou škálu specifických ženských velikostí.​"
           ],
-          "images": [
-
-    "p/helix-thermal-001.jpg",
-    "p/helix-thermal-002.png"
-  
-          ]
+          "images": ["p/helix-thermal-001.jpg", "p/helix-thermal-002.png"]
         },
-
-
-
 
         {
           "id": "helix",
@@ -43,86 +38,63 @@
             "Helix je vaše závodní zbraň, která má být v nejlepší kondici, když na tom nejvíc záleží. Pokud si jej chcete zachovat 10+ let v top kondici, doporučujeme trénovat v jiném modelu (Reaction nebo Sprint) a Helix si šetřit jen na rozplavání před a samotný den závodu. Nutné to ale není, často se stává, že si zákazníci přijdou pro nový Helix i po deseti letech, přičemž ho používají i na všechny tréninky."
           ],
           "details": [
-"Snížená a rozšířená manžeta krku zvyšuje pohodlí a komfort.",
-"Výrazné modré ramena jsou bezešvá a maximalizují elasticitu pro neomezenou volnost v pohybu.",
-"Vylepšené zádové panely podporují přirozenou rotaci pro maximální délku záběru",
-"prémiový ultratenký 1,5mm Yamamoto 40 cell neopren na pažích poskytuje pružnost, pohodlí a rychlost.",
-"Vododpudivá, propustná technologie na předloktí podporuje přirozený cit pro vodu.",
-"Obrácené zapínání eliminuje odřeniny na krku a umožňuje nižší krční panel pro neomezené dýchání a komfort.",
-"Mimořádně pružná vnitřní nylonová vrstva je lehčí a flexbilinější ve srovnání s konkurenčními neopreny.",
+            "Snížená a rozšířená manžeta krku zvyšuje pohodlí a komfort.",
+            "Výrazné modré ramena jsou bezešvá a maximalizují elasticitu pro neomezenou volnost v pohybu.",
+            "Vylepšené zádové panely podporují přirozenou rotaci pro maximální délku záběru",
+            "prémiový ultratenký 1,5mm Yamamoto 40 cell neopren na pažích poskytuje pružnost, pohodlí a rychlost.",
+            "Vododpudivá, propustná technologie na předloktí podporuje přirozený cit pro vodu.",
+            "Obrácené zapínání eliminuje odřeniny na krku a umožňuje nižší krční panel pro neomezené dýchání a komfort.",
+            "Mimořádně pružná vnitřní nylonová vrstva je lehčí a flexbilinější ve srovnání s konkurenčními neopreny.",
 
+            "5mm Yamamoto Aerodome panely maximálně nednáší tělo od středu hrudníku až boky a stehna. 4mm materiál níže na nohách umožňuje optimální polohu těla ve vodě při plavání.",
 
-"5mm Yamamoto Aerodome panely maximálně nednáší tělo od středu hrudníku až boky a stehna. 4mm materiál níže na nohách umožňuje optimální polohu těla ve vodě při plavání.",
+            "Technologie LIFT využívá silně nadnášivou pěnu uzavřenou mezi vrchní a spodní vrstvu neoprenu k ještě výraznějšímu zvýšení polohy středu těla ve vodě.",
 
+            "Helix je vyroben z toho nejkvalitnějšího Yamamoto smooth skin neoprenu spojeného se 100% nylonovou vnitřní vrstvou pro absolutně nejlepší poměr mezi vahou a elasticitou mezi všemi konkurenčními značkami.",
 
-"Technologie LIFT využívá silně nadnášivou pěnu uzavřenou mezi vrchní a spodní vrstvu neoprenu k ještě výraznějšímu zvýšení polohy středu těla ve vodě.",
+            "Boční 3mm panely jsou navrženy specificky zvlášť pro muže i pro ženy tak, aby umožnily přirozenou rotaci v bocích a snadné vysvlékání v depu.",
 
-
-"Helix je vyroben z toho nejkvalitnějšího Yamamoto smooth skin neoprenu spojeného se 100% nylonovou vnitřní vrstvou pro absolutně nejlepší poměr mezi vahou a elasticitou mezi všemi konkurenčními značkami.",
-
-
-"Boční 3mm panely jsou navrženy specificky zvlášť pro muže i pro ženy tak, aby umožnily přirozenou rotaci v bocích a snadné vysvlékání v depu.",
-
-
-"Velmi pružné 1,5mm panely od kolen níže umožňují snadné rychlé vykopnutí nohou z nohavic pro rychlý průlet prvním depem."
+            "Velmi pružné 1,5mm panely od kolen níže umožňují snadné rychlé vykopnutí nohou z nohavic pro rychlý průlet prvním depem."
           ],
-         "images": [
-
-    "p/helix-001.jpg",
-    "p/helix-002.jpg",
-    "p/helix-004.jpg"
-   
-  ]
+          "images": ["p/helix-001.jpg", "p/helix-002.jpg", "p/helix-004.jpg"]
         },
 
-
-
-
-
-
-
-         {
+        {
           "id": "reaction",
           "name": "Reaction",
           "price": "12,990 Kč",
           "url": "https://blue70.weebly.com/uploads/4/0/5/5/40554337/s660476911256653682_p1_i24_w1500.jpg",
           "description": [
             "Reaction není jen vylepšením - mění pravidla hry. Je inspirován naším oblekem Helix pro elitní triatlety a je určen pro plavce všech úrovní, kteří chtějí dosáhnout svého nejvyššího potenciálu. Přepracované panely v horní části těla reagují na vaši přirozenou rotaci, čímž vytvářejí větší sílu a umožňují delší záběr bez omezení.",
-"Reaction je určen pro plavce, kteří vyžadují naprostou svobodu při záběru. Tento neopren, vyrobený z prvotřídního neoprenu Yamamoto a s naší jedinečnou jednodílnou konstrukcí ramen (žádné švy, které by vám překážely), poskytuje bezkonkurenční flexibilitu a plynulý, nepřerušovaný rozsah pohybu. Ultraflexibilní tenký neopren v ramenou eliminuje jakékoli tahání, nebo odpor, jen čistá síla přenesená do dopředného pohybu ve vodě."
+            "Reaction je určen pro plavce, kteří vyžadují naprostou svobodu při záběru. Tento neopren, vyrobený z prvotřídního neoprenu Yamamoto a s naší jedinečnou jednodílnou konstrukcí ramen (žádné švy, které by vám překážely), poskytuje bezkonkurenční flexibilitu a plynulý, nepřerušovaný rozsah pohybu. Ultraflexibilní tenký neopren v ramenou eliminuje jakékoli tahání, nebo odpor, jen čistá síla přenesená do dopředného pohybu ve vodě."
           ],
           "details": [
-"Oblek nejvyšší třídy pro triatlety, kteří ještě nechtějí nebo nemohou investovat do top modelu.",
+            "Oblek nejvyšší třídy pro triatlety, kteří ještě nechtějí nebo nemohou investovat do top modelu.",
 
-"Air-cell materiál použitý v těle obleku zvyšuje hřejivost obleku a přitom zvyšuje i nadnášivost.",
+            "Air-cell materiál použitý v těle obleku zvyšuje hřejivost obleku a přitom zvyšuje i nadnášivost.",
 
-"Vylepšený nízký krční díl zvyšuje pohodlí a zamezuje nechtěným odřeninám na krku. Skvěle brání průniku vody dovnitř obleku.",
+            "Vylepšený nízký krční díl zvyšuje pohodlí a zamezuje nechtěným odřeninám na krku. Skvěle brání průniku vody dovnitř obleku.",
 
-"Jediný díl 39 cell 1,5mm Yamamoto neoprenu výrazně zlepšuje elasticitu a brání únavě v celém rozsahu záběru. Společně s 1,5mm podpažními díly umožňuje neomezený rozsah pohybu paží.",
-"2mm neopren s pružnou spodní vrstvou nabízí větší mobilitu v oblasti ramen a zad a efektivně tak brání nechtěné únavě a umožňuje prodloužit délku záběru.",
+            "Jediný díl 39 cell 1,5mm Yamamoto neoprenu výrazně zlepšuje elasticitu a brání únavě v celém rozsahu záběru. Společně s 1,5mm podpažními díly umožňuje neomezený rozsah pohybu paží.",
+            "2mm neopren s pružnou spodní vrstvou nabízí větší mobilitu v oblasti ramen a zad a efektivně tak brání nechtěné únavě a umožňuje prodloužit délku záběru.",
 
-"Ultra tenký 1,5mm silný prémiový neopren na pažích zvyšuje flexibilitu a pohodlí při záběru.",
-"5mm silný neopren na trupu a bocích a 4mm neopren pod koleny vytváří nejlepší možnou polohu těla ve vodě pro efektivní plaveckou techniku.",
-  "Na základě zkušeností z vytváření Helixu jsme zúžili centrální panel na hrudi a rozšířili boční panely až k bokům tak, aby oblek maximálně podporoval přirozenou rotaci těla k dosažení maximální rychlosti plavání s minimálním úsilím.",
-  "SCS coated Yamamoto smooth-skin neopren nabízí mimořádnou elasticitu a současně odolnost. Společně s mimořádně strečovou vnitřní vrstvou dosahuje zcela neomezený pohyb podle vašich potřeb.",
-  "3mm boční panely umožňují přizpůsobit velikost obleku vašim velikostním odchylkám tak, aby vás oblek při plavání správně obepínal a aby bylo možné ho snadno obléct i vysvléct.",
-  "1,5mm panely pod koleny umožňují snadné a rychlé vysvlečení neoprenu pro úsporu času v prvním depu. Zesílený šev také umožňuje zkrácení nohavic pokud vám to vyhovuje."
+            "Ultra tenký 1,5mm silný prémiový neopren na pažích zvyšuje flexibilitu a pohodlí při záběru.",
+            "5mm silný neopren na trupu a bocích a 4mm neopren pod koleny vytváří nejlepší možnou polohu těla ve vodě pro efektivní plaveckou techniku.",
+            "Na základě zkušeností z vytváření Helixu jsme zúžili centrální panel na hrudi a rozšířili boční panely až k bokům tak, aby oblek maximálně podporoval přirozenou rotaci těla k dosažení maximální rychlosti plavání s minimálním úsilím.",
+            "SCS coated Yamamoto smooth-skin neopren nabízí mimořádnou elasticitu a současně odolnost. Společně s mimořádně strečovou vnitřní vrstvou dosahuje zcela neomezený pohyb podle vašich potřeb.",
+            "3mm boční panely umožňují přizpůsobit velikost obleku vašim velikostním odchylkám tak, aby vás oblek při plavání správně obepínal a aby bylo možné ho snadno obléct i vysvléct.",
+            "1,5mm panely pod koleny umožňují snadné a rychlé vysvlečení neoprenu pro úsporu času v prvním depu. Zesílený šev také umožňuje zkrácení nohavic pokud vám to vyhovuje."
           ],
-            "images": [
-    "p/reaction-001.jpg",
-    "p/reaction-002.jpg",
-    "p/reaction-003.jpg",
-    "p/reaction-004.jpg",
-    "p/reaction-005.jpg"
-  ]
+          "images": [
+            "p/reaction-001.jpg",
+            "p/reaction-002.jpg",
+            "p/reaction-003.jpg",
+            "p/reaction-004.jpg",
+            "p/reaction-005.jpg"
+          ]
         },
 
-
-
-
-
-
-
-         {
+        {
           "id": "sprint",
           "name": "Sprint",
           "price": "5,990 Kč",
@@ -131,174 +103,146 @@
             "Nový model 25, který byl vytvořen na základě vyššího modelu Fusion a je připraven vám skvěle posloužit ve vašich prvních několika triatlonových sezonách."
           ],
           "details": [
-           "Neopren bez kompromisů vytvořený pro začátečníky až středně pokročilé.",
-  "Pokud se s triatlonem teprve seznamujete a nechcete ještě investovat do dražších modelů, Sprint je neopren pro Vás.",
-  "Nově navržený nízký krk z jednoho dílu usnadňuje dýchání a eliminuje pocit ztaženosti. Efektivně brání vzniku odřenin i pronikání vody dovnitř obleku při plavání.",
-  "Nejsilnější 5mm neopren zvedá primárně boky a nohy tak, aby výrazně vylepšil vaši polohu ve vodě a eliminoval odpor těla při plavání i v nižších rychlostech.",
-  "Rozšířený ramenní i pažní díly ze super strečového 1,5mm smoothskin neoprenu zvyšují flexibilitu a pohodlí při záběru.",
-  "Vyroben z vysoce kvalitního Yamamoto smooth-skin and super-stretch neoprenu zajišťuje mimořádnou flexibilitu a odolnost (obvyklá životnost 10+ let).",
-  "Super Composite Skin povrchová úprava na bocích, nohou a pažích vytvoří silný vodoodpudivý efekt pro zvýšení rychlosti a ochranu proti poškození.",
-  "Krátké, tenké a flexibilní zakončení rukávů brání pronikání vody do rukávu při startovním skoku a během plavání.",
-  "Vhodný pro plavání v chladné vodě od 12,5 stupně (ideálně v kombinaci s Thermal doplňky - čepice, ponožky, rukavice).",
-  "Plavec, který závodí tempem nad 1:50/100m v něm najde neopren bez kompromisů, který jej spolehlivě a rychle dopraví do cíle plavecké části nejen prvního závodu, ale při dobrém zacházení i o deset let později.",
-  "Pokud se časem rozhodnete upgradovat na vyšší model, Sprint vždy skvěle poslouží jako tréninkový neopren i v zimě do bazénu nebo například na windsurfing či vodní lyžování.",
-  "TOP modely REACTION a HELIX více nesou, hřejí, jsou elastičtější, rychleji se vysvlékají a budou rychlejší i pro začátečníka. S ohledem na typickou životnost 10 let dobře zvažte, zda rovnou neinvestovat do vyššího modelu."
+            "Neopren bez kompromisů vytvořený pro začátečníky až středně pokročilé.",
+            "Pokud se s triatlonem teprve seznamujete a nechcete ještě investovat do dražších modelů, Sprint je neopren pro Vás.",
+            "Nově navržený nízký krk z jednoho dílu usnadňuje dýchání a eliminuje pocit ztaženosti. Efektivně brání vzniku odřenin i pronikání vody dovnitř obleku při plavání.",
+            "Nejsilnější 5mm neopren zvedá primárně boky a nohy tak, aby výrazně vylepšil vaši polohu ve vodě a eliminoval odpor těla při plavání i v nižších rychlostech.",
+            "Rozšířený ramenní i pažní díly ze super strečového 1,5mm smoothskin neoprenu zvyšují flexibilitu a pohodlí při záběru.",
+            "Vyroben z vysoce kvalitního Yamamoto smooth-skin and super-stretch neoprenu zajišťuje mimořádnou flexibilitu a odolnost (obvyklá životnost 10+ let).",
+            "Super Composite Skin povrchová úprava na bocích, nohou a pažích vytvoří silný vodoodpudivý efekt pro zvýšení rychlosti a ochranu proti poškození.",
+            "Krátké, tenké a flexibilní zakončení rukávů brání pronikání vody do rukávu při startovním skoku a během plavání.",
+            "Vhodný pro plavání v chladné vodě od 12,5 stupně (ideálně v kombinaci s Thermal doplňky - čepice, ponožky, rukavice).",
+            "Plavec, který závodí tempem nad 1:50/100m v něm najde neopren bez kompromisů, který jej spolehlivě a rychle dopraví do cíle plavecké části nejen prvního závodu, ale při dobrém zacházení i o deset let později.",
+            "Pokud se časem rozhodnete upgradovat na vyšší model, Sprint vždy skvěle poslouží jako tréninkový neopren i v zimě do bazénu nebo například na windsurfing či vodní lyžování.",
+            "TOP modely REACTION a HELIX více nesou, hřejí, jsou elastičtější, rychleji se vysvlékají a budou rychlejší i pro začátečníka. S ohledem na typickou životnost 10 let dobře zvažte, zda rovnou neinvestovat do vyššího modelu."
           ],
-           "images": [
-
-    "p/sprint-002.jpg",
-    "p/sprint-003.jpg",
-    "p/sprint-004.jpg",
-    "p/sprint-005.jpg",
-    "p/sprint-006.jpg",
-    "p/sprint-007.jpg",
-    "p/sprint-008.jpg"
+          "images": [
+            "p/sprint-002.jpg",
+            "p/sprint-003.jpg",
+            "p/sprint-004.jpg",
+            "p/sprint-005.jpg",
+            "p/sprint-006.jpg",
+            "p/sprint-007.jpg",
+            "p/sprint-008.jpg"
           ]
         },
-
-
-
-
-
-
-
-
 
         {
           "id": "glide",
           "name": "Glide",
           "price": "3,990 Kč",
           "url": "https://blue70.weebly.com/uploads/4/0/5/5/40554337/s660476911256653682_p1_i24_w1500.jpg",
-          "description": ["Nejnovější přírůstek do rodiny neoprenů Blueseventy."],
-          "details": [
-            "PROBLEM HERE"
+          "description": [
+            "Nejnovější přírůstek do rodiny neoprenů Blueseventy."
           ],
-            "images": [
-
-    "p/glide-002.jpg",
-    "p/glide-003.jpg",
-    "p/glide-004.jpg",
-    "p/glide-005.jpg",
-    "p/glide-007.jpg"
-            
+          "details": ["PROBLEM HERE"],
+          "images": [
+            "p/glide-002.jpg",
+            "p/glide-003.jpg",
+            "p/glide-004.jpg",
+            "p/glide-005.jpg",
+            "p/glide-007.jpg"
           ]
         },
-
-
-
-
-
-
-
 
         {
           "id": "torpedo",
           "name": "Torpedo",
           "price": "3,990 Kč",
           "url": "https://blue70.weebly.com/uploads/4/0/5/5/40554337/s660476911256653682_p1_i24_w1500.jpg",
-          "description": ["Blue Seventy jako jediný výrobce na světě myslí i na mladé závodníky a přichází na trh s plnohodnotným triatlonovým neoprenem pro děti. Vyrábí se ve 3 velikostech pro 8-10-12 let, které spolehlivě pokryjí potřeby dětí zhruba od 6ti do 15ti let. Samozřejmě jej lze využít i pro koupání na dovolené u chladnější vody, surfování, vodní lyžování,", "Velikosti:"],
-          "details": [
-              "S 130-144cm 25-38kg",
-              "M 140-150cm 32-43kg",
-              "L 145-158cm 40-51kg"
+          "description": [
+            "Blue Seventy jako jediný výrobce na světě myslí i na mladé závodníky a přichází na trh s plnohodnotným triatlonovým neoprenem pro děti. Vyrábí se ve 3 velikostech pro 8-10-12 let, které spolehlivě pokryjí potřeby dětí zhruba od 6ti do 15ti let. Samozřejmě jej lze využít i pro koupání na dovolené u chladnější vody, surfování, vodní lyžování,",
+            "Velikosti:"
           ],
-           "images": [
-
-           "p/torpedo-d-tsk-001.jpg",
-           "p/torpedo-d-tsk-002.jpg",
-           "p/torpedo-d-tsk-003.jpg",
-           "p/torpedo-d-tsk-004.jpg",
-           "p/torpedo-d-tsk-005.jpg"
+          "details": [
+            "S 130-144cm 25-38kg",
+            "M 140-150cm 32-43kg",
+            "L 145-158cm 40-51kg"
+          ],
+          "images": [
+            "p/torpedo-d-tsk-001.jpg",
+            "p/torpedo-d-tsk-002.jpg",
+            "p/torpedo-d-tsk-003.jpg",
+            "p/torpedo-d-tsk-004.jpg",
+            "p/torpedo-d-tsk-005.jpg"
           ]
-
         },
-
-
-
-
-
-
-
-
-
-
-
-
-
 
         {
           "id": "reaction-thermal",
           "name": "Reaction Thermal",
           "price": "13,990 Kč",
           "url": "https://blue70.weebly.com/uploads/4/0/5/5/40554337/s660476911256653682_p1_i24_w1500.jpg",
-          "description": ["Skok do ledové vody vám může skutečně vyrazit dech. Pokud do ní ale skočíte v tom nejlepším, co je na světovém trhu k dispozici, bude se vám plavat mnohem snáze! REACTION THERMAL je odvozen od předešlých generací toho svého jmenovce a byl upraven speciálně pro mimořádně studenou vodu nebo pro ty, kteří jsou prostě méně otužilí a extrémní chlad snášejí hůře. Samozřejmostí zůstává brezkonkurenční anatomické tvarování a dlouhá životnost. Celý oblek je zevnitř potažen zirkonovou vrstvou, která výrazně zvyšuje jeho hřejivost. Přesto je stále velmi lehký a pružný. Všechny švy jsou trojité, zaslepené a přelepené na místech, kde by potenciálně mohlo dojít k odřeninám. Konec strachu ze studené vody!"],
-          "details": [
-             "ZIRKONOVÁ VRSTVA Celý oblek je zevnitř opatřen zirkonovou vrstvou, která nejen zabraňuje tepelným ztrátám, ale také snižuje nasákavost materiálu, takže oblek zůstává lehčí.",
-    "UZÁVĚRY Také tento oblek používá velmi kvalitní zipy a nově přidává pohodlnější tvarování v oblasti krku.",
-    "RST TECHNOLOGIE Na zádech a ramenou je použit tenčí materiál, který výrazně usnadňuje a prodlužuje kraulový záběr a snižuje únavu.",
-    "4-5-4 DESIGN Díky rozložení 4 a 5mm materiálu získá vaše tělo ve vodě při plavání tu nejvýhodnější hydrodynamickou polohu. Poplavete jako \"z kopce\".",
-    "S-FLEX BOČNÍ PANELY Usnadňují oblékání neoprenu a zlepšují polohu a rotaci těla ve vodě bez omezení nadnášivého efektu obleku.",
-    "S-GRIP PANELY NA PŘEDLOKTÍ Tyto panely s jemnou texturou zlepšují cit pro správný záběr a pomáhají uchopit vodu při samotném záběru.",
-    "QUIT EXIT NOHAVICE Tenké panely na nohou zlepšují rychlost vysvlékání, takže v depu se po plavání nezdržíte. Díky zesílenému zaslepení švů si můžete nohavice dokonce zkrátit dle vlastní potřeby.",
-    "NADNÁŠIVOST Helix je konstruován z velké většiny z 5mm neoprenu nejvyšší kvality Yamamoto Aerodome tak, že výrazně zvyšuje polohu nohou při plavání a pomáhá k účinné poloze „plavání z kopce“.",
-    "ŽENSKÉ SPECIFICKÉ VELIKOSTI Tak jako všechny neopreny Blueseventy i Thermal Reaction nabízí celou škálu specifických ženských velikostí."
+          "description": [
+            "Skok do ledové vody vám může skutečně vyrazit dech. Pokud do ní ale skočíte v tom nejlepším, co je na světovém trhu k dispozici, bude se vám plavat mnohem snáze! REACTION THERMAL je odvozen od předešlých generací toho svého jmenovce a byl upraven speciálně pro mimořádně studenou vodu nebo pro ty, kteří jsou prostě méně otužilí a extrémní chlad snášejí hůře. Samozřejmostí zůstává brezkonkurenční anatomické tvarování a dlouhá životnost. Celý oblek je zevnitř potažen zirkonovou vrstvou, která výrazně zvyšuje jeho hřejivost. Přesto je stále velmi lehký a pružný. Všechny švy jsou trojité, zaslepené a přelepené na místech, kde by potenciálně mohlo dojít k odřeninám. Konec strachu ze studené vody!"
           ],
-           "images": [
-           "p/reaction-thermal-001.jpg",
+          "details": [
+            "ZIRKONOVÁ VRSTVA Celý oblek je zevnitř opatřen zirkonovou vrstvou, která nejen zabraňuje tepelným ztrátám, ale také snižuje nasákavost materiálu, takže oblek zůstává lehčí.",
+            "UZÁVĚRY Také tento oblek používá velmi kvalitní zipy a nově přidává pohodlnější tvarování v oblasti krku.",
+            "RST TECHNOLOGIE Na zádech a ramenou je použit tenčí materiál, který výrazně usnadňuje a prodlužuje kraulový záběr a snižuje únavu.",
+            "4-5-4 DESIGN Díky rozložení 4 a 5mm materiálu získá vaše tělo ve vodě při plavání tu nejvýhodnější hydrodynamickou polohu. Poplavete jako \"z kopce\".",
+            "S-FLEX BOČNÍ PANELY Usnadňují oblékání neoprenu a zlepšují polohu a rotaci těla ve vodě bez omezení nadnášivého efektu obleku.",
+            "S-GRIP PANELY NA PŘEDLOKTÍ Tyto panely s jemnou texturou zlepšují cit pro správný záběr a pomáhají uchopit vodu při samotném záběru.",
+            "QUIT EXIT NOHAVICE Tenké panely na nohou zlepšují rychlost vysvlékání, takže v depu se po plavání nezdržíte. Díky zesílenému zaslepení švů si můžete nohavice dokonce zkrátit dle vlastní potřeby.",
+            "NADNÁŠIVOST Helix je konstruován z velké většiny z 5mm neoprenu nejvyšší kvality Yamamoto Aerodome tak, že výrazně zvyšuje polohu nohou při plavání a pomáhá k účinné poloze „plavání z kopce“.",
+            "ŽENSKÉ SPECIFICKÉ VELIKOSTI Tak jako všechny neopreny Blueseventy i Thermal Reaction nabízí celou škálu specifických ženských velikostí."
+          ],
+          "images": [
+            "p/reaction-thermal-001.jpg",
             "p/reaction-thermal-002.jpg",
             "p/reaction-thermal-003.jpg",
-             "p/reaction-thermal-004.jpg",
-             "p/reaction-thermal-005.jpg",
-              "p/reaction-thermal-006.jpg",
-               "p/reaction-thermal-007.jpg"
+            "p/reaction-thermal-004.jpg",
+            "p/reaction-thermal-005.jpg",
+            "p/reaction-thermal-006.jpg",
+            "p/reaction-thermal-007.jpg"
           ]
         },
 
-          {
+        {
           "id": "alliance",
           "name": "Alliance",
           "price": "25999 Kč",
           "url": "https://blue70.weebly.com/uploads/4/0/5/5/40554337/s660476911256653682_p1_i24_w1500.jpg",
-          "description": ["Alliance je oblek speciálně vyvinutý pro nově vznikající sport - SwimRun. Je výsledkem tří let intenzivního testování na závodních tratích a je dotažen do nejmenších detailů. Skok do vody, rychlé plavání, výběh z vody a pohodlný běh - na to vše bylo při jeho konstrukci myšleno.", "SWIMRUN je sportem dvojic a je velmi prospěšné, když k sobě najdete někoho podobně rychlého ve vodě i při běhu. Nejsnadněji ho pro libovolný závod najdete  v aplikaci Swimrun World v AppStore."],
-          "details": [
-"malé i velké kapsy pro uložení vybavení a výživy",
-"očka na karabinu pro spojení obou závodníků",
-"odolná konstrukce pro to nejhrubší zacházení",
-"dlouhý zip pro rozepnutí při běhu v horku",
-"rukávy je možno libovolně zastřihnout, aniž by hrozilo rozlepení"
+          "description": [
+            "Alliance je oblek speciálně vyvinutý pro nově vznikající sport - SwimRun. Je výsledkem tří let intenzivního testování na závodních tratích a je dotažen do nejmenších detailů. Skok do vody, rychlé plavání, výběh z vody a pohodlný běh - na to vše bylo při jeho konstrukci myšleno.",
+            "SWIMRUN je sportem dvojic a je velmi prospěšné, když k sobě najdete někoho podobně rychlého ve vodě i při běhu. Nejsnadněji ho pro libovolný závod najdete  v aplikaci Swimrun World v AppStore."
           ],
-           "images": [
-     "p/alliance-001.jpg",
-     "p/alliance-002.jpg",
-     "p/alliance-003.jpg",
-     "p/alliance-004.jpg",
-     "p/alliance-005.jpg"
+          "details": [
+            "malé i velké kapsy pro uložení vybavení a výživy",
+            "očka na karabinu pro spojení obou závodníků",
+            "odolná konstrukce pro to nejhrubší zacházení",
+            "dlouhý zip pro rozepnutí při běhu v horku",
+            "rukávy je možno libovolně zastřihnout, aniž by hrozilo rozlepení"
+          ],
+          "images": [
+            "p/alliance-001.jpg",
+            "p/alliance-002.jpg",
+            "p/alliance-003.jpg",
+            "p/alliance-004.jpg",
+            "p/alliance-005.jpg"
           ]
         },
 
-         {
+        {
           "id": "liftshorts",
           "name": "LIFT shorts",
           "price": "2,990 Kč",
           "url": "https://blue70.weebly.com/uploads/4/0/5/5/40554337/s660476911256653682_p1_i24_w1500.jpg",
-          "description": ["LIFT šortky nově přináší výrazně zvýšený pás pro ještě lepší polohu těla při plavání a větší pohodlí. Má shodné LIFT panely jako top model mezi neopreny HELIX, díky čemuž maximálně nadnáší. Svým střihem podporuje správnou rotaci těla ve vodě při plavání. Jde o nejlepší možný \"pull buoy\" pro správnou neomezenou techniku plavání. Jsou vyrobeny z kombinace 5mm Yamamoto Aerodome neorprenu a 3mm flexibilního Yamamoto neoprenu po stranách. Vylepšená horní část lépe a pohodlněji sedí na bocích. Pokud kombinujete úseky v šortkách a bez nich, je teď mnohem snazší a rychlejší oblékání a vysvlékání. Švy jsou zaslepeny a zalepeny pro mnohaletou životnost i při pravidelném používání.", 
-        "Velikosti jsou určeny vaším obvodem v pase (v palcích):", "XS = 28 , S = 30 , M = 32, L = 34 , XL = 36, XXL = 38"],
+          "description": [
+            "LIFT šortky nově přináší výrazně zvýšený pás pro ještě lepší polohu těla při plavání a větší pohodlí. Má shodné LIFT panely jako top model mezi neopreny HELIX, díky čemuž maximálně nadnáší. Svým střihem podporuje správnou rotaci těla ve vodě při plavání. Jde o nejlepší možný \"pull buoy\" pro správnou neomezenou techniku plavání. Jsou vyrobeny z kombinace 5mm Yamamoto Aerodome neorprenu a 3mm flexibilního Yamamoto neoprenu po stranách. Vylepšená horní část lépe a pohodlněji sedí na bocích. Pokud kombinujete úseky v šortkách a bez nich, je teď mnohem snazší a rychlejší oblékání a vysvlékání. Švy jsou zaslepeny a zalepeny pro mnohaletou životnost i při pravidelném používání.",
+            "Velikosti jsou určeny vaším obvodem v pase (v palcích):",
+            "XS = 28 , S = 30 , M = 32, L = 34 , XL = 36, XXL = 38"
+          ],
           "details": [
             "Ideální pomůcka do bazénu pokud se připravujete na závod plavaný v neoprenu.",
-    "Pomohou s polohou těla ve vodě a usnadní tak nácvik kraulové, znakové a motýlové techniky.",
-    "Při technických cvičeních máte vyšší rychlost a lepší polohu ve vodě, aniž by vás omezovaly jako pull buoy.",
-    "Zahřejí, pokud vám je při tréninku zima.",
-    "Urychlí vás o 3-10 vteřin na 100m a usnadní tak nácvik techniky v závodní rychlosti.",
-    "Pokud plavete po náročném běžeckém nebo cyklistickém tréninku, pošetří vaše nohy a můžete naplno plavat pažemi.",
-    "Skvěle vypadají!"
-    
+            "Pomohou s polohou těla ve vodě a usnadní tak nácvik kraulové, znakové a motýlové techniky.",
+            "Při technických cvičeních máte vyšší rychlost a lepší polohu ve vodě, aniž by vás omezovaly jako pull buoy.",
+            "Zahřejí, pokud vám je při tréninku zima.",
+            "Urychlí vás o 3-10 vteřin na 100m a usnadní tak nácvik techniky v závodní rychlosti.",
+            "Pokud plavete po náročném běžeckém nebo cyklistickém tréninku, pošetří vaše nohy a můžete naplno plavat pažemi.",
+            "Skvěle vypadají!"
           ],
-           "images": [
-
-    "p/lift-shorts-002.jpg",
-    "p/lift-shorts-003.jpg",
-    "p/lift-shorts-004.jpg"
-          ]
+          "images": ["p/lift-shorts-001.jpg", "p/lift-shorts-002.jpg"]
         }
       ]
     },
@@ -312,83 +256,88 @@
           "name": "Hydravision",
           "price": "990 Kč",
           "url": "https://blue70.weebly.com/uploads/4/0/5/5/40554337/s660476911256653682_p38_i1_w480.jpg",
-          "description": ["Špičkový top model pro plavání na otevřené vodě i do bazénu"],
+          "description": [
+            "Špičkový top model pro plavání na otevřené vodě i do bazénu"
+          ],
           "details": [
-           "Širokouhlé čočky s absolutně čistou viditelností.",
-           "Integrovaný systém upravování délky popruhů - postačí jemný stisk po stranách brýlí.",
-           "Prvotřídní přizpůsobení se tvaru jakéhokoli obličeje.",
-           "Nízký profil zaručuje optimální obtékání při rychlém plavání.",
-           "Nejnovější materiál zaručuje minimální hmotnost a příjemné nošení.",
-           "ANTIFOG úprava čoček.",
-           "Rozdělený popruh zajišťuje pevné usazení i při masových startech triatlonů."
+            "Širokouhlé čočky s absolutně čistou viditelností.",
+            "Integrovaný systém upravování délky popruhů - postačí jemný stisk po stranách brýlí.",
+            "Prvotřídní přizpůsobení se tvaru jakéhokoli obličeje.",
+            "Nízký profil zaručuje optimální obtékání při rychlém plavání.",
+            "Nejnovější materiál zaručuje minimální hmotnost a příjemné nošení.",
+            "ANTIFOG úprava čoček.",
+            "Rozdělený popruh zajišťuje pevné usazení i při masových startech triatlonů."
           ],
 
-           "images": [
-
-    "p/hydravision-002.jpg",
-    "p/hydravision-003.jpg",
-    "p/hydravision-004.jpg",
-    "p/hydravision-005.jpg",
-    "p/hydravision-006.jpg",
-    "p/hydravision-007.jpg"
-  ]
+          "images": [
+            "p/hydravision-001.jpg",
+            "p/hydravision-002.jpg",
+            "p/hydravision-003.jpg",
+            "p/hydravision-004.jpg",
+            "p/hydravision-005.jpg"
+          ]
         },
         {
           "id": "contour",
           "name": "Contour",
           "price": "990 Kč",
           "url": "https://blue70.weebly.com/uploads/4/0/5/5/40554337/s660476911256653682_p38_i1_w480.jpg",
-          "description": ["Brýle Contour jsou letošní novinkou s výrazně vylepšenou hydrodynamikou. Unikátní měkké očníky jsou protaženy a vytváří nízký profil se skvělým rozhledem a perfektní přilnavostí. V nabídce 2 modely s čirým skly vhodnější do bazénu a 2 modely se zrcadlovou úpravou vhodnější pro venkovní plavání. Ideální je mít obě varianty a volit podle aktuálních světelných podmínek."
-        ],
+          "description": [
+            "Brýle Contour jsou letošní novinkou s výrazně vylepšenou hydrodynamikou. Unikátní měkké očníky jsou protaženy a vytváří nízký profil se skvělým rozhledem a perfektní přilnavostí. V nabídce 2 modely s čirým skly vhodnější do bazénu a 2 modely se zrcadlovou úpravou vhodnější pro venkovní plavání. Ideální je mít obě varianty a volit podle aktuálních světelných podmínek."
+          ],
           "details": [
-           "Měkké pohodlné očníky.",
-    "Skvělá hydrodynamika s nízkým profilem a velkým rozhledem.",
-    "Dvojitý nízký silikonový popruh se zadním klipem pro snadnou úpravu délky.",
-    "Prémiový polykarbonát, anti-fog čočky nabízejí ostrou viditelnost nad vodou i pod vodou.",
-    "Obsahuje 4 vyměnitelné nosníky pro optimální fit.",
-    "Neobsahuje PVC ani Latex."
+            "Měkké pohodlné očníky.",
+            "Skvělá hydrodynamika s nízkým profilem a velkým rozhledem.",
+            "Dvojitý nízký silikonový popruh se zadním klipem pro snadnou úpravu délky.",
+            "Prémiový polykarbonát, anti-fog čočky nabízejí ostrou viditelnost nad vodou i pod vodou.",
+            "Obsahuje 4 vyměnitelné nosníky pro optimální fit.",
+            "Neobsahuje PVC ani Latex."
           ],
 
-           "images": [
-
-    "p/contour-002.jpg",
-    "p/contour-003.jpg",
-    "p/contour-004.jpg",
-    "p/contour-005.jpg",
-    "p/contour-006.jpg",
-    "p/contour-007.jpg",
-    "p/contour-008.jpg",
-    "p/contour-009.jpg",
-    "p/contour-010.jpg"
-  ]
+          "images": [
+            "p/contour-001.jpg",
+            "p/contour-002.jpg",
+            "p/contour-003.jpg",
+            "p/contour-004.jpg",
+            "p/contour-005.jpg",
+            "p/contour-006.jpg",
+            "p/contour-007.jpg",
+            "p/contour-008.jpg"
+          ]
         },
-         {
+        {
           "id": "flow",
           "name": "Flow",
           "price": "490 Kč",
           "url": "https://blue70.weebly.com/uploads/4/0/5/5/40554337/s660476911256653682_p38_i1_w480.jpg",
-          "description": ["Skvěle sedící pohodlné brýle pro dokonelé vidění. Čiré verze jsou vhodnější do bazénu, zrcadlovky více pro plavání venku. V ideálním případě je dobré mít 1+1 a volit podle aktuálních světelných podmínek. Velmi lehké brýle s měkkými očníky a skvělou přilnavostí. Nízký profil a skvělý rozhled", "Racer jsou závodní brýle s hydrodynamickým profilem pro minimální odpor.",
-        "Varianty", "modré - duhové zrcadlovky skla", "bílé - stříbrné zrcadlovky skla", "černé - čirá skla", "bílé - kouřová skla"],
+          "description": [
+            "Skvěle sedící pohodlné brýle pro dokonelé vidění. Čiré verze jsou vhodnější do bazénu, zrcadlovky více pro plavání venku. V ideálním případě je dobré mít 1+1 a volit podle aktuálních světelných podmínek. Velmi lehké brýle s měkkými očníky a skvělou přilnavostí. Nízký profil a skvělý rozhled",
+            "Racer jsou závodní brýle s hydrodynamickým profilem pro minimální odpor.",
+            "Varianty",
+            "modré - duhové zrcadlovky skla",
+            "bílé - stříbrné zrcadlovky skla",
+            "černé - čirá skla",
+            "bílé - kouřová skla"
+          ],
           "details": [
-           "Velmi pružný integrovaný nosník, který skvěle sedí na většině obličejů",
-"Očníky sedí pohodlně a nepropouští vodu dovnitř",
-"Vysoce kvalitní antifog očníky odolné proti poškrábání"
-
+            "Velmi pružný integrovaný nosník, který skvěle sedí na většině obličejů",
+            "Očníky sedí pohodlně a nepropouští vodu dovnitř",
+            "Vysoce kvalitní antifog očníky odolné proti poškrábání"
           ],
 
-           "images": [
-
-    "p/flow-002.jpg",
-    "p/flow-003.jpg",
-    "p/flow-004.jpg",
-    "p/flow-005.jpg",
-    "p/flow-006.jpg"
-  ]
+          "images": [
+            "p/flow-001.jpg",
+            "p/flow-002.jpg",
+            "p/flow-003.jpg",
+            "p/flow-004.jpg",
+            "p/flow-005.jpg",
+            "p/flow-006.jpg"
+          ]
         }
       ]
     },
 
-     {
+    {
       "id": "racesswimwear",
       "name": "Závodní plavky",
       "products": [
@@ -397,24 +346,22 @@
           "name": "Závodní plavky NERO",
           "price": "4,290 Kč",
           "url": "https://blue70.weebly.com/uploads/4/0/5/5/40554337/s660476911256653682_p16_i4_w233.jpg",
-          "description": ["Plavky určené pro bazénové plavání. Jedná se o FINA schváleného nástupce ultrarychlých plavek NERO, ve kterých v uplynulém roce padla řada světových rekordů. Úspora proti konkurenčním plavkám se tady počítá ve zlomcích vteřiny, ale v bazénu je právě to, oč běží! "],
-          "details": [
-             "cena pánské    4290,-",
-             "cena dámské    6290,-​"
+          "description": [
+            "Plavky určené pro bazénové plavání. Jedná se o FINA schváleného nástupce ultrarychlých plavek NERO, ve kterých v uplynulém roce padla řada světových rekordů. Úspora proti konkurenčním plavkám se tady počítá ve zlomcích vteřiny, ale v bazénu je právě to, oč běží! "
           ],
+          "details": ["cena pánské    4290,-", "cena dámské    6290,-​"],
 
           "images": [
-
-    "p/nero-1.jpg",
-   "p/nero-2.jpg",
-   "p/nero-3.jpg",
-   "p/nero-4.jpg"
-  ]
+            "p/nero-1.jpg",
+            "p/nero-2.jpg",
+            "p/nero-3.jpg",
+            "p/nero-4.jpg"
+          ]
         }
       ]
-      },
+    },
 
-          {
+    {
       "id": "triskins",
       "name": "Triatlonové kombinézy",
       "products": [
@@ -423,30 +370,28 @@
           "name": "TX 2000 AERO KOMBINÉZA",
           "price": "3,990 Kč",
           "url": "https://blue70.weebly.com/uploads/4/0/5/5/40554337/s660476911256653682_p38_i1_w480.jpg",
-          "description": ["Nová vylepšená verze triatlonové kombinézy TX2000 přichází s krátkým rukávem pro lepší aerodynamiku při cyklistice a větší ochranu proti slunci po celý závod."],
+          "description": [
+            "Nová vylepšená verze triatlonové kombinézy TX2000 přichází s krátkým rukávem pro lepší aerodynamiku při cyklistice a větší ochranu proti slunci po celý závod."
+          ],
           "details": [
-             "Skvělá pohyblivost v ramenou vás nebude omezovat při plavání",
-    "Carvico VITA textílie s COLDBLACK úpravou redukuje zahřívání na slunci a chrání před slunečními paprsky",
-    "2 zadní kapsy byly navrženy pro lepší aerodynamiku a mají lem z reflexního materiálu pro lepší viditelnost",
-    "Pohodlná lehká výstelka exkluzivně dodávaná od firmy BERENIS má mužskou nebo ženskou specifikaci",
-    "Oblek má ploché švy a 20mm zahnutí na koncích rukávů pro větší pohodlí",
-     "6 mužských velikostí (červené rukávy a modré rukávy s modrým trupem)",
-    "5 ženských velikostí (modré rukávy s černým trupem)"
+            "Skvělá pohyblivost v ramenou vás nebude omezovat při plavání",
+            "Carvico VITA textílie s COLDBLACK úpravou redukuje zahřívání na slunci a chrání před slunečními paprsky",
+            "2 zadní kapsy byly navrženy pro lepší aerodynamiku a mají lem z reflexního materiálu pro lepší viditelnost",
+            "Pohodlná lehká výstelka exkluzivně dodávaná od firmy BERENIS má mužskou nebo ženskou specifikaci",
+            "Oblek má ploché švy a 20mm zahnutí na koncích rukávů pro větší pohodlí",
+            "6 mužských velikostí (červené rukávy a modré rukávy s modrým trupem)",
+            "5 ženských velikostí (modré rukávy s černým trupem)"
           ],
 
-           "images": [
-    "p/tx2000-aero-kombin-za-001.jpg",
-    "p/tx2000-aero-kombin-za-002.jpg",
-    "p/tx2000-aero-kombin-za-003.jpg",
-    "p/tx2000-aero-kombin-za-004.jpg",
-    "p/tx2000-aero-kombin-za-005.jpg",
-    "p/tx2000-aero-kombin-za-006.jpg",
-    "p/tx2000-aero-kombin-za-007.jpg"
-   
-
-  
-       
-  ]
+          "images": [
+            "p/tx2000-aero-kombin-za-001.jpg",
+            "p/tx2000-aero-kombin-za-002.jpg",
+            "p/tx2000-aero-kombin-za-003.jpg",
+            "p/tx2000-aero-kombin-za-004.jpg",
+            "p/tx2000-aero-kombin-za-005.jpg",
+            "p/tx2000-aero-kombin-za-006.jpg",
+            "p/tx2000-aero-kombin-za-007.jpg"
+          ]
         },
 
         {
@@ -456,88 +401,74 @@
           "url": "https://blue70.weebly.com/uploads/4/0/5/5/40554337/s660476911256653682_p38_i1_w480.jpg",
           "description": [""],
           "details": [
-    "Kombinéza vhodná pro absolvování všech tří disciplín triatlonu",
-    "Elastická",
-    "Rychleschnoucí",
-    "Se zipem vzadu odpovídající ITU pravidlům"
+            "Kombinéza vhodná pro absolvování všech tří disciplín triatlonu",
+            "Elastická",
+            "Rychleschnoucí",
+            "Se zipem vzadu odpovídající ITU pravidlům"
           ],
 
-           "images": [
-
-    "p/elite-trisuit-001.jpg"
-  ]
+          "images": ["p/elite-trisuit-001.jpg"]
         },
 
-         {
+        {
           "id": "tx-2000",
           "name": "TX 2000",
           "price": "1,990 Kč",
           "url": "https://blue70.weebly.com/uploads/4/0/5/5/40554337/s660476911256653682_p38_i1_w480.jpg",
-          "description": [
-            
-          ],
+          "description": [],
           "details": [
             "Kombinéza vhodná pro absolvování všech tří disciplín triatlonu.",
-              "Elastická.",
-              "Rychleschnoucí.",
-              "Se zipem vzadu odpovídající ITU pravidlům."
+            "Elastická.",
+            "Rychleschnoucí.",
+            "Se zipem vzadu odpovídající ITU pravidlům."
           ],
 
-           "images": [
-        "p/tx-2000-001.jpg",
-        "p/tx-2000-002.jpg"
-
-  ]
-
+          "images": ["p/tx-2000-001.jpg", "p/tx-2000-002.jpg"]
         },
 
-         {
+        {
           "id": "tx-3000",
           "name": "TX 3000",
           "price": "2,490 Kč",
           "url": "https://blue70.weebly.com/uploads/4/0/5/5/40554337/s660476911256653682_p38_i1_w480.jpg",
           "description": [],
           "details": [
-"Kombinéza vhodná pro absolvování všech tří disciplín triatlonu.",
-"Elastická",
-"Rychleschnoucí",
-"Se zipem vzadu odpovídající ITU pravidlům"
+            "Kombinéza vhodná pro absolvování všech tří disciplín triatlonu.",
+            "Elastická",
+            "Rychleschnoucí",
+            "Se zipem vzadu odpovídající ITU pravidlům"
           ],
 
           "images": [
-
-    "p/tx-3000-001.jpg",
-    "p/tx-3000-002.jpg",
-    "p/tx-3000-003.jpg"
+            "p/tx-3000-001.jpg",
+            "p/tx-3000-002.jpg",
+            "p/tx-3000-003.jpg"
           ]
         },
 
-         {
+        {
           "id": "tx-1000",
           "name": "TX 1000",
           "price": "1,750 Kč",
           "url": "https://blue70.weebly.com/uploads/4/0/5/5/40554337/s660476911256653682_p38_i1_w480.jpg",
-          "description": [ 
-         
-        ],
+          "description": [],
           "details": [
-           "Kombinéza vhodná pro absolvování všech tří disciplín triatlonu.",
-          "Elastická",
-          "Rychleschnoucí",
-          "Se zipem vzadu odpovídající ITU pravidlům"
+            "Kombinéza vhodná pro absolvování všech tří disciplín triatlonu.",
+            "Elastická",
+            "Rychleschnoucí",
+            "Se zipem vzadu odpovídající ITU pravidlům"
           ],
 
-           "images": [
-    "p/tx-1000-001.jpg",
-
-    "p/tx-1000-002.jpg",
-    "p/tx-1000-003.jpg"
-  ]
+          "images": [
+            "p/tx-1000-001.jpg",
+            "p/tx-1000-002.jpg",
+            "p/tx-1000-003.jpg"
+          ]
         }
       ]
-      },
+    },
 
-        {
+    {
       "id": "swimskins",
       "name": "Plavecké kombinézy",
       "products": [
@@ -546,49 +477,54 @@
           "name": "PZ4TX+",
           "price": "7,990 Kč",
           "url": "https://blue70.weebly.com/uploads/4/0/5/5/40554337/s660476911256653682_p38_i1_w480.jpg",
-          "description": ["Kombinéza PZ4TX+ je výsledkem naší snahy maximálně vám pomoci s plaváním i v triatlonech, při kterých není kvůli vyšší teplotě vody povoleno plavání v neoprenu. Vznikla po několika letech vývoje a testování s nejlepšími profi triatlety světa. A jako reakce na rostoucí popularitu nových aero dresů s krátkým rukávem (TX2000 aero) jsme vyvinuli i model s krátkými rukávy pro plavání. Vyrobena je z prvotřídního italského hydrofobního materiálu Taiana, který přirozeně odpuzuje vodu a oblek tak nemusí být druhotně pokrýván další vrstvou jako u konkurence. Díky tomu si svou funkci udrží monohem déle a je elastičtější, což je při plavání samozřejmě klíčové."],
+          "description": [
+            "Kombinéza PZ4TX+ je výsledkem naší snahy maximálně vám pomoci s plaváním i v triatlonech, při kterých není kvůli vyšší teplotě vody povoleno plavání v neoprenu. Vznikla po několika letech vývoje a testování s nejlepšími profi triatlety světa. A jako reakce na rostoucí popularitu nových aero dresů s krátkým rukávem (TX2000 aero) jsme vyvinuli i model s krátkými rukávy pro plavání. Vyrobena je z prvotřídního italského hydrofobního materiálu Taiana, který přirozeně odpuzuje vodu a oblek tak nemusí být druhotně pokrýván další vrstvou jako u konkurence. Díky tomu si svou funkci udrží monohem déle a je elastičtější, což je při plavání samozřejmě klíčové."
+          ],
           "details": [
-          "Krátké rukávy zvyšují hydrofobní pokrytí těla a lehce stahují pro menší odpor ve vodě",
-    "Mimořádná elasticita a lehká svalová komprese, materiál přirozeně dýchá",
-    "Zahnuté a upravené okraje minimalizují možnost vzniku odřenin",
-    "Švy upravené ultrazvukem pro hladký hydrofobní povrch",
-    "Nízký koeficient odporu"
+            "Krátké rukávy zvyšují hydrofobní pokrytí těla a lehce stahují pro menší odpor ve vodě",
+            "Mimořádná elasticita a lehká svalová komprese, materiál přirozeně dýchá",
+            "Zahnuté a upravené okraje minimalizují možnost vzniku odřenin",
+            "Švy upravené ultrazvukem pro hladký hydrofobní povrch",
+            "Nízký koeficient odporu"
           ],
 
-           "images": [
-    "p/PZ4TX-PLUS-001.jpg",
-    "p/PZ4TX-PLUS-002.jpg",
-   "p/PZ4TX-PLUS-003.jpg",
-   "p/PZ4TX-PLUS-004.jpg",
-    "p/pz4tx-006.jpg"
-  ]
+          "images": [
+            "p/PZ4TX-PLUS-001.jpg",
+            "p/PZ4TX-PLUS-002.jpg",
+            "p/PZ4TX-PLUS-003.jpg",
+            "p/PZ4TX-PLUS-004.jpg",
+            "p/pz4tx-006.jpg"
+          ]
         },
 
-         {
+        {
           "id": "PZ4TX",
           "name": "PZ4TX",
           "price": "6,990 Kč",
           "url": "https://blue70.weebly.com/uploads/4/0/5/5/40554337/s660476911256653682_p38_i1_w480.jpg",
-          "description": ["Kombinéza PZ4TX je výsledkem naší snahy maximálně vám pomoci s plaváním i v triatlonech, při kterých není kvůli vyšší teplotě vody povoleno plavání v neoprenu. Vznikla po několika letech vývoje a testování s nejlepšími profi triatlety světa.", "Vyrobena je z prvotřídního italského hydrofobního materiálu Taiana, který přirozeně odpuzuje vodu a oblek tak nemusí být druhotně pokrýván další vrstvou jako u konkurence. Díky tomu si svou funkci udrží monohem déle a je elastičtější, což je při plavání samozřejmě klíčové."],
+          "description": [
+            "Kombinéza PZ4TX je výsledkem naší snahy maximálně vám pomoci s plaváním i v triatlonech, při kterých není kvůli vyšší teplotě vody povoleno plavání v neoprenu. Vznikla po několika letech vývoje a testování s nejlepšími profi triatlety světa.",
+            "Vyrobena je z prvotřídního italského hydrofobního materiálu Taiana, který přirozeně odpuzuje vodu a oblek tak nemusí být druhotně pokrýván další vrstvou jako u konkurence. Díky tomu si svou funkci udrží monohem déle a je elastičtější, což je při plavání samozřejmě klíčové."
+          ],
           "details": [
-          "Mimořádná elasticita a lehká svalová komprese, materiál přirozeně dýchá",
-    "Zahnuté a upravené okraje minimalizují možnost vzniku odřenin",
-    "Švy upravené ultrazvukem pro hladký hydrofobní povrch",
-    "Nízký koeficient odporu"
+            "Mimořádná elasticita a lehká svalová komprese, materiál přirozeně dýchá",
+            "Zahnuté a upravené okraje minimalizují možnost vzniku odřenin",
+            "Švy upravené ultrazvukem pro hladký hydrofobní povrch",
+            "Nízký koeficient odporu"
           ],
 
-             "images": [
-    "p/pz4tx-002.jpg",
-    "p/pz4tx-003.jpg",
-    "p/pz4tx-004.jpg",
-    "p/pz4tx-005.jpg",
-    "p/pz4tx-006.jpg"
-  ]
+          "images": [
+            "p/pz4tx-002.jpg",
+            "p/pz4tx-003.jpg",
+            "p/pz4tx-004.jpg",
+            "p/pz4tx-005.jpg",
+            "p/pz4tx-006.jpg"
+          ]
         }
       ]
-      },
+    },
 
-       {
+    {
       "id": "amenities",
       "name": "Doplňky",
       "products": [
@@ -597,15 +533,15 @@
           "name": "Jak na triatlon (a jiné vytrvalostní sporty)",
           "price": "399 Kč",
           "url": "https://blue70.weebly.com/uploads/4/0/5/5/40554337/s660476911256653682_p38_i1_w480.jpg",
-          "description": ["Druhé rozšířené vydání (440 stran) je souborem odborných článků pro triatlonová a běžecká média. Je určena nejen triatletům, ale své si v ní najdou vyznavači všech vytrvalostních sportů od běhu, přes cyklistiku až třeba po běžecké lyžování. Najdete zde návody jak trénovat, stravovat se, regenerovat, závodit, něco o vybavení a spoustu dalšího.... O výtisk s věnováním si můžete napsat na petr@vabrousek.cz"],
+          "description": [
+            "Druhé rozšířené vydání (440 stran) je souborem odborných článků pro triatlonová a běžecká média. Je určena nejen triatletům, ale své si v ní najdou vyznavači všech vytrvalostních sportů od běhu, přes cyklistiku až třeba po běžecké lyžování. Najdete zde návody jak trénovat, stravovat se, regenerovat, závodit, něco o vybavení a spoustu dalšího.... O výtisk s věnováním si můžete napsat na petr@vabrousek.cz"
+          ],
           "details": [],
 
-           "images": [
-
-    "p/jak-na-triatlon-a-jin-vytrvalostn-sporty-001.jpg",
-    "p/jak-na-triatlon-a-jin-vytrvalostn-sporty-002.jpg"
-   
-  ]
+          "images": [
+            "p/jak-na-triatlon-a-jin-vytrvalostn-sporty-001.jpg",
+            "p/jak-na-triatlon-a-jin-vytrvalostn-sporty-002.jpg"
+          ]
         },
 
         {
@@ -613,13 +549,12 @@
           "name": "TRIATLON - 226 OTÁZEK A ODPOVĚDÍ",
           "price": "399 Kč",
           "url": "https://blue70.weebly.com/uploads/4/0/5/5/40554337/s660476911256653682_p38_i1_w480.jpg",
-          "description": ["226 – to je součet kilometrů, který musí zdolat každý účastník dlouhého triatlonu, tedy ironmanu. A stejný počet otázek na všechna úskalí sportu tvořeného plaváním, cyklistikou a během najdete v této jedinečné publikaci. Na všechny odpovídá Petr Vabroušek, přední triatlonista se stovkami dlouhých triatlonů i dalších extrémních závodů na kontě. Metodika tréninku, vybavení, stravování, mentální příprava i samotné závodění – to vše vás čeká v jediné příručce, kterou pro úspěšné zvládnutí triatlonu potřebujete."],
- "images": [
-    "p/226.jpg"
-  ],
+          "description": [
+            "226 – to je součet kilometrů, který musí zdolat každý účastník dlouhého triatlonu, tedy ironmanu. A stejný počet otázek na všechna úskalí sportu tvořeného plaváním, cyklistikou a během najdete v této jedinečné publikaci. Na všechny odpovídá Petr Vabroušek, přední triatlonista se stovkami dlouhých triatlonů i dalších extrémních závodů na kontě. Metodika tréninku, vybavení, stravování, mentální příprava i samotné závodění – to vše vás čeká v jediné příručce, kterou pro úspěšné zvládnutí triatlonu potřebujete."
+          ],
+          "images": ["p/226.jpg"],
 
-  "details": []
-          
+          "details": []
         },
 
         {
@@ -627,27 +562,25 @@
           "name": "Batoh Transition",
           "price": "1990 Kč",
           "url": "https://blue70.weebly.com/uploads/4/0/5/5/40554337/s660476911256653682_p38_i1_w480.jpg",
-          "description": ["Batoh konstruovaný právě pro triatlety. Jeho objem je dostatečný k tomu, abyste v něm přisli na start se vším potřebným. Má oddělenou nepromokavou část pro umístění mokrého neoprenu, bot či dresu. Samozřejmostí jsou dvě kapsy na bidony a celá řada vnitřních i vnějších kapes. Už nikdy nebudete nic hledat. Jako neocenitelný pomocník slouží i při létání – spolehlivě pojme až 15kg nákladu a ještě nikdy ho neodmítli vzít na palubu."],
+          "description": [
+            "Batoh konstruovaný právě pro triatlety. Jeho objem je dostatečný k tomu, abyste v něm přisli na start se vším potřebným. Má oddělenou nepromokavou část pro umístění mokrého neoprenu, bot či dresu. Samozřejmostí jsou dvě kapsy na bidony a celá řada vnitřních i vnějších kapes. Už nikdy nebudete nic hledat. Jako neocenitelný pomocník slouží i při létání – spolehlivě pojme až 15kg nákladu a ještě nikdy ho neodmítli vzít na palubu."
+          ],
           "details": [],
           "images": [
-
-    "p/batoh-transition-002.jpg",
-    "p/batoh-transition-003.jpg",
-    "p/batoh-transition-004.jpg"
-  ]
+            "p/batoh-transition-002.jpg",
+            "p/batoh-transition-003.jpg",
+            "p/batoh-transition-004.jpg"
+          ]
         },
 
-         {
+        {
           "id": "thermal-cap",
           "name": "Thermal čepice",
           "price": "1090 Kč",
           "url": "https://blue70.weebly.com/uploads/4/0/5/5/40554337/s660476911256653682_p38_i1_w480.jpg",
           "description": "Hlava, chodidla a dlaně ztrácí v chladné vodě enormní množství tepla. Pokud je zakryjete, budete teplotu vody vnímat o 3-4°C výše. Dodává se ve velikostech S-M-L.",
           "details": [],
-          "images": [
-
-    "p/thermal-cepice.jpg"
-  ]
+          "images": ["p/thermal-cepice.jpg"]
         },
 
         {
@@ -655,67 +588,60 @@
           "name": "Thermal ponožky",
           "price": "1,090 Kč",
           "url": "https://blue70.weebly.com/uploads/4/0/5/5/40554337/s660476911256653682_p38_i1_w480.jpg",
-          "description": ["Hlava, chodidla a dlaně ztrácí v chladné vodě enormní množství tepla. Pokud je zakryjete, budete teplotu vody vnímat o 3-4°C výše. Neoprenové ponožky lze také dobře využít pro ochranu chodidel při vstupu do vody po ostrém povrchu." ],
-          "details": [
-          
+          "description": [
+            "Hlava, chodidla a dlaně ztrácí v chladné vodě enormní množství tepla. Pokud je zakryjete, budete teplotu vody vnímat o 3-4°C výše. Neoprenové ponožky lze také dobře využít pro ochranu chodidel při vstupu do vody po ostrém povrchu."
           ],
+          "details": [],
 
-           "images": [
-
-    "p/thermal-pono-ky-002.jpg",
-    "p/thermal-pono-ky-003.jpg",
-    "p/thermal-pono-ky-004.jpg"
-  ]
+          "images": [
+            "p/thermal-pono-ky-002.jpg",
+            "p/thermal-pono-ky-003.jpg",
+            "p/thermal-pono-ky-004.jpg"
+          ]
         },
 
-         {
+        {
           "id": "thermal-gloves",
           "name": "Thermal rukavice",
           "price": "1,090 Kč",
           "url": "https://blue70.weebly.com/uploads/4/0/5/5/40554337/s660476911256653682_p38_i1_w480.jpg",
-          "description": ["Hlava, chodidla a dlaně ztrácí v chladné vodě enormní množství tepla. Pokud je zakryjete, budete teplotu vody vnímat o 3-4°C výše. Neoprenové ponožky lze také dobře využít pro ochranu chodidel při vstupu do vody po ostrém povrchu.​"],
-          "details": [
+          "description": [
+            "Hlava, chodidla a dlaně ztrácí v chladné vodě enormní množství tepla. Pokud je zakryjete, budete teplotu vody vnímat o 3-4°C výše. Neoprenové ponožky lze také dobře využít pro ochranu chodidel při vstupu do vody po ostrém povrchu.​"
           ],
-          "images": [
-
-    "p/thermal-rukavice.jpg"
-  ]
+          "details": [],
+          "images": ["p/thermal-rukavice.jpg"]
         },
 
-         {
+        {
           "id": "thermal-celenka",
           "name": "Thermal čelenka",
           "price": "590 Kč",
           "url": "https://blue70.weebly.com/uploads/4/0/5/5/40554337/s660476911256653682_p38_i1_w480.jpg",
           "description": [
-
             "Cíleně vás zahřeje tam, kde je to nejvíce potřeba. Skvěle pokrývá čelo i uši, abyste lépe snesli kontakt s ledovou vodou (nebo třeba mrazem na kole či při běhu). Neomezuje vás popruh pod bradou. Čelenku ideálně kombinujte s kvalitní silikonovou plaveckou čepicí (rovněž v nabídce za 150,- Kč). V případě hodně studené vody (pod 12-14 stupňů) i s klascikou Thermal čepicí.",
 
-"Vyrobena z kvalitního Yamamoto neoprenu v kombinaci s pohodlnou hřejivou zirkonovou vrstvou (stejně jako Thermal Helix nebo Thermal Reaction).",
-"Jedna univerzální velikost sedí všem."
+            "Vyrobena z kvalitního Yamamoto neoprenu v kombinaci s pohodlnou hřejivou zirkonovou vrstvou (stejně jako Thermal Helix nebo Thermal Reaction).",
+            "Jedna univerzální velikost sedí všem."
           ],
-          "details": [
-          
-          ],
+          "details": [],
 
-            "images": [
-
-    "p/thermal-elenka-002.jpg",
-    "p/thermal-elenka-003.jpg",
-    "p/thermal-elenka-004.jpg",
-    "p/thermal-elenka-005.jpg",
-    "p/thermal-elenka-006.jpg",
-    "p/thermal-elenka-007.jpg"
-  ]
+          "images": [
+            "p/thermal-elenka-002.jpg",
+            "p/thermal-elenka-003.jpg",
+            "p/thermal-elenka-004.jpg",
+            "p/thermal-elenka-005.jpg",
+            "p/thermal-elenka-006.jpg",
+            "p/thermal-elenka-007.jpg"
+          ]
         },
 
-          {
+        {
           "id": "safety-buoy",
           "name": "Bezpečnostní bojka",
           "price": "990 Kč",
           "url": "https://blue70.weebly.com/uploads/4/0/5/5/40554337/s660476911256653682_p38_i1_w480.jpg",
           "description": [
-            "Nikdy na venkovních plochách neplavte úplně sami. Díky bezpečnostní bojce budete ve vodě lépe viditelní ze břehu i pro případný lodní provoz.", 
+            "Nikdy na venkovních plochách neplavte úplně sami. Díky bezpečnostní bojce budete ve vodě lépe viditelní ze břehu i pro případný lodní provoz.",
             "Vemte si vše důležité snadno a bezpečně s sebou. Telefon, klíče, peníze, trocha oblečení,... To vše může při vašem plaveckém tréninku být s Vámi. Celý vnitřní prostor bojky je přístupný pro vaše věci. Jednoduše ho zavřete a dofouknete podle potřeby."
           ],
           "details": [
@@ -726,42 +652,35 @@
             "Rozměr 60x30cm (vyfouknutá)"
           ],
 
-           "images": [
-
-    "p/bezpe-nostn-bojka-001.png",
-    "p/bezpe-nostn-bojka-002.png",
-    "p/bezpe-nostn-bojka-003.jpg",
-    "p/bezpe-nostn-bojka-004.jpg"
-  ]
+          "images": [
+            "p/bezpe-nostn-bojka-001.png",
+            "p/bezpe-nostn-bojka-002.png",
+            "p/bezpe-nostn-bojka-003.jpg",
+            "p/bezpe-nostn-bojka-004.jpg"
+          ]
         },
 
-          {
+        {
           "id": "number-belt",
           "name": "Pás na číslo",
           "price": "290 Kč",
           "url": "https://blue70.weebly.com/uploads/4/0/5/5/40554337/s660476911256653682_p38_i1_w480.jpg",
           "description": "Populární \"přehazovačka\" slouží k upevnění startovního čísla. Při jízdě na kole jej podle pravidel přetočíte na záda, na běh potom dopředu. Nemusíte si závodní dres nebo triko propíchávat špendlíky a stačí použít jen jedno číslo na celý závod. Vhodné také pro běžecké a cyklistické závody.​",
-          "details": [
-            
-          ],
+          "details": [],
 
-           "images": [
-
-    "p/pas-na-cislo.jpg"
-  ]
+          "images": ["p/pas-na-cislo.jpg"]
         },
 
-         {
+        {
           "id": "chip-belt",
           "name": "Pás na čip",
           "price": "190 Kč",
           "url": "https://blue70.weebly.com/uploads/4/0/5/5/40554337/s660476911256653682_p38_i1_w480.jpg",
-          "description": ["Neoprenový pásek pro pohodlné uchycení čipu časomíry. Už žádné rozedřené kotníky a potrhané kompresky…​"],
-          "details": [
+          "description": [
+            "Neoprenový pásek pro pohodlné uchycení čipu časomíry. Už žádné rozedřené kotníky a potrhané kompresky…​"
           ],
-          "images":[
-            "p/pas-na-cip.jpg"
-          ]
+          "details": [],
+          "images": ["p/pas-na-cip.jpg"]
         },
 
         {
@@ -770,15 +689,14 @@
           "price": "490 Kč",
           "url": "https://blue70.weebly.com/uploads/4/0/5/5/40554337/s660476911256653682_p38_i1_w480.jpg",
           "description": [
-            "Vyrážíte na trénink za pěkného počasí, které se ale může změnit k horšímu a nechcete se kvůli tomu nazouvat do klasických cyklistických návleků? Čeká Vás závod v chladu a dešti, nechete přijet do druhého depa se zmrzlými prsty na nohou a nemůžete v depu ztrácet čas nazouváním návleků? Pro tyto situace jsou tady cyklistické mininávleky Blue Seventy. Ochrání proti vlhku a zimě choulostivou oblast přední části chodidla a vůbec nebrání nazouvání a vyzouvání cyklotreter za jízdy.", "„Dodáváme ve dvou velikostech", " ​S (do EUR 42)", "​L (od EUR 42)​"
-        ],
-          "details": [
+            "Vyrážíte na trénink za pěkného počasí, které se ale může změnit k horšímu a nechcete se kvůli tomu nazouvat do klasických cyklistických návleků? Čeká Vás závod v chladu a dešti, nechete přijet do druhého depa se zmrzlými prsty na nohou a nemůžete v depu ztrácet čas nazouváním návleků? Pro tyto situace jsou tady cyklistické mininávleky Blue Seventy. Ochrání proti vlhku a zimě choulostivou oblast přední části chodidla a vůbec nebrání nazouvání a vyzouvání cyklotreter za jízdy.",
+            "„Dodáváme ve dvou velikostech",
+            " ​S (do EUR 42)",
+            "​L (od EUR 42)​"
           ],
+          "details": [],
 
-           "images": [
-
-    "p/navleky-tr.jpg"
-  ]
+          "images": ["p/navleky-tr.jpg"]
         },
 
         {
@@ -786,96 +704,88 @@
           "name": "Kšilt",
           "price": "490 Kč",
           "url": "https://blue70.weebly.com/uploads/4/0/5/5/40554337/s660476911256653682_p38_i1_w480.jpg",
-          "description": ["Skvělý doplněk pro běh v létě. chtání obličej před sluncem. Pro Blueseventy vyrábí specialista na běžecké čepice, americká firma Headsweats, z coolmax materiálu s vysokou životností.", "Barva černá nebo bílá​"],
-          "details": [
-           
+          "description": [
+            "Skvělý doplněk pro běh v létě. chtání obličej před sluncem. Pro Blueseventy vyrábí specialista na běžecké čepice, americká firma Headsweats, z coolmax materiálu s vysokou životností.",
+            "Barva černá nebo bílá​"
           ],
+          "details": [],
 
-           "images": [
-
-    "p/k-ilt-002.jpg",
-    "p/k-ilt-003.jpg",
-    "p/k-ilt-004.jpg",
-    "p/k-ilt-005.jpg",
-    "p/k-ilt-006.jpg"
-  ]
-          
+          "images": [
+            "p/k-ilt-001.jpg",
+            "p/k-ilt-002.jpg",
+            "p/k-ilt-003.jpg",
+            "p/k-ilt-004.jpg"
+          ]
         },
 
-          {
+        {
           "id": "triatlon-camps",
           "name": "Triatlonové kempy",
           "price": "n/a",
           "url": "https://blue70.weebly.com/uploads/4/0/5/5/40554337/s660476911256653682_p38_i1_w480.jpg",
-          "description": ["V průběhu roku se můžete zůčastnit několika mých triatlonových kempů, které jsou určeny úplným začátečníkům i ostříleným Ironmanům. V květnu a říjnu na tratích IRONMAN 70.3 Zell am See, Rakousko v Brucku."],
-          "images": [
+          "description": [
+            "V průběhu roku se můžete zůčastnit několika mých triatlonových kempů, které jsou určeny úplným začátečníkům i ostříleným Ironmanům. V květnu a říjnu na tratích IRONMAN 70.3 Zell am See, Rakousko v Brucku."
+          ],
+          "details": [],
 
-    "p/triatlonov-kempy-002.jpg",
-    "p/triatlonov-kempy-003.jpg",
-    "p/triatlonov-kempy-004.jpg",
-    "p/triatlonov-kempy-005.jpg",
-    "p/triatlonov-kempy-006.jpg",
-    "p/triatlonov-kempy-007.jpg",
-    "p/triatlonov-kempy-008.jpg",
-    "p/triatlonov-kempy-009.jpg"
-  ]
+          "images": [
+            "p/triatlonov-kempy-001.jpg",
+            "p/triatlonov-kempy-002.jpg",
+            "p/triatlonov-kempy-003.jpg",
+            "p/triatlonov-kempy-004.jpg",
+            "p/triatlonov-kempy-005.jpg",
+            "p/triatlonov-kempy-006.jpg",
+            "p/triatlonov-kempy-007.jpg",
+            "p/triatlonov-kempy-008.jpg"
+          ]
         },
 
-         {
+        {
           "id": "darkovy-poukaz",
           "name": "Dárkový poukaz",
           "price": "n/a",
           "url": "https://blue70.weebly.com/uploads/4/0/5/5/40554337/s660476911256653682_p38_i1_w480.jpg",
-          "description": ["Na přání vám přípravíme a pošleme dárkový poukaz pro libovolnou příležitost (vánoce, narozeniny, účast na vysněném závodu, ...). I podkladovou fotografii a text si můžete libovolně zvolit. Více na petr@vabrousek.cz."],
-          "details": [
-           
+          "description": [
+            "Na přání vám přípravíme a pošleme dárkový poukaz pro libovolnou příležitost (vánoce, narozeniny, účast na vysněném závodu, ...). I podkladovou fotografii a text si můžete libovolně zvolit. Více na petr@vabrousek.cz."
           ],
+          "details": [],
 
-           "images": [
-
-     "p/dark-pouz.jpeg"
-  ]
-          
+          "images": ["p/dark-pouz.jpeg"]
         },
 
-         {
+        {
           "id": "swimrun-lytk-navl",
           "name": "Swimrun lýtkové návleky",
           "price": "990 Kč",
           "url": "https://blue70.weebly.com/uploads/4/0/5/5/40554337/s660476911256653682_p38_i1_w480.jpg",
-          "description": ["Lýtkové návleky pro swimrun závody jsou vyrobeny ze silného 7mm neoprenu na přední části a 5mm neoprenu na zadní. Slouží k výraznému odlehčení nohou (obutých při závodech swimrun v botech) při plavání. Můžete se tak soustředit pouze na plavání pažemi (ideálně s packami Blueseventy).",
-"Jsou skvělým doplňkem neoprenu Alliance pro závody swimrun. Ve vodě výrazně nesou a na běhu neomezují. Jsou odolné pro náročné výlezy z vody a pro prodírání nízkým podrostem při běhu. Skvěle ochrání vaše SLS3 kompresní podkolenky.",
-"Lze využít i při tréninku pro vylepšení polohy těla ve vodě. Ve spojení s Core shorts téměř nahradí neopren, aniž byste se při tréninku přehřívali."],
-          "details": [
-"Skvěle nadnášející a proti odření odolný 7mm neopren na přením panelu",
-"5mm zadní panel a 3mm spodní panel pro neomezený běžecký pohyb", "Skvělé pro trénink a závody swimrun", "2 velikosti: S a L"
+          "description": [
+            "Lýtkové návleky pro swimrun závody jsou vyrobeny ze silného 7mm neoprenu na přední části a 5mm neoprenu na zadní. Slouží k výraznému odlehčení nohou (obutých při závodech swimrun v botech) při plavání. Můžete se tak soustředit pouze na plavání pažemi (ideálně s packami Blueseventy).",
+            "Jsou skvělým doplňkem neoprenu Alliance pro závody swimrun. Ve vodě výrazně nesou a na běhu neomezují. Jsou odolné pro náročné výlezy z vody a pro prodírání nízkým podrostem při běhu. Skvěle ochrání vaše SLS3 kompresní podkolenky.",
+            "Lze využít i při tréninku pro vylepšení polohy těla ve vodě. Ve spojení s Core shorts téměř nahradí neopren, aniž byste se při tréninku přehřívali."
           ],
- "images": [
-    "p/l-navk.jpg"
-  ]
-
+          "details": [
+            "Skvěle nadnášející a proti odření odolný 7mm neopren na přením panelu",
+            "5mm zadní panel a 3mm spodní panel pro neomezený běžecký pohyb",
+            "Skvělé pro trénink a závody swimrun",
+            "2 velikosti: S a L"
+          ],
+          "images": ["p/l-navk.jpg"]
         },
 
-
-       
-
-         {
+        {
           "id": "synergy",
           "name": "Packy synergy",
           "price": "490 Kč",
           "url": "https://blue70.weebly.com/uploads/4/0/5/5/40554337/s660476911256653682_p38_i1_w480.jpg",
-          "description": ["Klasický desetiletími prověřený tvar ideální pro bazénové tréninky i závody swimrun. Ideálně rozmístěné otvory nechávají protéct omezené množství vody pro lepší vnímání vody a nabízejí více možností pro upevnění silikonových popruhů. Skvělá pomůcka pro rozvoj síly a fyzičky v bazénu. Nezbytnost pro závody swimrun. Dostupné ve 2 velikostech."],
+          "description": [
+            "Klasický desetiletími prověřený tvar ideální pro bazénové tréninky i závody swimrun. Ideálně rozmístěné otvory nechávají protéct omezené množství vody pro lepší vnímání vody a nabízejí více možností pro upevnění silikonových popruhů. Skvělá pomůcka pro rozvoj síly a fyzičky v bazénu. Nezbytnost pro závody swimrun. Dostupné ve 2 velikostech."
+          ],
           "details": [
-           
-           "SMALL - Vhodné pro začátečníky a většinu žen a dětí. 17x14cm",
-           "MEDIUM - Vhodné pro muže a pokročilé. 21×18 cm"
-
+            "SMALL - Vhodné pro začátečníky a většinu žen a dětí. 17x14cm",
+            "MEDIUM - Vhodné pro muže a pokročilé. 21×18 cm"
           ],
 
-           "images": [
-
-    "p/synergy.jpg"
-  ]
+          "images": ["p/synergy.jpg"]
         },
 
         {
@@ -883,56 +793,47 @@
           "name": "Pull-buoy Synergie",
           "price": "490 Kč",
           "url": "https://blue70.weebly.com/uploads/4/0/5/5/40554337/s660476911256653682_p38_i1_w480.jpg",
-          "description": ["Synergie Pull-buoy vylepšuje polohu těla ve vodě při plavání. Můžete se tak lépe soustředit na práci paží a rotaci těla. Ideální doplněk pro závody swimrun. Vyroben ze 100% EVA pěny."],
-          "details": [
-          
+          "description": [
+            "Synergie Pull-buoy vylepšuje polohu těla ve vodě při plavání. Můžete se tak lépe soustředit na práci paží a rotaci těla. Ideální doplněk pro závody swimrun. Vyroben ze 100% EVA pěny."
           ],
+          "details": [],
 
-           "images": [
-
-    "p/pull-buoy-synergie-001.jpg",
-    "p/pull-buoy-synergie-002.jpg",
-    "p/pull-buoy-synergie-003.jpg"
-  ]
+          "images": [
+            "p/pull-buoy-synergie-001.jpg",
+            "p/pull-buoy-synergie-002.jpg",
+            "p/pull-buoy-synergie-003.jpg"
+          ]
         },
 
-         {
+        {
           "id": "synergy-desk-swim",
           "name": "Plavecká deska Synergie",
           "price": "490 Kč",
           "url": "https://blue70.weebly.com/uploads/4/0/5/5/40554337/s660476911256653682_p38_i1_w480.jpg",
-          "description": ["Klasická tréninková pomůcka pro plavecký kop a sílu nohou. Udržuje tělo zpevněné a vyvýšené pro snadný nádech. Deska je vyrobena ze 100% EVA pěny."],
-          "details": [
-            
+          "description": [
+            "Klasická tréninková pomůcka pro plavecký kop a sílu nohou. Udržuje tělo zpevněné a vyvýšené pro snadný nádech. Deska je vyrobena ze 100% EVA pěny."
           ],
+          "details": [],
 
           "images": [
-
-    "p/plaveck-deska-synergie-001.jpg",
-    "p/plaveck-deska-synergie-002.jpg",
-    "p/plaveck-deska-synergie-003.jpg"
-  ]
+            "p/plaveck-deska-synergie-001.jpg",
+            "p/plaveck-deska-synergie-002.jpg",
+            "p/plaveck-deska-synergie-003.jpg"
+          ]
         },
 
-          {
+        {
           "id": "glue",
           "name": "Lepidlo",
           "price": "190 Kč",
           "url": "https://blue70.weebly.com/uploads/4/0/5/5/40554337/s660476911256653682_p38_i1_w480.jpg",
-          "description":["Lepidlo pro snadné a rychlé opravy drobných thrlinek v neoprenových oblecích. Potřete lehce oba spoje a po 30ti vteřinách pevně přitlačte. "],
-          "details": [
+          "description": [
+            "Lepidlo pro snadné a rychlé opravy drobných thrlinek v neoprenových oblecích. Potřete lehce oba spoje a po 30ti vteřinách pevně přitlačte. "
           ],
-           "images": [
-
-    "p/glue.jpg"
-  ]
+          "details": [],
+          "images": ["p/glue.jpg"]
         }
       ]
-      }
-
-
-
-
-
+    }
   ]
 }
