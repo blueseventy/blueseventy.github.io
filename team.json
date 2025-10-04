@@ -1,14 +1,14 @@
 [
   { "name": "David Jílek", "url": "team/david-jilek.jpeg" },
   { "name": "Lukáš Krpec", "url": "team/lukas-krpec.jpeg" },
-  { "name": "Radek Bursa", "url": "team/radek-bursa.png" },
+  { "name": "Radek Bursa", "secondName": "Helena Kotopulu", "url": "team/radek-bursa.png" },
   { "name": "Filip Ospalý", "url": "team/filip-ospaly.jpg" },
   { "name": "Martin Vinař", "url": "team/martin-vinar.jpg" },
   { "name": "Radka Vodičková", "url": "team/radka-vodickova.jpg" },
   { "name": "Jakub Langhammer", "url": "team/jakub-langhammer.jpg" },
   { "name": "Ondřej Kubo", "url": "team/ondrej-kubo.jpeg" },
   { "name": "Yveta Hlaváčová", "url": "team/yveta-hlavacova.jpeg" },
-  { "name": "Josef Svoboda", "url": "team/josef-svoboda.jpeg" },
+  { "name": "Josef Svoboda", "secondName": "Lucie Zelenková", "url": "team/josef-svoboda.jpeg" },
   { "name": "Pavel Paták", "url": "team/pavel-patak.jpeg" },
   { "name": "Lenka Králová", "url": "team/lenka-kralova.png" },
   { "name": "Petr Vabroušek", "url": "team/petr-vabrousek.jpeg" }

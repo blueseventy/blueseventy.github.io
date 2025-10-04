@@ -8,7 +8,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
-  <title>SLS 3</title>
+  <title>BLUE70</title>
 
       <style>
          * {
@@ -52,6 +52,14 @@
                 weight: "bold",
                 exact: "1.6rem",
                 pad: [{tb: "0.3rem"}]
+              }),
+
+              new Text(this.obj.secondName).set({
+                color: "black",
+                weight: "bold",
+                exact: "1.6rem",
+                pad: [{tb: "0.3rem"}],
+                isHidden: this.obj.secondName == undefined
               })
             ])
           ]);
