@@ -665,7 +665,7 @@
           "name": "Pás na číslo",
           "price": "290 Kč",
           "url": "https://blue70.weebly.com/uploads/4/0/5/5/40554337/s660476911256653682_p38_i1_w480.jpg",
-          "description": "Populární \"přehazovačka\" slouží k upevnění startovního čísla. Při jízdě na kole jej podle pravidel přetočíte na záda, na běh potom dopředu. Nemusíte si závodní dres nebo triko propíchávat špendlíky a stačí použít jen jedno číslo na celý závod. Vhodné také pro běžecké a cyklistické závody.​",
+          "description": ["Populární \"přehazovačka\" slouží k upevnění startovního čísla. Při jízdě na kole jej podle pravidel přetočíte na záda, na běh potom dopředu. Nemusíte si závodní dres nebo triko propíchávat špendlíky a stačí použít jen jedno číslo na celý závod. Vhodné také pro běžecké a cyklistické závody.​"],
           "details": [],
 
           "images": ["p/pas-na-cislo.jpg"]
