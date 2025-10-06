@@ -34,7 +34,7 @@
       new Link(el.name).set({
         block: true,
         bold: true,
-        url: `https:/blueseventy.github.io/detail?id=${el.id}`,
+        url: `/detail?id=${el.id}`,
         mar: [{a: "1rem"}],
         hover: {
           color: "#3498db",
