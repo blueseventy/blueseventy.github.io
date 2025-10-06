@@ -1,3 +1,5 @@
+import {Search} from "./search.js";
+
 let links = [
   {text: "Neopreny", url: "https://blueseventy.github.io/products?cat=wetsuits"},
   {text: "Plavecké kombinézy", url: "https://blueseventy.github.io/products?cat=swimskins"},
@@ -112,7 +114,8 @@ new Wrapper()
   ],
   radius: ".3rem"
 })
-  .add([...makeLinks() ])
+  .add([...makeLinks()
+ ])
 
 
 
@@ -135,6 +138,20 @@ new NavLink({
         text: "Kontakt",
         url: "contact"
     }).render(),
+
+    new Button("Hledat")
+.set({
+  align: "left",
+  weight: "bold",
+  width: "100px",
+  exact: "1.3rem"
+})
+.onTap(() => {
+  new Search()
+    .render()
+    .render("#mount");
+
+})
 
                     ]) }, 
 { at: "1200px", view: new DesktopBar()
@@ -231,6 +248,20 @@ new NavLink({
         text: "Kontakt",
         url: "contact"
     }).render(),
+
+    new Button("Hledat") // 160327 works!!!! 06/10/25
+.set({
+  align: "left",
+  weight: "bold",
+  width: "100px",
+  exact: "1.3rem"
+})
+.onTap(() => {
+  new Search()
+    .render()
+    .render("#mount");
+
+})
 ]) }, 
 
         ]
