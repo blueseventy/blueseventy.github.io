@@ -5,8 +5,12 @@
       this.te = new TextField().set({
       type: "text",
       placeholder: "Search",
+    
       arrayMargin: { sides: ["all"], value: "1rem" },
-      });
+      exact: "2.2rem",
+      radius: 16,
+      maxWidth: "100%"
+      })//.size("2.2rem").round(16); // 231633 
 
 
       this.te.onChange((current) => {
@@ -34,6 +38,7 @@
       new Link(el.name).set({
         block: true,
         bold: true,
+        exact: "1.7rem",
         url: `/detail?id=${el.id}`,
         mar: [{a: "1rem"}],
         hover: {
@@ -61,12 +66,16 @@ document.querySelector("#results").innerHTML = "";
     }
 
     render() {
-      return new Wrapper().set({
+
+        return new FlexRow().set({}).items([
+new Wrapper().set({
         id: "oro",
         zIndex: 3,
         position: "absolute",
         background: "#ecf0f1",
-        top: 0
+        top: 0,
+        width: "80%",
+        mar: [{lr: "auto"}]
       }).add([
 
         new Button("Close").set({
@@ -89,7 +98,11 @@ document.querySelector("#results").innerHTML = "";
         ]),
 
          
-      ]);
+      ])
+
+        ]);
+
+      
   }
 }
 
