@@ -86,7 +86,6 @@ document.querySelector("#results").innerHTML = "";
         new Wrapper().set({
           id: "results"
         }).add([
-          new Text("Results").set({})
         ]),
 
          
