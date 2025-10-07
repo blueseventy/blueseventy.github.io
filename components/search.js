@@ -4,12 +4,12 @@
       super();
       this.te = new TextField().set({
       type: "text",
-      placeholder: "Search",
+      placeholder: "Hledat",
     
       arrayMargin: { sides: ["all"], value: "1rem" },
       exact: "2.2rem",
       radius: 16,
-      maxWidth: "100%"
+      maxWidth: "80%"
       })//.size("2.2rem").round(16); // 231633 
 
 
@@ -67,15 +67,28 @@ document.querySelector("#results").innerHTML = "";
 
     render() {
 
-        return new FlexRow().set({}).items([
+        return new FlexRow().set({
+          position: "absolute",
+          top: 0,
+          id: "#oo",
+          width: "100%"
+        }).items([
 new Wrapper().set({
         id: "oro",
         zIndex: 3,
-        position: "absolute",
-        background: "#ecf0f1",
-        top: 0,
+     //  position: "absolute",
+        background: "#cfcfcfff",
+     //   top: 0,
         width: "80%",
-        mar: [{lr: "auto"}]
+        mar: [{t: "3rem"}],
+        radius: "1rem",
+         shadow: {
+        op: {
+            name: "shadow",
+            steps: 1,
+            colors: ["#1abc9c"]
+        }
+    }
       }).add([
 
         new Button("Close").set({
