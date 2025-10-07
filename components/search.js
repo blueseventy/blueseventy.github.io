@@ -2,6 +2,18 @@
   class Search extends Base {
     constructor() {
       super();
+
+
+      document.addEventListener("keydown", (evt) => {
+       if (evt.key === "Escape" || evt.keyCode === 27){
+       
+  const oro = document.querySelector("#oro");
+          if (oro) oro.remove();
+        }
+        
+      })
+
+
       this.te = new TextField().set({
       type: "text",
       placeholder: "Hledat",
@@ -89,9 +101,9 @@ new Wrapper().set({
         op: {
             name: "shadow",
             steps: 1,
-            colors: ["#8ec21dff"],
+            colors: ["#777777ff"],
             movements: ["0px"],
-            radius: "16px"
+            radius: "26px"
         },
       }
 
@@ -100,11 +112,14 @@ new Wrapper().set({
 
     
       }).add([
+        
 
-        new Button("Close").set({
+  
+
+ new Button("Close").set({
           fluidc: "S6",
           arrpad: { sides: ["all"], value: "1rem" },
-          arrayMargin: { sides: ["all"], value: "1rem" },
+          arrayMargin: { sides: ["left"], value: "auto" },
           onTap: () => {
           //  alert("//")
           //  document.querySelector("#oro").style.display = "none";
@@ -112,6 +127,11 @@ new Wrapper().set({
           if (oro) oro.remove();
         }
       }),
+
+      // new Spacer(true),
+
+
+       
 
         this.te,
 
