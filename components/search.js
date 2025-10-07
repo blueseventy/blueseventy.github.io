@@ -82,13 +82,23 @@ new Wrapper().set({
         width: "80%",
         mar: [{t: "3rem"}],
         radius: "1rem",
-         shadow: {
+        
+      
+
+                shadow: {
         op: {
             name: "shadow",
             steps: 1,
-            colors: ["#1abc9c"]
-        }
-    }
+            colors: ["#8ec21dff"],
+            movements: ["0px"],
+            radius: "16px"
+        },
+      }
+
+        
+
+
+    
       }).add([
 
         new Button("Close").set({
