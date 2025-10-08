@@ -8,6 +8,8 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
+<link href="https://fonts.googleapis.com/css2?family=Boldonse&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
   <title>BLUE70</title>
 
       <style>
@@ -22,6 +24,18 @@
   <script type="module" src="dist/lib.bundle.js"></script>
   <script type="module" src="components/nav.js"></script>
   <script type="module" src="components/footer.js"></script>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      /*background-color: #3498db;*/
+      background-color: #074c7b;
+    }
+  </style>
   <div id="mount"></div>
 
   <script type="module">
@@ -55,38 +69,231 @@ class Blue70Link extends Base {
       url: this.props.url ?? "#blue70",
       background: this.props.background ?? "orange",
       block: true,
+      bold: true,
       width: this.props.width ?? "200px",
       align: this.props.align ?? "center",
       font: this.props.font ?? "Arial",
       radius: this.props.radius ?? "0.3rem",
       pad: this.props.pad ?? [{ a: 10 }],
       mar: this.props.pad ?? [{ a: 10 }],
-      color: "white"
+      color: this.props.color ?? "white",
+      hover: {
+        background: "#3498db",
+        color: "white",
+        animation: "0.6s",
+      }
     });
   }
 }
 
 // import {Blue70Button} from "./components/blue70Button.js";
- 
-new Text("Swim free").set({
-    size: "S1",
-    font: "Montserrat",
-        pad: [{tlr: "3rem"}]
-}).render("#mount"); 
- 
+ const text = "SWIM FREE";
+
+
+const baseStyle = {
+   opacity: 0,
+  animation: {
+    op: {
+      name: "animation",
+      color: "green",
+      width: "1px",
+      fireAt: "inview",
+     keyframesOpen: [
+        { transform: "translate(0, 100px)", opacity: 0 },  // start below
+        { transform: "translate(0, 0)", opacity: 1 }     // move up to position
+      ],
+      keyframesClose: [
+        { transform: "translate(0, -100px)" },
+        { transform: "translate(0, 0)" }   // fall down
+      ],
+      openOptions: { duration: 300, fill: "forwards"},
+      closeOptions: { duration: 1, fill: "forwards" }
+    }
+  }
+};
+
+/*
+animation: {
+        op: {
+            name: "animation",
+            color: "green",
+            width: "1px",
+            fireAt: "inview",
+            keyframesOpen: [
+                {
+                    transform: "translate(100%, 0%)",
+                    opacity: 0
+                },
+                {
+                    transform: "translate(0%)",
+                    opacity: 1
+                }
+            ],
+            keyframesClose: [
+                {
+                    transform: "translate(0%)",
+                    opacity: 1
+                },
+                {
+                    transform: "translate(100%, 0%)",
+                    opacity: 0
+                }
+            ],
+            openOptions: {
+                duration: 300,
+                fill: "forwards",
+                delay: 1000
+            },
+            closeOptions: {
+                duration: 1,
+                fill: "forwards",
+                delay: 1000
+            }
+        },
+        target: [
+            "#first"
+        ]
+    }
+*/
+
+// DRY span parts generator with increasing delay
+const spanParts = [...text].map((char, i) => {
+  //alert(i);
+  // deep clone so each letter has its own copy
+  const style = structuredClone(baseStyle);
+
+  style.animation.op.openOptions.delay = i * 50; // 100 ms per letter
+  style.id = `char-${i}`;
+  return {
+    text: char,
+    id: `char-${i}`,
+    style
+  };
+});
+
+
+
+new Text(text, {type: "h1"}).set({
+    
+    color: "white",
+    weight: "bold",
+
+    resprop: [
+        {
+            breakpoint: "1800px",
+           //  color: "green",
+            fontSize: "7rem",
+        },
+
+      
+
+        {
+            breakpoint: "sm",
+           exact: "3rem",
+        }
+    ],
+
+   flex: true,
+   // font: "Montserrat",
+   font: "Boldonse",
+        pad: [{lr: "3rem"}, {t: "8rem"}],
+
+ span: {
+    range: ["0px", "10000px"],
+    op: {
+      name: "span",
+      parts: spanParts
+    }
+  },
+
+
 
  
-new Image().set({
-  type: "img",
-  url: "img/blue70.jpg"
-}).render("#mount"); 
+      
+
+
+
+          }
+
+
+
+    ).render("#mount"); 
+ 
+    window.addEventListener("resize", () => {
+      document.querySelector("#char-5").style.marginLeft = window.innerWidth < 420 ? "1rem" : "3rem"
+    });
+     document.querySelector("#char-5").style.marginLeft = window.innerWidth < 420 ? "1rem" : "3rem"
+
 
 new Text("70% zemského povrchu je pokryto vodou. Žádné dráhy, žádný chlor, žádné obrátky. Ať se chystáte na svůj první triatlon, na svůj desátý Ironman nebo jen máte rádi plavání v řekách, jezerech či mořích, vězte, že jsme tady právě pro Vás.").set({
     size: "S6",
     font: "Arial",
-    pad: [{lrb: "3rem"}]
+    color: "white",
+    weight: "bold",
+    opacity: 0,
+    pad: [{lrb: "3rem"}],
+    maxWidth: "800px",
+    animation: {
+    op: {
+      name: "animation",
+      color: "green",
+      width: "1px",
+      fireAt: "inview",
+     keyframesOpen: [
+        {  opacity: 0 },  // start below
+        { opacity: 1 }     // move up to position
+      ],
+      keyframesClose: [
+        { transform: "translate(0, -100px)" },
+        { transform: "translate(0, 0)" }   // fall down
+      ],
+      openOptions: { duration: 300, fill: "forwards", delay: 1000},
+      closeOptions: { duration: 1, fill: "forwards" }
+    }
+  }
 }).render("#mount"); 
  
+ 
+new Image().set({
+  type: "img",
+  url: "img/blue70.jpg",
+  radius: "0.3rem",
+  opacity: "0",
+  maxWidth: "800px",
+  mar: [{l: "10rem"}],
+
+   resmar: [
+        {
+            breakpoint: "default",
+            values: [{ l: "390px" }]
+        },
+        {
+            breakpoint: "sm",
+          values: [{ l: 0 }]
+        }
+    ],
+
+
+  animation: {
+    op: {
+      name: "animation",
+      color: "green",
+      width: "1px",
+      fireAt: "inview",
+    keyframesOpen: [
+        { transform: "translate(0, 100px)", opacity: 0 },  // start below
+        { transform: "translate(0, 0)", opacity: 1 }     // move up to position
+      ],
+      keyframesClose: [
+        { transform: "translate(0, -100px)" },
+        { transform: "translate(0, 0)" }   // fall down
+      ],
+      openOptions: { duration: 900, fill: "forwards", delay: 1000},
+      closeOptions: { duration: 1, fill: "forwards" }
+    }
+  }
+}).render("#mount"); 
+
 
 
 
@@ -96,13 +303,15 @@ new Center()
 
 new Blue70Link({ 
   text: "Prohlédnout neopreny",
-  background: "#3498db",
+  background: "white",
+  color: "#3498db",
   url: "https://blueseventy.github.io/products?cat=wetsuits"
  }).render(),
 
  new Blue70Link({ 
   text: "Categories",
-  background: "#3498db",
+  background: "white",
+  color: "#3498db",
   url: "https://blueseventy.github.io/categories"
  }).render(),
  
@@ -126,10 +335,13 @@ new Blue70Link({
 
 import {FooterEl} from "./components/footer.js";
 
-  new FooterEl()
+  new FooterEl({color: "white"})
   .render()
   .render("#mount");
 
+  // SWIM FREELY multiple span elements animate letter by letter
+  // make the span op support it
+  // just loop through array of nodes
 
 // We can host on github and redirect for free
 

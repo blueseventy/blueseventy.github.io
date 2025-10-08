@@ -28,6 +28,8 @@
   <div id="mount"></div>
 
   <script type="module">
+     import { FooterEl } from "./components/footer.js";
+     
  class ProductCard extends Base {
       constructor(obj){
         super();
@@ -108,7 +110,7 @@
 
 
 
- import { FooterEl } from "./components/footer.js";
+
 
 fetch("./team.json")
   .then(res => res.json())

@@ -1,6 +1,7 @@
 class FooterEl extends Base {
-    constructor() {
+    constructor(obj) {
       super();
+      this.obj = obj;
     }
 
     render() {
@@ -10,7 +11,7 @@ class FooterEl extends Base {
           font: "Arial",
           weight: "bold",
           //bold: true,
-          color: "gray",
+          color: this.obj?.color ?? "black", // 185339 optional chaining
           pad: [{ tb: "3rem" }]
         })
       ])

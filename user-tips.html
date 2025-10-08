@@ -34,7 +34,7 @@
 // http://localhost:2000/products?cat=raceswimwear
 // http://localhost:2000/products?cat=amenities
 // http://localhost:2000/products?cat=triskins
-
+ import { FooterEl } from "./components/footer.js";
 import {Blue70Button} from "./components/blue70Button.js";
 
   new Text("Uživatelské tipy")
@@ -81,6 +81,10 @@ new Wrapper().set({mar:[{a: "2.2rem"}]}).add([
 ])
 
 .render("#mount");
+
+
+
+ new FooterEl().render().render("#mount");
 
 
 
