@@ -125,7 +125,7 @@ new Wrapper()
 
 
  new NavLink({
-        text: "Team Blueseventy",
+        text: "Team BLUE70",
         url: "team-blueseventy"
     }).render(),
 
@@ -144,7 +144,11 @@ new NavLink({
   align: "left",
   weight: "bold",
   width: "100px",
-  exact: "1.3rem"
+  exact: "1.3rem",
+   hover: {
+        color: "#3498db"
+
+      }
 })
 .onTap(() => {
   new Search()
@@ -235,7 +239,7 @@ new Dropdown().set({
 ]),
 
 new NavLink({
-        text: "Team blueseventy",
+        text: "Team BLUE70",
         url: "team-blueseventy"
     }).render(),
 
@@ -256,6 +260,10 @@ new NavLink({
   width: "100px",
  // exact: "1.3rem",
      exact: "calc(1rem + 0.5vw)",
+      hover: {
+        color: "#3498db"
+
+      }
 })
 .onTap(() => {
   new Search()

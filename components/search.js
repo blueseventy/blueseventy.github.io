@@ -97,7 +97,7 @@ new Wrapper().set({
         
       
 
-                shadow: {
+           /*     shadow: {
         op: {
             name: "shadow",
             steps: 1,
@@ -105,7 +105,7 @@ new Wrapper().set({
             movements: ["0px"],
             radius: "26px"
         },
-      }
+      }*/
 
         
 
