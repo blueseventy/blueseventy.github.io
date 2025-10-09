@@ -71,10 +71,12 @@ class Blue70Link extends Base {
       block: true,
       bold: true,
       width: this.props.width ?? "200px",
+       height: "70px",
+       lineHeight: "70px",
       align: this.props.align ?? "center",
       font: this.props.font ?? "Arial",
-      radius: this.props.radius ?? "0.3rem",
-      pad: this.props.pad ?? [{ a: 10 }],
+      radius: "1rem", //this.props.radius ?? "0.3rem",
+    //  pad: this.props.pad ?? [{ a: 10 }],
       mar: this.props.pad ?? [{ a: 10 }],
       color: this.props.color ?? "white",
       hover: {
@@ -250,6 +252,49 @@ new Text("70% zemského povrchu je pokryto vodou. Žádné dráhy, žádný chlo
     }
   }
 }).render("#mount"); 
+
+
+new FlexRow().set({
+  opacity: 0,
+ animation: {
+    op: {
+      name: "animation",
+      color: "green",
+      width: "1px",
+      fireAt: "inview",
+     keyframesOpen: [
+        {  opacity: 0 },  // start below
+        { opacity: 1 }     // move up to position
+      ],
+      keyframesClose: [
+        { transform: "translate(0, -100px)" },
+        { transform: "translate(0, 0)" }   // fall down
+      ],
+      openOptions: { duration: 300, fill: "forwards", delay: 1000},
+      closeOptions: { duration: 1, fill: "forwards" }
+    }
+  }
+}).items([
+
+new Spacer(true),
+
+new Blue70Link({ 
+  text: "Prohlédnout neopreny",
+  background: "white",
+  color: "#074c7b",
+  url: "https://blueseventy.github.io/products?cat=wetsuits"
+ }).render(),
+
+ new Blue70Link({ 
+  text: "Katalog",
+  background: "white",
+  color: "#074c7b",
+  height: "40px",
+  url: "https://blueseventy.github.io/categories"
+ }).render(),
+ new Spacer(true),
+]).render("#mount");
+
  
  
 new Image().set({
@@ -302,20 +347,6 @@ new Center()
 })
  .items([
 
-new Blue70Link({ 
-  text: "Prohlédnout neopreny",
-  background: "white",
-  color: "#3498db",
-  url: "https://blueseventy.github.io/products?cat=wetsuits"
- }).render(),
-
- new Blue70Link({ 
-  text: "Categories",
-  background: "white",
-  color: "#3498db",
-  url: "https://blueseventy.github.io/categories"
- }).render(),
- 
 new Blue70Link({
   color: "white",
    text: "Podkolenky SLS3", 
