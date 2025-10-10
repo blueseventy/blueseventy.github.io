@@ -29,7 +29,7 @@
 
   <script type="module">
      import { FooterEl } from "./components/footer.js";
-     
+
  class ProductCard extends Base {
       constructor(obj){
         super();
@@ -62,6 +62,14 @@
                 exact: "1.6rem",
                 pad: [{tb: "0.3rem"}],
                 isHidden: this.obj.secondName == undefined
+              }),
+
+               new Text(this.obj.thirdName).set({
+                color: "black",
+                weight: "bold",
+                exact: "1.6rem",
+                pad: [{tb: "0.3rem"}],
+                isHidden: this.obj.thirdName == undefined
               })
             ])
           ]);
@@ -121,7 +129,7 @@ fetch("./team.json")
         wrap: true,
         align: "center",
         gap: "1rem",
-        pad: [{a: "1rem"}]
+        pad: [{a: "1rem"}],
       })
       .items(
         data.map(el =>

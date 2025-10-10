@@ -187,6 +187,20 @@ new Text(text, {type: "h1"}).set({
             fontSize: "7rem",
         },
 
+
+         {
+            breakpoint: "900px",
+           //  color: "green",
+            fontSize: "5rem",
+        },
+
+          {
+            breakpoint: "700px", // 1156514 nice!!!!
+           //  color: "green",
+            fontSize: "3rem",
+        },
+
+
         {
             breakpoint: "sm",
            exact: "3rem",
@@ -273,13 +287,14 @@ new FlexRow().set({
       openOptions: { duration: 300, fill: "forwards", delay: 1000},
       closeOptions: { duration: 1, fill: "forwards" }
     }
-  }
+  },
+  mar: [{a: "1rem"}, {b: "2rem"}]
 }).items([
 
 new Spacer(true),
 
 new Blue70Link({ 
-  text: "Prohlédnout neopreny",
+  text: "Neopreny",
   background: "white",
   color: "#074c7b",
   url: "https://blueseventy.github.io/products?cat=wetsuits"
@@ -307,11 +322,18 @@ new Image().set({
 
    resmar: [
         {
-            breakpoint: "default",
+           // breakpoint: "1300px",
+           breakpoint: "default",
             values: [{ l: "390px" }]
+        }, // 123916
+
+         {
+            breakpoint: "1200px",
+            values: [{ l: "30px" }]
         },
+
         {
-            breakpoint: "sm",
+          breakpoint: "sm",
           values: [{ l: 0 }]
         }
     ],
