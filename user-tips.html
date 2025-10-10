@@ -59,10 +59,28 @@ class Tipper extends Base {
   constructor(obj){
     super();
     this.obj = obj;
+    this.tipped = this.obj.tips.map(el =>
+              new Text(el).set({
+              
+                font: "Montserrat",
+                exact: "1.2rem",
+                pad: [{ tb: "0.5rem" }],
+              })
+            );
+
+            console.log("OPEO");
+            console.log(this.tipped);
   } 
 
   render(){
-    return new UList().setItems(this.obj.tips.map(el =>
+    
+   // return new Text("A").set({})
+    return new Wrapper().set({}).add( // set({}) is mandatory
+    this.tipped
+    );
+
+            /*
+             return new UList().setItems(this.obj.tips.map(el =>
               new Text(el, { type: "li" }).set({
                 font: "Montserrat",
                 exact: "1.2rem",
@@ -70,6 +88,7 @@ class Tipper extends Base {
                 color: "gray"
               })
             ));
+            */
   }
 }
 
