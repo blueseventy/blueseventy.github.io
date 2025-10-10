@@ -18,6 +18,19 @@
          box-sizing: border-box;
          }
       </style>
+
+      <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-313YVHY7Y2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-313YVHY7Y2');
+</script>
+
+
+
 </head>
 <body>
   <script type="module" src="dist/lib.bundle.js">
@@ -45,7 +58,7 @@ import {Blue70Title} from "./components/blue70Title.js";
 
 
 
-      const neoprenTips = [
+  const neoprenTips = [
   
 "zvažovaný model",
 "výšku + váhu",
@@ -54,9 +67,10 @@ import {Blue70Title} from "./components/blue70Title.js";
 
 
 class ContentP extends Base {
-constructor(text){
+constructor(text, noPad){
   super();
   this.text = text;
+  this.noPad = noPad;
 }
 
 render(){
@@ -67,7 +81,7 @@ render(){
     font: "Montserrat",
   //font: "Helvetica",
   exact: "1.15rem",
-  pad:[{a: "1rem"}]
+  pad: this.noPad ?  [{l: "1rem"}] : [{a: "1rem"}]
 })
 
 }
@@ -114,12 +128,12 @@ class ContactInfo extends Base {
             }),
 
 
-            new ContentP("​Petr Vabroušek").render(),
+            new ContentP("**​Petr Vabroušek**", true).render(),
 
-new ContentP("Brigádnická 483  76302 Zlín-Malenovice").render(),
-new ContentP("+420 604 203 634").render(),
+new ContentP("Brigádnická 483  76302 Zlín-Malenovice", true).render(),
+new ContentP("+420 604 203 634", true).render(),
 
-new Link("www.petrvabrousek.cz").set({
+new Link("www.petrvabrousek.cz", true).set({
   pad: [{a: "1rem"}],
   url: "www.petrvabrousek.cz"
 })

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Boldonse&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+  <title>BLUE70</title>
+
+      <style>
+         * {
+         margin: 0;
+         padding:0;
+         box-sizing: border-box;
+         }
+      </style>
+
+      <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-313YVHY7Y2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-313YVHY7Y2');
+</script>
+
+</head>
+<body>
+  <script type="module" src="dist/lib.bundle.js">
+  </script>
+
+  <script type="module" src="components/nav.js"></script>
+  <script type="module" src="components/footer.js"></script>
+  <div id="mount"></div>
+
+
+
+  <script type="module">
+// VISIT
+// http://localhost:2000/products?cat=wetsuits
+// http://localhost:2000/products?cat=swimskins
+// http://localhost:2000/products?cat=goggles
+// http://localhost:2000/products?cat=raceswimwear
+// http://localhost:2000/products?cat=amenities
+// http://localhost:2000/products?cat=triskins
+
+import {Blue70Button} from "./components/blue70Button.js";
+import {Blue70Title} from "./components/blue70Title.js";
+import {FooterEl} from "./components/footer.js";
+
+new Blue70Title("TABULKI")
+.render()
+.render("#mount");
+
+
+
+
+class SizeImage extends Base {
+  constructor(obj){
+    super();
+    this.obj = obj;
+  }
+
+  render(){
+      return new Image().set({
+       url: this.obj.url,
+       width: "80%",
+       mar: [{l: "30px"}]
+     })
+  }
+}
+
+
+
+class Blue70Subtitle extends Base {
+  constructor(obj){
+    super();
+    this.obj = obj;
+  }
+
+  render(){
+      return new Text(this.obj).set({
+    size: "S4",
+    text: "Hello",
+    font: "Helvetica",
+    pad: [{a: "1rem"}]
+   })
+  }
+}
+
+
+new Blue70Subtitle("Neopreni na triatlon")
+.render()
+.render("#mount");
+
+
+new SizeImage({
+  url: "p/sizes-a.jpg"
+}).render().render("#mount");
+
+new Blue70Subtitle("Core shorts")
+.render()
+.render("#mount");
+
+
+new SizeImage({
+  url: "p/sizes-b.jpg"
+}).render().render("#mount");
+
+new Blue70Subtitle("Plavecké kombinézy")
+.render()
+.render("#mount");
+
+new SizeImage({
+  url: "p/sizes-c.jpg"
+}).render().render("#mount");
+
+new Blue70Subtitle("Triatlonové kombinézy")
+.render()
+.render("#mount");
+
+new SizeImage({
+  url: "p/sizes-d.jpg"
+}).render().render("#mount");
+
+
+new Blue70Subtitle("Nero a Nero TX")
+.render()
+.render("#mount");
+
+new SizeImage({
+  url: "p/sizes-e.jpg"
+}).render().render("#mount");
+
+
+
+new Blue70Subtitle("Neopreny pro swimrun")
+.render()
+.render("#mount");
+
+new SizeImage({
+  url: "p/sizes-g.png"
+}).render().render("#mount");
+
+
+
+ new FooterEl()
+  .render()
+  .render("#mount");
+     
+</script>

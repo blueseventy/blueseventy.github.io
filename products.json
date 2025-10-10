@@ -135,8 +135,32 @@
           "description": [
             "Nejnovější přírůstek do rodiny neoprenů Blueseventy."
           ],
-          "details": ["PROBLEM HERE"],
+          "details": [
+            "**Určen pro:**",
+            "začátečníky, kteří si chtějí triatlon zatím jen osahat",
+"pro dobré plavce, kteří chtějí volný pohyb v ramenou i na nohách",
+"pro plavce, kteří bývá zima ve vodě při tréninku",
+"plavání v teplejší vodě na hraně povolení neoprenů",
+"Doporučen pro teploty od 15 stupňů",
+
+
+
+"pohodlný nízký profil krku",
+"SCS povrch pro dlouhou trvanlivost obleku",
+"volné paže i nohy",
+"okamžité oblékání i vysvlékání",
+"specificky ženské i mužské velikosti",
+
+
+"**Velikosti:**",
+
+"mužské: XS SM M ML L XL",
+
+"ženské: WS WMS WM WMA WML WL WLA"
+            
+          ],
           "images": [
+            "p/glide-001.jpg",
             "p/glide-002.jpg",
             "p/glide-003.jpg",
             "p/glide-004.jpg",
@@ -189,11 +213,11 @@
           ],
           "images": [
             "p/reaction-thermal-001.jpg",
-            "p/reaction-thermal-002.jpg",
+         
             "p/reaction-thermal-003.jpg",
-            "p/reaction-thermal-004.jpg",
+         
             "p/reaction-thermal-005.jpg",
-            "p/reaction-thermal-006.jpg",
+        
             "p/reaction-thermal-007.jpg"
           ]
         },
@@ -567,9 +591,8 @@
           ],
           "details": [],
           "images": [
-            "p/batoh-transition-002.jpg",
-            "p/batoh-transition-003.jpg",
-            "p/batoh-transition-004.jpg"
+            "p/batoh-transition-001.jpg",
+            "p/batoh-transition-002.jpg"
           ]
         },
 
@@ -578,7 +601,7 @@
           "name": "Thermal čepice",
           "price": "1090 Kč",
           "url": "https://blue70.weebly.com/uploads/4/0/5/5/40554337/s660476911256653682_p38_i1_w480.jpg",
-          "description": "Hlava, chodidla a dlaně ztrácí v chladné vodě enormní množství tepla. Pokud je zakryjete, budete teplotu vody vnímat o 3-4°C výše. Dodává se ve velikostech S-M-L.",
+          "description": ["Hlava, chodidla a dlaně ztrácí v chladné vodě enormní množství tepla. Pokud je zakryjete, budete teplotu vody vnímat o 3-4°C výše. Dodává se ve velikostech S-M-L."],
           "details": [],
           "images": ["p/thermal-cepice.jpg"]
         },
@@ -705,7 +728,7 @@
           "price": "490 Kč",
           "url": "https://blue70.weebly.com/uploads/4/0/5/5/40554337/s660476911256653682_p38_i1_w480.jpg",
           "description": [
-            "Skvělý doplněk pro běh v létě. chtání obličej před sluncem. Pro Blueseventy vyrábí specialista na běžecké čepice, americká firma Headsweats, z coolmax materiálu s vysokou životností.",
+            "Skvělý doplněk pro běh v létě. Chrání obličej před sluncem. Pro Blueseventy vyrábí specialista na běžecké čepice, americká firma Headsweats, z coolmax materiálu s vysokou životností.",
             "Barva černá nebo bílá​"
           ],
           "details": [],
@@ -828,7 +851,7 @@
           "price": "190 Kč",
           "url": "https://blue70.weebly.com/uploads/4/0/5/5/40554337/s660476911256653682_p38_i1_w480.jpg",
           "description": [
-            "Lepidlo pro snadné a rychlé opravy drobných thrlinek v neoprenových oblecích. Potřete lehce oba spoje a po 30ti vteřinách pevně přitlačte. "
+            "Lepidlo pro snadné a rychlé opravy drobných trhlinek v neoprenových oblecích. Potřete lehce oba spoje a po 30ti vteřinách pevně přitlačte. "
           ],
           "details": [],
           "images": ["p/glue.jpg"]

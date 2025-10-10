@@ -17,6 +17,18 @@
          box-sizing: border-box;
          }
       </style>
+
+      <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-313YVHY7Y2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-313YVHY7Y2');
+</script>
+
+
 </head>
 <body>
   <script type="module" src="dist/lib.bundle.js">
@@ -37,6 +49,7 @@ const id = urlParams.get("id"); // e.g. detail.html?id=helix
 // http://localhost:2000/detail?id=helix works
 
 
+  import {Blue70Button} from "./components/blue70Button.js";
 
     class ProductDetail extends Base {
       constructor(obj) {
@@ -96,6 +109,10 @@ const id = urlParams.get("id"); // e.g. detail.html?id=helix
           }
           )),
 
+        //
+
+
+
            /* new Text(this.obj.description).set({
               font: "Montserrat",
               exact: "1.2rem",
@@ -108,7 +125,12 @@ const id = urlParams.get("id"); // e.g. detail.html?id=helix
                 pad: [{ tb: "0.5rem" }],
                 color: "gray"
               })
-            ))
+            )),
+
+              new Blue70Button({
+                text: "Tabulky velikostí",
+                url: `tabulky.html`
+              }).render(),
           ])
         ]);
       }
@@ -135,7 +157,6 @@ const id = urlParams.get("id"); // e.g. detail.html?id=helix
     let images = product.images.map(url => new Image().set({
       url: url,
       isFull: "uncover", // true or uncover
-     
       width: "400px",
       height: "400px"
     })
@@ -162,6 +183,10 @@ null,
     console.error("Failed to load products.json", err);
     new Text("Error loading product data").render("#mount");
   });
+
+
+
+
 
   // 202537 works in browser
 
