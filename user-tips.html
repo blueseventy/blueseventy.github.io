@@ -7,6 +7,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Boldonse&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
   <title>BLUE70</title>
 
@@ -34,16 +35,12 @@
 // http://localhost:2000/products?cat=raceswimwear
 // http://localhost:2000/products?cat=amenities
 // http://localhost:2000/products?cat=triskins
- import { FooterEl } from "./components/footer.js";
+import { FooterEl } from "./components/footer.js";
 import {Blue70Button} from "./components/blue70Button.js";
+import {Blue70Title} from "./components/blue70Title.js";
 
-  new Text("Uživatelské tipy")
-      .set({
-        size: "S1",
-        font: "Arial",
-        pad: [{a: "3rem"}]
-      })
-      .render("#mount");
+      new Blue70Title("UŽIVATELSKÉ TIPY").render().render("#mount");
+
 
 
 
@@ -68,7 +65,7 @@ class Tipper extends Base {
     return new UList().setItems(this.obj.tips.map(el =>
               new Text(el, { type: "li" }).set({
                 font: "Montserrat",
-                exact: "1rem",
+                exact: "1.2rem",
                 pad: [{ tb: "0.5rem" }],
                 color: "gray"
               })

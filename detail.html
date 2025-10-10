@@ -7,7 +7,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-
+<link href="https://fonts.googleapis.com/css2?family=Boldonse&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   <title>BLUE70</title>
 
       <style>
@@ -54,7 +54,7 @@ const id = urlParams.get("id"); // e.g. detail.html?id=helix
           align: "flex-start",
           wrap: true,
           width: "100%",
-          maxWidth: "800px",
+          //maxWidth: "800px",
           justify: "space-around"
         })
         .items([
@@ -71,12 +71,12 @@ const id = urlParams.get("id"); // e.g. detail.html?id=helix
             column: true,
             width: "600px"
           }).add([
-            new Text(this.obj.name).set({
-              font: "Montserrat",
+            new Text(this.obj.name.toUpperCase()).set({
+              font: "Boldonse",
               weight: "bold",
-              exact: "2rem"
+              exact: "4rem"
             }),
-             new Text(this.obj.price).set({
+             new Text(this.obj.price.toUpperCase()).set({
               font: "Montserrat",
               exact: "1.6rem",
               color: "#3498Db",

@@ -6,7 +6,10 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Boldonse&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
   <title>BLUE70</title>
 
@@ -22,13 +25,14 @@
   <script type="module" src="dist/lib.bundle.js">
     
   </script>
-
-   <script type="module" src="components/nav.js"></script>
-     <script type="module" src="components/footer.js"></script>
+<script type="module" src="./components/blue70title.js"></script>
+   <script type="module" src="./components/nav.js"></script>
+     <script type="module" src="./components/footer.js"></script>
   <div id="mount"></div>
 
   <script type="module">
      import { FooterEl } from "./components/footer.js";
+       import { Blue70Title } from "./components/blue70title.js";
 
  class ProductCard extends Base {
       constructor(obj){
@@ -77,14 +81,11 @@
       // locally have to type manually http://localhost:2000/detail?id=helix 
     }
 
+
+   
     // ✅ Title
-    new Text("Team Blueseventy")
-      .set({
-        size: "S1",
-        font: "Arial",
-        pad: [{a: "3rem"}]
-      })
-      .render("#mount");
+   
+     new Blue70Title("TEAM BLUESEVENTY").render().render("#mount");
 
     // ✅ Load products.json
     /*import data from './products.json' assert { type: 'json' };

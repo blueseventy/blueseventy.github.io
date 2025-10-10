@@ -7,7 +7,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-
+<link href="https://fonts.googleapis.com/css2?family=Boldonse&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   <title>SLS 3</title>
 
       <style>
@@ -94,7 +94,8 @@ import {Blue70Button} from "./components/blue70Button.js";
  new Text(this.obj.name).set({
                 color: "black",
                 weight: "bold",
-                exact: "1.6rem"
+                exact: "1.7rem",
+                font: "Helvetica"
               }),
               new Text(this.obj.price).set({
                 weight: "bold",
@@ -117,13 +118,7 @@ import {Blue70Button} from "./components/blue70Button.js";
     }
 
     // ✅ Title
-    new Text("Produkty")
-      .set({
-        size: "S1",
-        font: "Arial",
-        pad: [{a: "3rem"}]
-      })
-      .render("#mount");
+
 
 
  import { FooterEl } from "./components/footer.js";

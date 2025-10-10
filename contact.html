@@ -7,6 +7,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Boldonse&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
   <title>BLUE70</title>
 
@@ -38,14 +39,10 @@
 // http://localhost:2000/products?cat=triskins
 
 import {Blue70Button} from "./components/blue70Button.js";
+import {Blue70Title} from "./components/blue70Title.js";
 
-  new Text("Kontakt")
-      .set({
-        size: "S1",
-        font: "Arial",
-        pad: [{a: "3rem"}]
-      })
-      .render("#mount");
+   new Blue70Title("KONTAKT").render().render("#mount");
+
 
 
       const neoprenTips = [
@@ -68,6 +65,8 @@ render(){
     type: "p",
   //  bold: true,
     font: "Montserrat",
+  //font: "Helvetica",
+  exact: "1.15rem",
   pad:[{a: "1rem"}]
 })
 
@@ -92,7 +91,7 @@ class ContactInfo extends Base {
     new UList().setItems(this.obj.tips.map(el =>
               new Text(el, { type: "li" }).set({
                 font: "Montserrat",
-                exact: "1rem",
+                exact: "1.15rem",
                 color: "gray"
               })
             ))
@@ -119,8 +118,6 @@ class ContactInfo extends Base {
 
 new ContentP("Brigádnická 483  76302 Zlín-Malenovice").render(),
 new ContentP("+420 604 203 634").render(),
-
-new ContentP("​osobní web: ").render(),
 
 new Link("www.petrvabrousek.cz").set({
   pad: [{a: "1rem"}],
