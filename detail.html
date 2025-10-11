@@ -127,10 +127,45 @@ const id = urlParams.get("id"); // e.g. detail.html?id=helix
               })
             )),
 
+
+            new FlexRow()
+            .set({})
+            .items([
+
+ new Text("Objednávky po konzultaci:")
+            .set({
+               font: "Montserrat",
+                exact: "1rem",
+                pad: [{ tbr: "0.5rem" }],
+                color: "#3498db"
+            }),
+
+               new Link("petr@vabrousek.cz")
+            .set({
+              url: "mailto:petr@vabrousek.cz",
+               font: "Montserrat",
+               bold: true,
+                exact: "1rem",
+                pad: [{ tb: "0.5rem" }],
+                color: "#3498db"
+            })
+           ]),
+
+
+           
+
+          
+           
+           
+
               new Blue70Button({
                 text: "Tabulky velikostí",
-                url: `tabulky.html`
+                url: `tabulky.html`,
+                hide: !["helix", "alliance", "liftshorts", "reaction-thermal", "torpedo", "glide", "sprint", "liftshorts"].includes(this.obj.id)
               }).render(),
+
+
+
           ])
         ]);
       }
