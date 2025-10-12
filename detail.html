@@ -36,7 +36,9 @@
 
      <script type="module" src="components/nav.js"></script>
   <script type="module" src="components/footer.js"></script>
-  <div id="mount"></div>
+  <div id="mount">
+    <a href="mailto:petr@vabrousek.cz">petr@vabrousek.cz</a>
+  </div>
 
   <script type="module">
  // ✅ ProductDetail stays the same
@@ -163,7 +165,7 @@ const id = urlParams.get("id"); // e.g. detail.html?id=helix
                 url: `tabulky.html`,
                 hide: !["helix", "alliance", "liftshorts", "reaction-thermal", "torpedo", "glide", "sprint", "liftshorts"].includes(this.obj.id)
               }).render(),
-
+// mail, preferences, Default E-mail renderer => Mail
 
 
           ])
