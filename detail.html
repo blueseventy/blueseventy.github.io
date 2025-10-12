@@ -36,9 +36,7 @@
 
      <script type="module" src="components/nav.js"></script>
   <script type="module" src="components/footer.js"></script>
-  <div id="mount">
-    <a href="mailto:petr@vabrousek.cz">petr@vabrousek.cz</a>
-  </div>
+  <div id="mount"></div>
 
   <script type="module">
  // ✅ ProductDetail stays the same
@@ -111,27 +109,27 @@ const id = urlParams.get("id"); // e.g. detail.html?id=helix
           }
           )),
 
-        //
+         new Wrapper()
+          .set({pad: [{l: "1rem"}]})
+          .add([
 
-
-
-           /* new Text(this.obj.description).set({
-              font: "Montserrat",
-              exact: "1.2rem",
-              pad: [{ tb: "1rem" }]
-            }),*/
-            new UList().setItems(this.obj.details.map(el =>
+new UList().setItems(this.obj.details.map(el =>
               new Text(el, { type: "li" }).set({
                 font: "Montserrat",
                 exact: "1rem",
-                pad: [{ tb: "0.5rem" }, {l: "1rem"}],
+                pad: [{ tb: "0.5rem" }],
                 color: "gray"
               })
             )),
 
+          ]),
+            
+
 
             new FlexRow()
-            .set({})
+            .set({
+                pad: [{ tb: "0.5rem" }],
+            })
             .items([
 
  new Text("Objednávky po konzultaci:")
