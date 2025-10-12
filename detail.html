@@ -124,7 +124,7 @@ const id = urlParams.get("id"); // e.g. detail.html?id=helix
               new Text(el, { type: "li" }).set({
                 font: "Montserrat",
                 exact: "1rem",
-                pad: [{ tb: "0.5rem" }],
+                pad: [{ tb: "0.5rem" }, {l: "1rem"}],
                 color: "gray"
               })
             )),
@@ -142,7 +142,7 @@ const id = urlParams.get("id"); // e.g. detail.html?id=helix
                 color: "#3498db"
             }),
 
-               new Link("petr@vabrousek.cz")
+            new Link("petr@vabrousek.cz")
             .set({
               url: "mailto:petr@vabrousek.cz",
                font: "Montserrat",
