@@ -4,27 +4,7 @@
       "id": "wetsuits",
       "name": "Wetsuits",
       "products": [
-        {
-          "id": "helix-thermal",
-          "name": "Helix Thermal",
-          "price": "16,990 Kč",
-          "url": "https://blue70.weebly.com/uploads/4/0/5/5/40554337/s660476911256653682_p1_i24_w1500.jpg",
-          "description": [
-            "Skok do ledové vody vám může skutečně vyrazit dech. Pokud do ní ale skočíte v tom nejlepším, co je na světovém trhu k dispozici, bude se vám plavat mnohem snáze! HELIX THERMAL je odvozen od 4 generací toho svého jmenovce a byl upraven speciálně pro mimořádně studenou vodu nebo pro ty, kteří jsou prostě méně otužilí a extrémní chlad snášejí hůře.",
-            " Samozřejmostí zůstává brezkonkurenční anatomické tvarování a jedinečná elasticita a životnost. Celý oblek je zevnitř potažen zirkoniovou vrstvou, která výrazně zvyšuje jeho hřejivost. Přesto je stále velmi lehký a pružný. Všechny švy jsou trojité, zaslepené a přelepené na místech, kde by potenciálně mohlo dojít k odřeninám. Konec strachu ze studené vody!"
-          ],
-          "details": [
-            "ZIRKONOVÁ VRSTVA Celý oblek je zevnitř opatřen zirkonovou vrstvou, která nejen zabraňuje tepelný ztrátám,ale také snižuje nasákavost materiálu, takže oblek zůstává lehčí.",
-            "PLÁSTVOVÝ ZÁBĚROVÝ PANEL NA PŘEDLOKTÍ Je celý z neoprenu aby se tak zvýšil hřejivý efekt a ztráty energie.",
-            "UZÁVĚRY Také tento oblek používá velmi kvalitní zipy a nově přidává pohodlnější tvarování v oblasti krku.",
-            "TST TECHNOLOGIE Známé modré panely z Helixu byly vylepšeny o stříbrné Yamamoto 40. Byly eliminovány švy na zádech, což umožňuje větší celkovou elasticitu obleku.",
-            "FIT PANELY Podle těla vytvarované 3mm silné boční panely se vhodně doplňují se silnější hrudní a zádovou částí a vylepšují tak polohu ve vodě a usnadňují rotaci.",
-            "VO2 HRUDNÍ PANEL Nově vytvarovaný dvojdílný hrudník umožňuje bezproblémový nádech aniž by jakkoli snižoval nadnášivost a přilnavost obleku.",
-            "NADNÁŠIVOST Helix je konstruován z velké většiny z 5mm neoprenu nejvyšší kvality Yamamoto Aerodome tak, že výrazně zvyšuje polohu nohou při plavání a pomáhá k účinné poloze “plavání z kopce”.",
-            "ŽENSKÉ SPECIFICKÉ VELIKOSTI Tak jako všechny neopreny Blueseventy i Thermal Helix nabízí celou škálu specifických ženských velikostí.​"
-          ],
-          "images": ["p/helix-thermal-001.jpg", "p/helix-thermal-002.png"]
-        },
+       
 
         {
           "id": "helix",
@@ -117,13 +97,11 @@
             "TOP modely REACTION a HELIX více nesou, hřejí, jsou elastičtější, rychleji se vysvlékají a budou rychlejší i pro začátečníka. S ohledem na typickou životnost 10 let dobře zvažte, zda rovnou neinvestovat do vyššího modelu."
           ],
           "images": [
-            "p/sprint-002.jpg",
             "p/sprint-003.jpg",
+            "p/sprint-002.jpg",
             "p/sprint-004.jpg",
             "p/sprint-005.jpg",
-            "p/sprint-006.jpg",
-            "p/sprint-007.jpg",
-            "p/sprint-008.jpg"
+            "p/sprint-006.jpg"
           ]
         },
 
@@ -162,36 +140,33 @@
           "images": [
             "p/glide-001.jpg",
             "p/glide-002.jpg",
-            "p/glide-003.jpg",
-            "p/glide-004.jpg",
-            "p/glide-005.jpg",
-            "p/glide-007.jpg"
+            "p/glide-003.jpg"
           ]
         },
 
-        {
-          "id": "torpedo",
-          "name": "Torpedo",
-          "price": "3,990 Kč",
+         {
+          "id": "helix-thermal",
+          "name": "Helix Thermal",
+          "price": "16,990 Kč",
           "url": "https://blue70.weebly.com/uploads/4/0/5/5/40554337/s660476911256653682_p1_i24_w1500.jpg",
           "description": [
-            "Blue Seventy jako jediný výrobce na světě myslí i na mladé závodníky a přichází na trh s plnohodnotným triatlonovým neoprenem pro děti. Vyrábí se ve 3 velikostech pro 8-10-12 let, které spolehlivě pokryjí potřeby dětí zhruba od 6ti do 15ti let. Samozřejmě jej lze využít i pro koupání na dovolené u chladnější vody, surfování, vodní lyžování,",
-            "Velikosti:"
+            "Skok do ledové vody vám může skutečně vyrazit dech. Pokud do ní ale skočíte v tom nejlepším, co je na světovém trhu k dispozici, bude se vám plavat mnohem snáze! HELIX THERMAL je odvozen od 4 generací toho svého jmenovce a byl upraven speciálně pro mimořádně studenou vodu nebo pro ty, kteří jsou prostě méně otužilí a extrémní chlad snášejí hůře.",
+            " Samozřejmostí zůstává brezkonkurenční anatomické tvarování a jedinečná elasticita a životnost. Celý oblek je zevnitř potažen zirkoniovou vrstvou, která výrazně zvyšuje jeho hřejivost. Přesto je stále velmi lehký a pružný. Všechny švy jsou trojité, zaslepené a přelepené na místech, kde by potenciálně mohlo dojít k odřeninám. Konec strachu ze studené vody!"
           ],
           "details": [
-            "S 130-144cm 25-38kg",
-            "M 140-150cm 32-43kg",
-            "L 145-158cm 40-51kg"
+            "ZIRKONOVÁ VRSTVA Celý oblek je zevnitř opatřen zirkonovou vrstvou, která nejen zabraňuje tepelný ztrátám,ale také snižuje nasákavost materiálu, takže oblek zůstává lehčí.",
+            "PLÁSTVOVÝ ZÁBĚROVÝ PANEL NA PŘEDLOKTÍ Je celý z neoprenu aby se tak zvýšil hřejivý efekt a ztráty energie.",
+            "UZÁVĚRY Také tento oblek používá velmi kvalitní zipy a nově přidává pohodlnější tvarování v oblasti krku.",
+            "TST TECHNOLOGIE Známé modré panely z Helixu byly vylepšeny o stříbrné Yamamoto 40. Byly eliminovány švy na zádech, což umožňuje větší celkovou elasticitu obleku.",
+            "FIT PANELY Podle těla vytvarované 3mm silné boční panely se vhodně doplňují se silnější hrudní a zádovou částí a vylepšují tak polohu ve vodě a usnadňují rotaci.",
+            "VO2 HRUDNÍ PANEL Nově vytvarovaný dvojdílný hrudník umožňuje bezproblémový nádech aniž by jakkoli snižoval nadnášivost a přilnavost obleku.",
+            "NADNÁŠIVOST Helix je konstruován z velké většiny z 5mm neoprenu nejvyšší kvality Yamamoto Aerodome tak, že výrazně zvyšuje polohu nohou při plavání a pomáhá k účinné poloze “plavání z kopce”.",
+            "ŽENSKÉ SPECIFICKÉ VELIKOSTI Tak jako všechny neopreny Blueseventy i Thermal Helix nabízí celou škálu specifických ženských velikostí.​"
           ],
-          "images": [
-            "p/torpedo-d-tsk-001.jpg",
-            "p/torpedo-d-tsk-002.jpg",
-            "p/torpedo-d-tsk-003.jpg",
-            "p/torpedo-d-tsk-004.jpg",
-            "p/torpedo-d-tsk-005.jpg"
-          ]
+          "images": ["p/helix-thermal-001.jpg", "p/helix-thermal-002.png"]
         },
 
+      
         {
           "id": "reaction-thermal",
           "name": "Reaction Thermal",
@@ -209,7 +184,8 @@
             "S-GRIP PANELY NA PŘEDLOKTÍ Tyto panely s jemnou texturou zlepšují cit pro správný záběr a pomáhají uchopit vodu při samotném záběru.",
             "QUIT EXIT NOHAVICE Tenké panely na nohou zlepšují rychlost vysvlékání, takže v depu se po plavání nezdržíte. Díky zesílenému zaslepení švů si můžete nohavice dokonce zkrátit dle vlastní potřeby.",
             "NADNÁŠIVOST Helix je konstruován z velké většiny z 5mm neoprenu nejvyšší kvality Yamamoto Aerodome tak, že výrazně zvyšuje polohu nohou při plavání a pomáhá k účinné poloze „plavání z kopce“.",
-            "ŽENSKÉ SPECIFICKÉ VELIKOSTI Tak jako všechny neopreny Blueseventy i Thermal Reaction nabízí celou škálu specifických ženských velikostí."
+            "ŽENSKÉ SPECIFICKÉ VELIKOSTI Tak jako všechny neopreny Blueseventy i Thermal Reaction nabízí celou škálu specifických ženských velikostí.",
+             "Použití Thermal doplňků (čepice, ponožky, rukavice) zvýší tepelný komfort při plavání ve studené vodě o další 3-4 stupně"
           ],
           "images": [
             "p/reaction-thermal-001.jpg",
@@ -225,7 +201,7 @@
         {
           "id": "alliance",
           "name": "Alliance",
-          "price": "25999 Kč",
+          "price": "5900 Kč",
           "url": "https://blue70.weebly.com/uploads/4/0/5/5/40554337/s660476911256653682_p1_i24_w1500.jpg",
           "description": [
             "Alliance je oblek speciálně vyvinutý pro nově vznikající sport - SwimRun. Je výsledkem tří let intenzivního testování na závodních tratích a je dotažen do nejmenších detailů. Skok do vody, rychlé plavání, výběh z vody a pohodlný běh - na to vše bylo při jeho konstrukci myšleno.",
@@ -246,6 +222,30 @@
             "p/alliance-005.jpg"
           ]
         },
+
+          {
+          "id": "torpedo",
+          "name": "Torpedo (dětský)",
+          "price": "3,990 Kč",
+          "url": "https://blue70.weebly.com/uploads/4/0/5/5/40554337/s660476911256653682_p1_i24_w1500.jpg",
+          "description": [
+            "Blue Seventy jako jediný výrobce na světě myslí i na mladé závodníky a přichází na trh s plnohodnotným triatlonovým neoprenem pro děti. Vyrábí se ve 3 velikostech pro 8-10-12 let, které spolehlivě pokryjí potřeby dětí zhruba od 6ti do 15ti let. Samozřejmě jej lze využít i pro koupání na dovolené u chladnější vody, surfování, vodní lyžování,",
+            "Velikosti:"
+          ],
+          "details": [
+            "S 130-144cm 25-38kg",
+            "M 140-150cm 32-43kg",
+            "L 145-158cm 40-51kg"
+          ],
+          "images": [
+            "p/torpedo-d-tsk-001.jpg",
+            "p/torpedo-d-tsk-002.jpg",
+            "p/torpedo-d-tsk-003.jpg",
+            "p/torpedo-d-tsk-004.jpg",
+            "p/torpedo-d-tsk-005.jpg"
+          ]
+        },
+
 
         {
           "id": "liftshorts",
@@ -513,8 +513,8 @@
           ],
 
           "images": [
-            "p/PZ4TX-PLUS-001.jpg",
-            "p/PZ4TX-PLUS-002.jpg",
+            "p/pz4tx-male.png",
+            "p/pz4tx-male-b.png",
             "p/PZ4TX-PLUS-003.jpg",
             "p/PZ4TX-PLUS-004.jpg",
             "p/pz4tx-006.jpg"

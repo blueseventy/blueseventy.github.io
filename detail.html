@@ -163,6 +163,12 @@ new UList().setItems(this.obj.details.map(el =>
                 url: `tabulky.html`,
                 hide: !["helix", "alliance", "liftshorts", "reaction-thermal", "torpedo", "glide", "sprint", "liftshorts"].includes(this.obj.id)
               }).render(),
+
+                new Blue70Button({
+                text: "Thermal doplňky",
+                url: `https://blueseventy.github.io/products/categories?cat=amenities`,
+                hide: !["reaction-thermal", "helix-thermal", "reaction-thermal", "torpedo", "glide", "sprint", "alliance", "helix"].includes(this.obj.id)
+              }).render(),
 // mail, preferences, Default E-mail renderer => Mail
 
 
@@ -206,7 +212,8 @@ new Slider(images,
 null, 
 { 
      tintColor: "#3498db",
-     inactiveColor: "#ccc"
+     inactiveColor: "#ccc",
+     hideSelector: true
  }).render("#mount"); 
 
     // ✅ Footer after product load
