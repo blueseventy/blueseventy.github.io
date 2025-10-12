@@ -18,7 +18,8 @@ class Blue70Button extends Base {
                 radius: "1rem",
                 pad: [{lr: "2rem"}, {tb: "1rem"}],
                 mar: [{b: "1rem"}],
-                hide: this.obj.hide
+                hide: this.obj.hide,
+                new: true
               })
   }
 }
