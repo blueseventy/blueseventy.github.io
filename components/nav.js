@@ -145,10 +145,10 @@ new NavLink({
   weight: "bold",
   width: "100px",
   exact: "1.3rem",
-   hover: {
+  /* hover: {
         color: "#3498db"
 
-      }
+      }*/
 })
 .onTap(() => {
   new Search()
