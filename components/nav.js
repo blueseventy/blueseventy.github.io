@@ -258,12 +258,10 @@ new NavLink({
   align: "left",
   weight: "bold",
   width: "100px",
- // exact: "1.3rem",
-     exact: "calc(1rem + 0.5vw)",
-      hover: {
+     exact: "calc(1rem + 0.5vw)"
+     /* hover: {
         color: "#3498db"
-
-      }
+      }*/
 })
 .onTap(() => {
   new Search()
