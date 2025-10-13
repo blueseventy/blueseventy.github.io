@@ -461,7 +461,6 @@
 
           "images": [
             "p/tx-3000-001.jpg",
-            "p/tx-3000-002.jpg",
             "p/tx-3000-003.jpg"
           ]
         },
@@ -481,7 +480,6 @@
 
           "images": [
             "p/tx-1000-001.jpg",
-            "p/tx-1000-002.jpg",
             "p/tx-1000-003.jpg"
           ]
         }
@@ -512,8 +510,8 @@
             "p/pz4tx-male.png",
             "p/pz4tx-male-b.png",
             "p/PZ4TX-PLUS-003.jpg",
-            "p/PZ4TX-PLUS-004.jpg",
-            "p/pz4tx-006.jpg"
+            "p/PZ4TX-PLUS-front-female.jpeg",
+            "p/PZ4TX-PLUS-back-female.jpeg"
           ]
         },
 
@@ -534,11 +532,10 @@
           ],
 
           "images": [
-            "p/pz4tx-002.jpg",
-            "p/pz4tx-003.jpg",
-            "p/pz4tx-004.jpg",
-            "p/pz4tx-005.jpg",
-            "p/pz4tx-006.jpg"
+            "p/pz4tx-front-male.jpeg",
+            "p/pz4tx-back-male.jpeg",
+            "p/pz4tx-front-female.jpeg",
+            "p/pz4tx-back-female.jpeg"
           ]
         }
       ]
