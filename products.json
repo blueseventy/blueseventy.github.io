@@ -238,11 +238,12 @@
             "L 145-158cm 40-51kg"
           ],
           "images": [
-            "p/torpedo-d-tsk-001.jpg",
-            "p/torpedo-d-tsk-002.jpg",
-            "p/torpedo-d-tsk-003.jpg",
-            "p/torpedo-d-tsk-004.jpg",
-            "p/torpedo-d-tsk-005.jpg"
+             "p/torpedo-kids-1.png",
+             "p/torpedo-kids-2.png",
+             "p/torpedo-kids-3.png",
+             "p/torpedo-kids-4.png",
+             "p/torpedo-kids-5.png",
+             "p/torpedo-kids-6.png"
           ]
         },
 
@@ -353,9 +354,7 @@
             "p/flow-001.jpg",
             "p/flow-002.jpg",
             "p/flow-003.jpg",
-            "p/flow-004.jpg",
-            "p/flow-005.jpg",
-            "p/flow-006.jpg"
+            "p/flow-004.jpg"
           ]
         }
       ]
@@ -617,9 +616,9 @@
           "details": [],
 
           "images": [
-            "p/thermal-pono-ky-002.jpg",
-            "p/thermal-pono-ky-003.jpg",
-            "p/thermal-pono-ky-004.jpg"
+            "p/thermal-pono-ky-001.jpg",
+            "p/thermal-pono-ky-002.jpg"
+           
           ]
         },
 
@@ -649,12 +648,8 @@
           "details": [],
 
           "images": [
-            "p/thermal-elenka-002.jpg",
-            "p/thermal-elenka-003.jpg",
-            "p/thermal-elenka-004.jpg",
-            "p/thermal-elenka-005.jpg",
-            "p/thermal-elenka-006.jpg",
-            "p/thermal-elenka-007.jpg"
+             "p/thermal-elenka-001.jpg",
+            "p/thermal-elenka-002.jpg"
           ]
         },
 
@@ -677,9 +672,8 @@
 
           "images": [
             "p/bezpe-nostn-bojka-001.png",
-            "p/bezpe-nostn-bojka-002.png",
-            "p/bezpe-nostn-bojka-003.jpg",
-            "p/bezpe-nostn-bojka-004.jpg"
+            "p/bezpe-nostn-bojka-003.jpg"
+        
           ]
         },
 
@@ -823,7 +817,6 @@
 
           "images": [
             "p/pull-buoy-synergie-001.jpg",
-            "p/pull-buoy-synergie-002.jpg",
             "p/pull-buoy-synergie-003.jpg"
           ]
         },

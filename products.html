@@ -97,15 +97,16 @@ import {Blue70Button} from "./components/blue70Button.js";
                 exact: "1.7rem",
                 font: "Helvetica"
               }),
+
+              
               new Text(this.obj.price).set({
                 weight: "bold",
                 color: "black",
                 exact: "1.1rem", 
                 pad: [{b: "0.7rem"}],
-                isHidden: this.obj.price === "n/a"
+                hide: this.obj.price === "n/a"
               }),
             ]),
-             
 
               new Blue70Button({
                 url: `https://blueseventy.github.io/detail.html?id=${this.obj.id}`
