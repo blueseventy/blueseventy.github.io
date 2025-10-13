@@ -507,11 +507,10 @@
           ],
 
           "images": [
-            "p/pz4tx-male.png",
-            "p/pz4tx-male-b.png",
-            "p/PZ4TX-PLUS-003.jpg",
-            "p/PZ4TX-PLUS-front-female.jpeg",
-            "p/PZ4TX-PLUS-back-female.jpeg"
+            "p/pz4tx-plus-male-front.jpeg",
+            "p/pz4tx-plus-male-back.jpeg",
+            "p/pz4tx-plus-female-front.jpeg",
+            "p/pz4tx-plus-female-back.jpeg"
           ]
         },
 
@@ -532,10 +531,10 @@
           ],
 
           "images": [
-            "p/PZ4TX-front-male.jpeg",
-            "p/PZ4TX-back-male.jpeg",
-            "p/PZ4TX-front-female.jpeg",
-            "p/PZ4TX-back-female.jpeg"
+            "p/pz4tx-male-front.jpeg",
+            "p/pz4tx-male-back.jpeg",
+            "p/pz4tx-female-front.jpeg",
+            "p/pz4tx-female-back.jpeg"
           ]
         }
       ]
