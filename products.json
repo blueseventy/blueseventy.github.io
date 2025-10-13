@@ -298,8 +298,7 @@
             "p/hydravision-001.jpg",
             "p/hydravision-002.jpg",
             "p/hydravision-003.jpg",
-            "p/hydravision-004.jpg",
-            "p/hydravision-005.jpg"
+            "p/hydravision-004.jpg"
           ]
         },
         {
@@ -321,11 +320,8 @@
 
           "images": [
             "p/contour-001.jpg",
-            "p/contour-002.jpg",
             "p/contour-003.jpg",
-            "p/contour-004.jpg",
             "p/contour-005.jpg",
-            "p/contour-006.jpg",
             "p/contour-007.jpg",
             "p/contour-008.jpg"
           ]
@@ -354,7 +350,8 @@
             "p/flow-001.jpg",
             "p/flow-002.jpg",
             "p/flow-003.jpg",
-            "p/flow-004.jpg"
+            "p/flow-004.jpg",
+            "p/flow-005.jpg"
           ]
         }
       ]
