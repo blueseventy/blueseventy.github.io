@@ -48,7 +48,7 @@
 // http://localhost:2000/products?cat=raceswimwear
 // http://localhost:2000/products?cat=amenities
 // http://localhost:2000/products?cat=triskins
-import { FooterEl } from "./components/footer.js";
+
 import {Blue70Button} from "./components/blue70Button.js";
 import {Blue70Title} from "./components/blue70Title.js";
 
@@ -113,9 +113,29 @@ new Wrapper().set({mar:[{a: "2.2rem"}]}).add([
 
 
 
- new FooterEl().render().render("#mount");
 
 
 
+
+</script>
+
+
+<iframe src="https://www.youtube.com/embed/wVjvSwhv6Ng?si=L2Utli7FqfP8TlFL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<style>
+  iframe {
+    margin-left: auto;
+    margin-right: auto;
+    height: 500px;
+    width: 800px;
+    max-width: 90vw;
+    display: block;
+    margin-bottom: 3rem;
+  }
+</style>
+
+  <div id="footer"></div>
+  <script type="module">
+    import { FooterEl } from "./components/footer.js";
+   new FooterEl().render().render("#footer");
 
 </script>

@@ -200,7 +200,7 @@
 
         {
           "id": "alliance",
-          "name": "Alliance (swimrun prsa)",
+          "name": "Alliance (swimrun, prsa)",
           "price": "5900 Kč",
           "url": "https://blue70.weebly.com/uploads/4/0/5/5/40554337/s660476911256653682_p1_i24_w1500.jpg",
           "description": [
@@ -593,7 +593,7 @@
           "name": "Thermal čepice",
           "price": "1090 Kč",
           "url": "https://blue70.weebly.com/uploads/4/0/5/5/40554337/s660476911256653682_p38_i1_w480.jpg",
-          "description": ["Hlava, chodidla a dlaně ztrácí v chladné vodě enormní množství tepla. Pokud je zakryjete, budete teplotu vody vnímat o 3-4°C výše. Dodává se ve velikostech S-M-L."],
+          "description": ["Hlava, chodidla a dlaně ztrácí v chladné vodě enormní množství tepla. Pokud je zakryjete, budete teplotu vody vnímat o 3-4°C výše. Neoprenové ponožky lze také dobře využít pro ochranu chodidel při vstupu do vody po ostrém povrchu.​ Neoprenové rukavice jsou zase výborné i na cyklistiku v zimě a dešti."],
           "details": [],
           "images": ["p/thermal-cepice.jpg"]
         },
@@ -604,7 +604,7 @@
           "price": "1,090 Kč",
           "url": "https://blue70.weebly.com/uploads/4/0/5/5/40554337/s660476911256653682_p38_i1_w480.jpg",
           "description": [
-            "Hlava, chodidla a dlaně ztrácí v chladné vodě enormní množství tepla. Pokud je zakryjete, budete teplotu vody vnímat o 3-4°C výše. Neoprenové ponožky lze také dobře využít pro ochranu chodidel při vstupu do vody po ostrém povrchu."
+            "Hlava, chodidla a dlaně ztrácí v chladné vodě enormní množství tepla. Pokud je zakryjete, budete teplotu vody vnímat o 3-4°C výše. Neoprenové ponožky lze také dobře využít pro ochranu chodidel při vstupu do vody po ostrém povrchu.​ Neoprenové rukavice jsou zase výborné i na cyklistiku v zimě a dešti."
           ],
           "details": [],
 
@@ -621,7 +621,7 @@
           "price": "1,090 Kč",
           "url": "https://blue70.weebly.com/uploads/4/0/5/5/40554337/s660476911256653682_p38_i1_w480.jpg",
           "description": [
-            "Hlava, chodidla a dlaně ztrácí v chladné vodě enormní množství tepla. Pokud je zakryjete, budete teplotu vody vnímat o 3-4°C výše. Neoprenové ponožky lze také dobře využít pro ochranu chodidel při vstupu do vody po ostrém povrchu.​"
+            "Hlava, chodidla a dlaně ztrácí v chladné vodě enormní množství tepla. Pokud je zakryjete, budete teplotu vody vnímat o 3-4°C výše. Neoprenové ponožky lze také dobře využít pro ochranu chodidel při vstupu do vody po ostrém povrchu.​ Neoprenové rukavice jsou zase výborné i na cyklistiku v zimě a dešti.​"
           ],
           "details": [],
           "images": ["p/thermal-rukavice.jpg"]
@@ -784,7 +784,7 @@
 
         {
           "id": "synergy",
-          "name": "Packy Synergy",
+          "name": "Packy Synergie",
           "price": "490 Kč",
           "url": "https://blue70.weebly.com/uploads/4/0/5/5/40554337/s660476911256653682_p38_i1_w480.jpg",
           "description": [
