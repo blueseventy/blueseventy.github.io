@@ -6,7 +6,7 @@ let links = [
   {text: "Plavecké brýle", url: "https://blueseventy.github.io/products?cat=goggles"},
   {text: "Závodní plavky", url: "https://blueseventy.github.io/products?cat=racesswimwear"},
   {text: "Doplňky", url: "https://blueseventy.github.io/products?cat=amenities"},
-  {text: "Triatlonové kombinézy", url: "https://blueseventy.github.io/products?cat=triskins"}
+ // {text: "Triatlonové kombinézy", url: "https://blueseventy.github.io/products?cat=triskins"}
 ];
 //http://localhost:2000/products?cat=wetsuits
 // To link wrapper in dropdown: z-index: 9999px

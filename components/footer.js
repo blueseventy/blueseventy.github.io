@@ -33,6 +33,7 @@ class FooterEl extends Base {
           text: "nodalityjs.github.io",
           url: "https://nodalityjs.github.io",
            pad: [{ a: "1rem" }, {b: "4rem"}],
+           new: true
           //bold: true,
          
           
