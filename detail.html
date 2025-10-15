@@ -161,13 +161,13 @@ new UList().setItems(this.obj.details.map(el =>
               new Blue70Button({
                 text: "Tabulky velikostí",
                 url: `tables.html`,
-                hide: !["helix", "alliance", "liftshorts", "reaction-thermal", "torpedo", "glide", "sprint", "liftshorts"].includes(this.obj.id)
+                hide: !["helix", "helix-thermal", "alliance", "liftshorts", "reaction-thermal",  "reaction", "torpedo", "glide", "sprint", "liftshorts", "PZ4TX", "PZ4TX-plus"].includes(this.obj.id)
               }).render(),
 
                 new Blue70Button({
                 text: "Thermal doplňky",
                 url: `https://blueseventy.github.io/products?cat=amenities`,
-                hide: !["reaction-thermal", "helix-thermal", "reaction-thermal", "torpedo", "glide", "sprint", "alliance", "helix"].includes(this.obj.id)
+                hide: !["reaction-thermal", "helix-thermal",  "reaction", "reaction-thermal", "torpedo", "glide", "sprint", "alliance", "helix"].includes(this.obj.id)
               }).render(),
 // mail, preferences, Default E-mail renderer => Mail
 
