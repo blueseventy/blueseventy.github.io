@@ -1,7 +1,7 @@
 import {Search} from "./search.js";
 
 
-const BASE = "bluseventy.github.io"; // was sls3.cz
+const BASE = "blueseventy.github.io"; // was sls3.cz
 
 let links = [
   {text: "Podkolenky", url: `https://${BASE}/products.html?cat=socks`},
