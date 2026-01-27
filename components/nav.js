@@ -1,12 +1,16 @@
 import {Search} from "./search.js";
 
+
+const BASE = "bluseventy.github.io"; // was sls3.cz
+
 let links = [
-  {text: "Neopreny", url: "https://blueseventy.github.io/products?cat=wetsuits"},
-  {text: "Plavecké kombinézy", url: "https://blueseventy.github.io/products?cat=swimskins"},
-  {text: "Plavecké brýle", url: "https://blueseventy.github.io/products?cat=goggles"},
-  {text: "Závodní plavky", url: "https://blueseventy.github.io/products?cat=racesswimwear"},
-  {text: "Doplňky", url: "https://blueseventy.github.io/products?cat=amenities"},
- // {text: "Triatlonové kombinézy", url: "https://blueseventy.github.io/products?cat=triskins"}
+  {text: "Podkolenky", url: `https://${BASE}/products.html?cat=socks`},
+  {text: "Lýtkové návleky", url: `https://${BASE}/products.html?cat=lytkove-navleky`},
+  {text: "Triatlonové dresy", url: `https://${BASE}/products.html?cat=trisuits`},
+  {text: "FX šortky", url: `https://${BASE}/products.html?cat=fx-sortky`},
+  {text: "Sportovní opasek HippZip", url: `https://${BASE}/products.html?cat=hipzip`},
+  {text: "Knihy", url: `https://${BASE}/products.html?cat=books`}
+ // {text: "Triatlonové kombinézy", url: ""}
 ];
 //http://localhost:2000/products?cat=wetsuits
 // To link wrapper in dropdown: z-index: 9999px
@@ -24,9 +28,21 @@ class NavLink extends Base {
       url: this.url,
       fluidc: "S6", // add exact
       hover: {
-        color: "#3498db"
+        color: "#c0392b"
+      },
 
-      }
+      resmar: [
+      
+          {
+            breakpoint: "default",
+            values: [{ lr: 10 }]
+        },
+         
+        {
+            breakpoint: "sm",
+            values: [{ l: 20 }]
+        },
+      ]
     });
 
   }
@@ -42,7 +58,7 @@ const makeLinks = () =>
       pad: [{ l: 10, r: 10, b: 12 }],
       font: "Arial",
       hover: {
-        color: "#3498db",
+        color: "#c0392b",
         // background: "#3498db" also works nicely!
       }
     })
@@ -54,7 +70,7 @@ new Switcher().set({
     {
       at: "0px", view: new MobileBar().set({
         background: "#ecf0f1",
-        brand: new Image("img/blue70logo.png")
+        brand: new Image("img/sls3logo.png")
           .set({
             width: "100px",
             height: "auto"
@@ -74,7 +90,7 @@ new Switcher().set({
 
 new Dropdown().set({
   behaviour: "mouseover",
-  pad: [{"a":40}],
+  // pad: [{"a":40}],
   mar: [{"lr":"auto"}],
   breakpoint: "1200px",
   padding: "10px",
@@ -92,12 +108,7 @@ new Dropdown().set({
     },
     size: "S6",
     flex: true,
-    pad: [
-        {
-            l: 10,
-            r: 10
-        }
-    ],
+    
     font: "Arial",
     align: "center",
     weight: "bold"
@@ -125,18 +136,18 @@ new Wrapper()
 
 
  new NavLink({
-        text: "Team BLUE70",
-        url: "team-blueseventy"
+        text: "Team SLS3",
+        url: "team-blueseventy.html"
     }).render(),
 
 new NavLink({
-        text: "Uživatelské tipy",
-        url: "user-tips"
+        text: "Popis",
+        url: "description.html"
     }).render(),
 
 new NavLink({
         text: "Kontakt",
-        url: "contact"
+        url: "contact.html"
     }).render(),
 
     new Button("Hledat")
@@ -145,10 +156,7 @@ new NavLink({
   weight: "bold",
   width: "100px",
   exact: "1.3rem",
-  /* hover: {
-        color: "#3498db"
-
-      }*/
+  pad: [{l:"20px"}]
 })
 .onTap(() => {
   new Search()
@@ -177,7 +185,7 @@ new Text("SLS3").set({
 new Link().set({
   data: {
     options: {
-      img: "img/blue70logo.png",
+      img: "img/sls3logo.png",
       url: "index.html",
       size: "80px"
     }
@@ -197,11 +205,12 @@ new Spacer(undefined),
 
 new Dropdown().set({
   behaviour: "mouseover",
-  pad: [{"a":40}],
+  //pad: [{"a":40}],
   padding: "10px",
   border: "1px solid black",
   radius: "30px",
   width: "130px"
+    
 }).add([
  new Link("Katalog").set({
     text: "Katalog",
@@ -239,18 +248,18 @@ new Dropdown().set({
 ]),
 
 new NavLink({
-        text: "Team BLUE70",
-        url: "team-blueseventy"
+        text: "Team SLS3",
+        url: "team-sls3.html"
     }).render(),
 
 new NavLink({
-        text: "Uživatelské tipy",
-        url: "user-tips"
+        text: "Popis",
+        url: "description.html"
     }).render(),
 
 new NavLink({
         text: "Kontakt",
-        url: "contact"
+        url: "contact.html"
     }).render(),
 
     new Button("Hledat") // 160327 works!!!! 06/10/25
@@ -258,10 +267,8 @@ new NavLink({
   align: "left",
   weight: "bold",
   width: "100px",
-     exact: "calc(1rem + 0.5vw)"
-     /* hover: {
-        color: "#3498db"
-      }*/
+  exact: "calc(1rem + 0.5vw)",
+  pad: [{r:"15px"}]
 })
 .onTap(() => {
   new Search()

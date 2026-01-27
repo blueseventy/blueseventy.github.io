@@ -6,7 +6,7 @@ class FooterEl extends Base {
 
     render() {
       return new Center().items([
-        new Text("Petr Vabrousek@2025").set({
+        new Text(`Petr Vabrousek@${new Date().getFullYear()}`).set({
           exact: "1em",
           font: "Arial",
           weight: "bold",
@@ -22,14 +22,13 @@ class FooterEl extends Base {
              pad: [{ a: "1rem" }],
           //bold: true,
           color: this.obj?.color ?? "black", // 185339 optional chaining
-          
         }),
 
         new Link("nodalityjs.github.io").set({
           exact: "1em",
           font: "Arial",
           weight: "bold",
-          color: "#3498db",
+          color: this.obj && this.obj.high ? this.obj.high : "#3498db",
           text: "nodalityjs.github.io",
           url: "https://nodalityjs.github.io",
            pad: [{ a: "1rem" }, {b: "4rem"}],

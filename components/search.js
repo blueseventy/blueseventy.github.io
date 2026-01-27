@@ -51,7 +51,7 @@
         block: true,
         bold: true,
         exact: "1.7rem",
-        url: `/detail?id=${el.id}`,
+        url: `/detail.html?id=${el.id}`,
         mar: [{a: "1rem"}],
         hover: {
           color: "#3498db",
