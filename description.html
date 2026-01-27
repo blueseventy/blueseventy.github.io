@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Boldonse&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>SLS3 Popis</title>
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+    </style>
+
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-313YVHY7Y2"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-313YVHY7Y2");
+    </script>
+  </head>
+  <body>
+    <script type="module" src="dist/lib.bundle.js"></script>
+
+    <script type="module" src="components/nav.js"></script>
+    <script type="module" src="components/footer.js"></script>
+    <div id="mount"></div>
+
+    <script type="module">
+      // VISIT
+      // http://localhost:2000/products?cat=wetsuits
+      // http://localhost:2000/products?cat=swimskins
+      // http://localhost:2000/products?cat=goggles
+      // http://localhost:2000/products?cat=raceswimwear
+      // http://localhost:2000/products?cat=amenities
+      // http://localhost:2000/products?cat=triskins
+
+      import { Blue70Button } from "./components/blue-70-button.js";
+      import { Blue70Title } from "./components/blue-70-title.js";
+
+      new Blue70Title("POPIS").render().render("#mount");
+
+      class ContentP extends Base {
+        constructor(text, noPad) {
+          super();
+          this.text = text;
+          this.noPad = noPad;
+        }
+
+        render() {
+          return new Text(this.text).set({
+            type: "p",
+          //  bold: true,
+            font: "Montserrat",
+            //font: "Helvetica",
+            exact: "1.3rem",
+            pad: this.noPad ? [{ l: "1rem" }] : [{ a: "1rem" }, {t: "3rem"}],
+          });
+        }
+      }
+
+      class ContactInfo extends Base {
+        constructor(obj) {
+          super();
+          this.obj = obj;
+        }
+
+        render() {
+          return new Wrapper().set({}).add([
+            new ContentP(
+              "Veškeré objednávky zboží **SLS3** probíhají přes e-mail petr@vabrousek.cz. Zvolit vhodnou velikost neoprenu, ideální kombinézu nebo model brýlí není bez zkušeností úplně jednoduché a předejdeme tak případnému posílání různých modelů a velikostí tam a zpět."
+            ).render(),
+
+            new ContentP("**Materiálové složení a výroba SLS3**").render(),
+
+            new Wrapper().set({ pad: [{ l: "2.2rem" }] }).add([
+              new UList().setItems(
+                this.obj.tips.map((el) =>
+                  new Text(el, { type: "li" }).set({
+                    font: "Montserrat",
+                    exact: "1.15rem",
+                    color: "gray",
+                  })
+                )
+              ),
+            ]),
+
+            new ContentP("**Funkčnost SLS3**").render(),
+
+            new Wrapper().set({ pad: [{ l: "2.2rem" }] }).add([
+              new UList().setItems(
+                this.obj.functions.map((el) =>
+                  new Text(el, { type: "li" }).set({
+                    font: "Montserrat",
+                    exact: "1.15rem",
+                    color: "gray",
+                  })
+                )
+              ),
+            ]),
+
+            new ContentP("**Co odlišuje SLS3 od konkurenčních značek?**").render(),
+
+            new Wrapper().set({ pad: [{ l: "2.2rem" }] }).add([
+              new UList().setItems(
+                this.obj.diffs.map((el) =>
+                  new Text(el, { type: "li" }).set({
+                    font: "Montserrat",
+                    exact: "1.15rem",
+                    color: "gray",
+                  })
+                )
+              ),
+            ]),
+
+            new ContentP("**Proč mít SLS3?**").render(),
+
+            new Wrapper().set({ pad: [{ l: "2.2rem" }] }).add([
+              new UList().setItems(
+                this.obj.why.map((el) =>
+                  new Text(el, { type: "li" }).set({
+                    font: "Montserrat",
+                    exact: "1.15rem",
+                    color: "gray",
+                  })
+                )
+              ),
+            ]),
+
+            new ContentP(
+              "Rád vám doporučím vhodný model i velikost. Objednávku pak pošlu k nezávaznému vyzkoušení Zásilkovnou . Platba až po vyzkoušení (i ve vodě). V případě, že velikost nebude sedět, bude zboží vyměněno bezplatně za vhodnější velikost. Pevně věřím, že budete spokojeni a stejně jako 100% zákazníků před Vámi. V případě reklamace prosím pošlete foto a popis defektu na:"
+            ).render(),
+
+            new Image("img/ieurg.png").set({
+              width: "300px",
+            }),
+
+            new ContentP("**​Petr Vabroušek**", true).render(),
+
+            new ContentP(
+              "Brigádnická 483  76302 Zlín-Malenovice",
+              true
+            ).render(),
+            new ContentP("+420 604 203 634", true).render(),
+
+            new Link("www.petrvabrousek.cz", true).set({
+              pad: [{ a: "1rem" }],
+              url: "www.petrvabrousek.cz",
+            }),
+          ]);
+        }
+      }
+
+      new ContactInfo({
+        tips: [
+          "20% nylon",
+          "výšku + váhu",
+          "rychlost plavání (zhruba nejrychlejší čas na 100m kraul)",
+        ],
+
+        functions: [
+          "Zabezpečuje zvýšení míry návratu žilní krve až o 34%",
+          "Lepší přísun kyslíku do svalů",
+          "Vyšší míra odplavování kyseliny mléčné",
+          "Vyšší tlak ponožky zmenšuje svalovou vibraci a zkracuje dobu nutnou pro zotavení",
+          "Při nasazení v období dlouhého stání nebo sezení – konec s otoky nohou!",
+          "Nošení po tréninku snižuje otékání unavených svalů",
+          "SLS3 materiál – ochranný faktor",
+          "Podkolenky jsou vyrobeny z funkčního materiálu",
+          "Polypropylén nepřijímá vlhkost a tak se udržuje lehký a podporuje odpařování",
+          "UV ochranný faktor 50+",
+          "Ve vysokých teplotách ochlazuje",
+          "V zimě zahřívá",
+        ],
+
+        diffs: [
+          "90% sortimentu vyrobeno v USA",
+          "Nejvyšší míra komprese mezi sportovními kompresními podkolenkami",
+          "Používaný polypropylén absorbuje 300× méně vlhkosti (váhy) než nylon používaný konkurencí",
+          "Nejvíce Top 5 umístění v závodech Ironman mezi všemi značkami",
+        ],
+
+        why: [
+          "Do závodu svěží (doporučená doba nasazení již 3 hodiny před závodem)",
+          "Zvýšení výkonnosti po celý závod",
+          "Prevence křečí (podpora krevního oběhu, minimalizace otřesů)",
+          "Odbourání pozávodní únavy (alespoň 3 hodiny po závodě)",
+          "Rychlejší regenerace před dalšími závody nebo tréninky",
+          "Zlepšení ochlazování svalů v teplém počasí",
+          "Zvýšená opora Achillovy šlachy, lýtka a kotníku",
+          "Snižuje riziko zranění kotníků a chodidel",
+          "Rychleschnoucí a lehký materiál",
+        ],
+      })
+        .render()
+        .render("#mount");
+
+      /* new Text("Hello **md** *italic*")
+            .set({
+              color: "green",
+           }).render("#mount")*/
+    </script>
+
+    <iframe
+      id="map"
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2606.657103510608!2d17.60472872693505!3d49.20706407138161!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47130ce69f51999b%3A0x7510f772fb8682cb!2sBrig%C3%A1dnick%C3%A1%20483%2C%20763%2002%20Zl%C3%ADn%204-Malenovice!5e0!3m2!1sen!2scz!4v1759159838685!5m2!1sen!2scz"
+      width="100%"
+      height="450"
+      style="border: 0"
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"
+    ></iframe>
+
+    <div id="edo"></div>
+
+    <script type="module">
+      import { FooterEl } from "./components/footer.js";
+      window.setTimeout(() => {
+        new FooterEl().render().render("#edo");
+      }, 1000);
+    </script>
+  </body>
+</html>

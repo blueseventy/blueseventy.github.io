@@ -1,31 +1,27 @@
 [
   {
-    "name": "Neopreny",
-    "url": "https://blueseventy.github.io/products?cat=wetsuits",
-    "imageURL": "p/helix-001.jpg"
+    "name": "Podkolenky",
+    "url": "https://blueseventy.github.io/products.html?cat=socks",
+    "imageURL": "p/fxc-001.jpg"
   },
-
   {
-    "name": "Plavecké kombinézy",
-    "url": "https://blueseventy.github.io/products?cat=swimskins",
-    "imageURL": "p/pz4tx-001.jpg"
+    "name": "Lýtkové návleky",
+    "url": "https://blueseventy.github.io/products.html?cat=lytkove-navleky",
+    "imageURL": "p/fxc-l-tkov-n-vleky-001.jpg"
   },
-
   {
-    "name": "Plavecké brýle",
-    "url": "https://blueseventy.github.io/products?cat=goggles",
-    "imageURL": "p/hydravision-001.jpg"
+    "name": "Triatlonové dresy",
+    "url": "https://blueseventy.github.io/products.html?cat=trisuits",
+    "imageURL": "p/fx-dresy-001.jpg"
   },
-
   {
-    "name": "Závodní plavky",
-    "url": "https://blueseventy.github.io/products?cat=racesswimwear",
-    "imageURL": "p/nero-1.jpg"
+    "name": "Sportovní opasek HippZip",
+    "url": "https://blueseventy.github.io/products.html?cat=hippzip",
+    "imageURL": "p/sportovn-opasek-hippzip-001.jpg"
   },
-
   {
-    "name": "Doplňky",
-      "url": "https://blueseventy.github.io/products?cat=amenities",
-    "imageURL": "p/jak-na-triatlon-a-jin-vytrvalostn-sporty-001.jpg"
+    "name": "Knihy",
+    "url": "https://blueseventy.github.io/products.html?cat=books",
+    "imageURL": "p/jak-na-triatlon-001.jpg"
   }
 ]

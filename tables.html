@@ -49,15 +49,15 @@
 // http://localhost:2000/products?cat=amenities
 // http://localhost:2000/products?cat=triskins
 
-import {Blue70Button} from "./components/blue70Button.js";
-import {Blue70Title} from "./components/blue70Title.js";
+import {Blue70Button} from "./components/blue-70-button.js";
+import {Blue70Title} from "./components/blue-70-title.js";
 import {FooterEl} from "./components/footer.js";
 
 new Blue70Title("VELIKOSTNÍ TABULKY")
 .render()
 .render("#mount");
 
-
+document.title = `BLUE70 Tables`;
 
 
 class SizeImage extends Base {

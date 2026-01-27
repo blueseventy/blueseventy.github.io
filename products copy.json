@@ -1,0 +1,554 @@
+{
+  "categories": [
+    {
+      "id": "socks",
+      "name": "Podkolenky",
+      "sep": "------------------------------------------------------PODKOLENKY---------------------------------------------------------",
+      "products": [
+        {
+          "id": "polstrovane-podkolenky",
+          "name": "Polstrované podkolenky",
+          "price": "990 Kč",
+          "description": ["Legendární a letitým používáním ověřený model."],
+          "details": [
+            "Jsou navrženy sportovními lékaři",
+            "Polstrovaní na špičce a patě pro pohodlné nošení bez puchýřů",
+            "Certifikovaná stupňovaná komprese",
+            "Zvyšují přívod kyslíku k pracujícím svalům",
+            "Urychlují odplavení metabolitů vznikajících při sportovním výkonu",
+            "Oddalují nástup únavy",
+            "Snižují destruktivní vibrace pracujících svalů",
+            "Můžete sportovat déle a výkonněji",
+            "Cílená podpora achilovky, holeně, klenby, kotníků a lýtek – výrazná redukce rizika úrazu",
+            "Výrazně urychlují dobu nezbytnou k regeneraci po náročném sportovním výkonu",
+            "Vhodné pro běh, cyklistiku, chůzi, triatlon, lyžování, kolektivní sporty,…",
+            "Zajistí svěžest při dlouhém stání nebo cestování",
+            "V případě nespokojenosti možno do měsíce vrátit!",
+            "4 velikosti, bílá barva"
+          ],
+
+          "sizing": {
+            "type": "PODKOLENKY",
+            "sizes": [
+              { "label": "XS/S", "range": "36–38" },
+              { "label": "S/M", "range": "38–43" },
+              { "label": "M/L", "range": "43–45" },
+              { "label": "L/XL", "range": "45–48" }
+            ]
+          },
+
+          "images": ["p/helix-001.jpg", "p/helix-002.jpg", "p/helix-004.jpg"]
+        },
+
+        {
+          "id": "all-rounder-polstrovane",
+          "name": "All rounder barevné podkolenky",
+          "price": "990 Kč",
+          "description": [],
+          "details": [
+            "20–30 mmHG stupňované komprese pro zlepšení krevního oběhu, okysličení svalů a stabilitu",
+            "Bezešvá TekWeb technologie bránící vzniku puchýřů",
+            "Antimicrobiální vlákna bránící vzniku zápachu i při dlouhodobém nošení",
+            "Ochlazující efekt a UV ochrana při použití na přímém slunci",
+            "Jsou navrženy sportovními lékaři",
+            "Certifikovaná stupňovaná komprese",
+            "Zvyšují přívod kyslíku k pracujícím svalům",
+            "Urychlují odplavení metabolitů vznikajících při sportovním výkonu",
+            "Oddalují nástup únavy",
+            "Snižují destruktivní vibrace pracujících svalů",
+            "Můžete sportovat déle a výkonněji",
+            "Cílená podpora achilovky, holeně, klenby, kotníků a lýtek – výrazná redukce rizika úrazu",
+            "Výrazně urychlují dobu nezbytnou k regeneraci po náročném sportovním výkonu",
+            "Vhodné pro běh, cyklistiku, chůzi, triatlon, lyžování, kolektivní sporty,…",
+            "Zajistí svěžest při dlouhém stání nebo cestování",
+            "V případě nespokojenosti možno do měsíce vrátit!",
+            "4 velikosti, 12 barevných provedení včetně bílé"
+          ],
+
+          "sizing": {
+            "note": "ORIENTAČNÍ VELIKOSTI",
+            "sizes": [
+              { "label": "XS/S", "range": "36–38" },
+              { "label": "S/M", "range": "38–43" },
+              { "label": "M/L", "range": "43–45" },
+              { "label": "L/XL", "range": "45–48" }
+            ]
+          },
+
+          "support": "Vhodný model a velikost vám rád poradím na petrETvabrousek.cz",
+
+          "images": [
+            "p/all-rounder-barevn-podkolenky-001.jpg",
+            "p/all-rounder-barevn-podkolenky-002.jpg",
+            "p/all-rounder-barevn-podkolenky-003.jpg",
+            "p/all-rounder-barevn-podkolenky-004.jpg",
+            "p/all-rounder-barevn-podkolenky-005.jpg",
+            "p/all-rounder-barevn-podkolenky-006.jpg",
+            "p/all-rounder-barevn-podkolenky-007.jpg",
+            "p/all-rounder-barevn-podkolenky-008.jpg",
+            "p/all-rounder-barevn-podkolenky-009.jpg",
+            "p/all-rounder-barevn-podkolenky-010.jpg",
+            "p/all-rounder-barevn-podkolenky-011.jpg",
+            "p/all-rounder-barevn-podkolenky-012.jpg",
+             "p/all-rounder-barevn-podkolenky-013.jpg"
+          ]
+        },
+
+        {
+          "id": "fxc",
+          "name": "FXC",
+          "price": "990 Kč",
+          "description": [
+            "Nový model podkolenek, určených zejména pro běhání a regeneraci, přichází s důkladně propracovanou a vyztuženou patou i špičkou. Rozlišuje pravou a levou ponožku podle tvarování polstrování. Výrazně zvýšená životnost. Skladem ve všech 4 velikostech."
+          ],
+          "details": [
+            "Jsou navrženy sportovními lékaři",
+            "20–30 mmHG stupňované komprese pro zlepšení krevního oběhu, okysličení svalů a stabilitu",
+            "Antimikrobiální vlákna bránící vzniku zápachu i při dlouhodobém nošení",
+            "Micro-nylonová úprava pro snadné oblékání",
+            "Certifikovaná stupňovaná komprese",
+            "Zvyšují přívod kyslíku k pracujícím svalům",
+            "Urychlují odplavení metabolitů vznikajících při sportovním výkonu",
+            "Oddalují nástup únavy",
+            "Snižují destruktivní vibrace pracujících svalů",
+            "Můžete sportovat déle a výkonněji",
+            "Cílená podpora achilovky, holeně, klenby, kotníků a lýtek – výrazná redukce rizika úrazu",
+            "Výrazně urychlují dobu nezbytnou k regeneraci po náročném sportovním výkonu",
+            "Vhodné pro běh, cyklistiku, chůzi, triatlon, lyžování, kolektivní sporty,…",
+            "Zajistí svěžest při dlouhém stání nebo cestování",
+            "V případě nespokojenosti možno do měsíce vrátit!",
+            "4 velikosti, bílá, modrá a černá barva"
+          ],
+
+          "sizing": {
+            "note": "ORIENTAČNÍ VELIKOSTI",
+            "sizes": [
+              { "label": "XS/S", "range": "36–38" },
+              { "label": "S/M", "range": "38–43" },
+              { "label": "M/L", "range": "43–45" },
+              { "label": "L/XL", "range": "45–48" }
+            ]
+          },
+          "support": "Vhodný model a velikost vám rád poradím na petrETvabrousek.cz",
+
+          "images": [
+            "p/sprint-003.jpg",
+            "p/sprint-002.jpg",
+            "p/sprint-004.jpg",
+            "p/sprint-005.jpg",
+            "p/sprint-006.jpg"
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "lytkove-navleky",
+      "name": "Lýtkové návleky",
+      "sep": "------------------------------------------------------LYTKOVE NAVLEKY---------------------------------------------------------",
+      "products": [
+        {
+          "id": "allrounded-lytk-navl",
+          "name": "Allrounder lýtkové návleky",
+          "price": "990 Kč",
+          "description": [
+            "Osvědčený model používaný zejména triatlonisty a ultramaratonci na všech distancích."
+          ],
+          "details": [
+            "Jsou navrženy sportovními lékaři",
+            "Certifikovaná stupňovaná komprese",
+            "Plástvový design na zadní straně poskytuje oporu, přičemž se prostor mezi plástvemi stará o optimální odvětrání",
+            "Zvyšují přívod kyslíku k pracujícím svalům",
+            "Urychlují odplavení metabolitů vznikajících při sportovním výkonu",
+            "Oddalují nástup únavy",
+            "Snižují destruktivní vibrace pracujících svalů",
+            "Můžete sportovat déle a výkonněji",
+            "Výrazně urychlují dobu nezbytnou k regeneraci po náročném sportovním výkonu",
+            "Vhodné pro triatlon, běh, cyklistiku, chůzi, inline, lyžování, kolektivní sporty,…",
+            "Zajistí svěžest při dlouhém stání nebo cestování",
+            "V případě nespokojenosti možno do měsíce vrátit!",
+            "3 velikosti, černá, růžová a bílá barva"
+          ],
+
+          "support": "Vhodný model a velikost prosím konzultujte na petrETvabrousek.cz",
+          "sizing": {
+            "note": "ORIENTAČNÍ VELIKOSTI",
+            "sizes": [
+              { "label": "S", "height": "do 174 cm" },
+              { "label": "M", "height": "172–184 cm" },
+              { "label": "L", "height": "nad 180 cm" }
+            ]
+          },
+
+          "images": [
+            "p/allrounder-l-tkov-n-vleky-001.jpg",
+            "p/allrounder-l-tkov-n-vleky-002.jpg",
+            "p/allrounder-l-tkov-n-vleky-003.jpg",
+            "p/allrounder-l-tkov-n-vleky-004.jpg",
+            "p/allrounder-l-tkov-n-vleky-005.jpg",
+            "p/allrounder-l-tkov-n-vleky-006.jpg",
+            "p/allrounder-l-tkov-n-vleky-007.jpg"
+          ]
+        },
+        {
+          "id": "FXC-lytkove-navleky",
+          "name": "FXC Lýtkové návleky",
+          "price": "990 Kč",
+          "description": [""],
+          "details": [
+            "Jsou navrženy sportovními lékaři",
+            "Certifikovaná stupňovaná komprese",
+            "Plástvový design na zadní straně poskytuje oporu, přičemž se prostor mezi plástvemi stará o optimální odvětrání",
+            "Zvyšují přívod kyslíku k pracujícím svalům",
+            "Urychlují odplavení metabolitů vznikajících při sportovním výkonu",
+            "Oddalují nástup únavy",
+            "Snižují destruktivní vibrace pracujících svalů",
+            "Můžete sportovat déle a výkonněji",
+            "Výrazně urychlují dobu nezbytnou k regeneraci po náročném sportovním výkonu",
+            "Vhodné pro triatlon, běh, cyklistiku, chůzi, inline, lyžování, kolektivní sporty,…",
+            "Zajistí svěžest při dlouhém stání nebo cestování",
+            "V případě nespokojenosti možno do měsíce vrátit!",
+            "3 velikosti, černá, růžová a bílá barva"
+          ],
+          "support": "Vhodný model a velikost prosím konzultujte na petrETvabrousek.cz",
+          "sizing": {
+            "note": "ORIENTAČNÍ VELIKOSTI",
+            "sizes": [
+              { "label": "S", "height": "do 174 cm" },
+              { "label": "M", "height": "172–184 cm" },
+              { "label": "L", "height": "nad 180 cm" }
+            ]
+          },
+
+          "images": [
+            "p/fxc-l-ytkov-n-vleky-001.jpg",
+            "p/fxc-l-ytkov-n-vleky-002.jpg",
+            "p/fxc-l-ytkov-n-vleky-003.jpg",
+            "p/fxc-l-ytkov-n-vleky-004.jpg",
+            "p/fxc-l-ytkov-n-vleky-005.jpg"
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "trisuits",
+      "name": "Triatlonové dresy",
+      "sep": "------------------------------------------------------TRISUITS---------------------------------------------------------",
+      "products": [
+        {
+          "id": "fx-aero-triatlonova-kombineza",
+          "name": "FX AERO TRIATLONOVÁ KOMBINÉZA",
+          "price": "3,990 Kč",
+          "description": [
+            "Nejrychlejší kombinéza pro krátký i dlouhý triatlon."
+          ],
+          "details": [
+            "Vylepšená aerodynamika při cyklistice",
+            "Příjemně obepíná tělo",
+            "Skvělá ochrana před sluncem i vedrem",
+            "Optimalizovaná triatlonová výstelka",
+            "Jedna velká a dvě malé kapsy na výživu",
+            "Síťovina pro snadný odvod tepla",
+            "Zakrytý zip nezpůsobuje odřeniny",
+            "Unikátní ELITE rychleschnoucí materiál, který odráží sluneční paprsky a přizpůsobí se tvarům vašeho těla"
+          ],
+
+          "support": "Objednávky a konzultace ohledně vhodného modelu a velikosti na petr@vabrousek.cz",
+          "sizing": {
+            "note": "Orientační tabulka velikostí",
+            "sizes": [
+              {
+                "label": "SMALL",
+                "height": "170–176 cm",
+                "weight": "62–73 kg"
+              },
+              {
+                "label": "MEDIUM",
+                "height": "173–182 cm",
+                "weight": "71–82 kg"
+              },
+              {
+                "label": "LARGE",
+                "height": "178–186 cm",
+                "weight": "80–93 kg"
+              },
+              {
+                "label": "XLARGE",
+                "height": "183–193 cm",
+                "weight": "90–100 kg"
+              }
+            ]
+          },
+
+          "images": [
+            "p/fx-aero-triatlonov-kombin-za-001.jpg",
+            "p/fx-aero-triatlonov-kombin-za-002.jpg",
+            "p/fx-aero-triatlonov-kombin-za-003.jpg",
+            "p/fx-aero-triatlonov-kombin-za-004.jpg",
+            "p/fx-aero-triatlonov-kombin-za-005.jpg",
+            "p/fx-aero-triatlonov-kombin-za-006.jpg",
+            "p/fx-aero-triatlonov-kombin-za-007.jpg",
+            "p/fx-aero-triatlonov-kombin-za-008.jpg",
+            "p/fx-aero-triatlonov-kombin-za-009.jpg",
+            "p/fx-aero-triatlonov-kombin-za-010.jpg",
+            "p/fx-aero-triatlonov-kombin-za-011.jpg",
+            "p/fx-aero-triatlonov-kombin-za-012.jpg",
+            "p/fx-aero-triatlonov-kombin-za-013.jpg",
+            "p/fx-aero-triatlonov-kombin-za-014.jpg",
+            "p/fx-aero-triatlonov-kombin-za-015.jpg"     
+          ]
+        },
+
+        {
+          "id": "fx-damska-triatlonova-kombineza",
+          "name": "FX DÁMSKÁ KOMBINÉZA",
+          "price": "3,990 Kč",
+          "description": [
+            "Chcete při triatlonu vypadat skvěle a současně vědět, že používáte to nejlepší, co je na trhu?"
+          ],
+          "details": [
+            "Kombinéza je určená pro krátký i dlouhý triatlon",
+            "Je velmi lehká a rychleschnoucí",
+            "Mírně kompresní a aerodynamická",
+            "Kapsy pro uložení telefonu nebo výživy",
+            "Vložka optimalizovaná pro všechny 3 triatlonové disciplíny",
+            "Ideální i pro trénink. Závoďte v tom, co máte vyzkoušeno z tréninků"
+          ],
+
+          "support": "Objednávky a konzultace ohledně vhodného modellu na petrETvabrousek.cz",
+          "sizing": {
+            "note": "Orientační tabulka velikostí",
+            "sizes": [
+              {
+                "label": "S",
+                "height": "163–170 cm",
+                "weight": "49–60 kg",
+                "chest": "80–87 cm"
+              },
+              {
+                "label": "M",
+                "height": "168–175 cm",
+                "weight": "58–69 kg",
+                "chest": "85–92 cm"
+              },
+              {
+                "label": "L",
+                "height": "173–180 cm",
+                "weight": "67–78 kg",
+                "chest": "90–97 cm"
+              },
+              {
+                "label": "XL",
+                "height": "178–183 cm",
+                "weight": "76–86 kg",
+                "chest": "95–103 cm"
+              }
+            ]
+          },
+
+          "images": [
+            "p/nero-1.jpg",
+            "p/nero-2.jpg",
+            "p/nero-3.jpg",
+            "p/nero-4.jpg"
+          ]
+        },
+
+        {
+          "id": "fx-sortky",
+          "name": "FX Šortky",
+          "price": "1,990 Kč",
+          "description": [
+            "Skvěle větrající a lehké zakázkově vyrobené materiály poskytují maximální termoregulaci a optimální kompresi."
+          ],
+          "details": [
+            "Úplet WARP nabízí jedinečnou kompresi, tvarovou stálost a maximální podporu pracujícím svalům",
+            "Materiál Xtra Life Lycra® a křížový úplet vede ke snížení destruktivních svalových vibrací",
+            "Oddálení nástupu únavy a podpora maximální rychlosti",
+            "Švýcarský materiál COLDBLACK na povrchu příjemně chladí i na přímém slunci",
+            "Ploché, dokonale čisté švy zajišťují pohodlí a maximální životnost"
+          ],
+          "support": "Ohledně vhodné varianty, velikosti a aktuálně dostupných barev prosím kontaktujte: petrETvabrousek.cz",
+          "sizing": {
+            "note": "Informace o velikostech na vyžádání",
+            "sizes": []
+          },
+           "images": ["p/helix-001.jpg", "p/helix-002.jpg", "p/helix-004.jpg"]
+        },
+
+        {
+          "id": "fx-kombinezy",
+          "name": "FX Kombinézy",
+          "price": "3,900 Kč",
+          "description": [
+            "Vyjeďte nebo vyběhněte v tom nejlepším na trhu!",
+            "Skvěle větrající a lehké zakázkově vyrobené materiály poskytují maximální termoregulaci a optimální kompresi."
+          ],
+          "details": [
+            "22 cm rozkrok (velikost M, odstupňováno ±1 cm pro další velikosti)",
+            "2 velké boční kapsy překryté pro eliminaci odporu vzduchu nebo vody",
+            "SOFTLEG zakončení (žádné odřeniny)",
+            "Bioaktivní antibakteriální zakázková SLS3 triatlonová vložka",
+            "42 cm YKK přední zip se SPRING LOCK technologií",
+            "coldblack® povrchová úprava odráží sluneční paprsky a má UV faktor 50+"
+          ],
+          "support": "Objednávky a konzultace ohledně vhodného modelu a velikosti na petrETvabrousek.cz",
+          "sizing": {
+            "note": "Orientační tabulka velikostí",
+            "sizes": [
+              {
+                "label": "SMALL",
+                "height": "170–176 cm",
+                "weight": "62–73 kg"
+              },
+              {
+                "label": "MEDIUM",
+                "height": "173–182 cm",
+                "weight": "71–82 kg"
+              },
+              {
+                "label": "LARGE",
+                "height": "178–186 cm",
+                "weight": "80–93 kg"
+              },
+              {
+                "label": "XLARGE",
+                "height": "183–193 cm",
+                "weight": "90–100 kg"
+              }
+            ]
+          },
+           "images": ["p/helix-001.jpg", "p/helix-002.jpg", "p/helix-004.jpg"]
+        },
+
+        {
+          "id": "fx-dresy",
+          "name": "FX Dresy",
+          "price": "1,990 Kč",
+          "description": [
+            "Vyjeďte nebo vyběhněte v tom nejlepším na trhu!",
+            "Skvěle větrající a lehké zakázkově vyrobené materiály poskytují maximální termoregulaci a optimální kompresi."
+          ],
+          "details": [
+            "Úplet WARP nabízí jedinečnou kompresi, tvarovou stálost a maximální podporu pracujícím svalům",
+            "Materiál Xtra Life Lycra® a křížový úplet vede ke snížení destruktivních svalových vibrací",
+            "Oddálení nástupu únavy a podpora maximální rychlosti",
+            "Švýcarský materiál COLDBLACK na povrchu příjemně chladí i na přímém slunci",
+            "Ploché, dokonale čisté švy zajišťují pohodlí a maximální životnost"
+          ],
+          "support": "Ohledně vhodné varianty, velikosti a aktuálně dostupných barev prosím kontaktujte: petrETvabrousek.cz",
+          "sizing": {
+            "note": "Orientační tabulka velikostí",
+            "sizes": [
+              {
+                "label": "SMALL",
+                "height": "170–175 cm",
+                "weight": "63–72 kg"
+              },
+              {
+                "label": "MEDIUM",
+                "height": "175–180 cm",
+                "weight": "72–81 kg"
+              },
+              {
+                "label": "LARGE",
+                "height": "180–185 cm",
+                "weight": "81–91 kg"
+              },
+              {
+                "label": "XLARGE",
+                "height": "185–191 cm",
+                "weight": "91–100 kg"
+              }
+            ]
+          },
+           "images": ["p/helix-001.jpg", "p/helix-002.jpg", "p/helix-004.jpg"]
+        }
+      ]
+    },
+
+    {
+      "id": "hipzip",
+      "name": "Sportovní opasek HippZip",
+      "sep": "------------------------------------------------------HIPZIPP---------------------------------------------------------",
+      "products": [
+        {
+          "id": "hippzip-opasek",
+          "name": "HippZip Opasek",
+          "price": "",
+          "description": [
+            "Ať už se chystáte na běžecký trénink, kolo, triatlon, do fitka nebo třeba na inlajny, HippZip opasek je tady pro vás."
+          ],
+          "details": [
+            "Dvě snadno zavíratelné a otevíratelné kapsy pojmou libovolně velký telefon, klíče a až 6 velkých gelů",
+            "Vyjmutí a vložení čehokoli za běhu nebylo nikdy jednodušší",
+            "Extrémně přilnavý materiál zajišťuje, že opasek drží na místě bez pohybu a bez odřenin",
+            "13 cm široký opasek poskytuje vysoký komfort při nošení",
+            "Skladem ve třech barevných provedeních a 4 velikostech"
+          ],
+          "support": "Konzultace a objednávky na petrETvabrousek.cz",
+          "sizing": {
+            "note": "Tabulka velikostí (obvod v bocích)",
+            "sizes": [
+              {
+                "label": "S",
+                "hips": "80–90 cm"
+              },
+              {
+                "label": "M",
+                "hips": "90–100 cm"
+              },
+              {
+                "label": "L",
+                "hips": "96–104 cm"
+              },
+              {
+                "label": "XL",
+                "hips": "100–110 cm"
+              }
+            ]
+          },
+           "images": ["p/helix-001.jpg", "p/helix-002.jpg", "p/helix-004.jpg"]
+        }
+      ]
+    },
+
+    {
+      "id": "books",
+      "name": "Knihy",
+      "sep": "------------------------------------------------------BOOKS---------------------------------------------------------option-shift-F-format",
+      "products": [
+        {
+          "id": "jak-na-triatlon",
+          "name": "Jak na triatlon",
+          "price": "",
+          "description": [
+            "Druhé rozšířené vydání (440 stran) je souborem odborných článků pro triatlonová a běžecká média. Je určena nejen triatletům, ale své si v ní najdou vyznavači všech vytrvalostních sportů od běhu, přes cyklistiku až třeba po běžecké lyžování. Najdete zde návody jak trénovat, stravovat se, regenerovat, závodit, něco o vybavení a spoustu dalšího..."
+          ],
+
+          "details": [
+            "O výtisk s věnováním si můžete napsat na petr@vabrousek.cz"
+          ],
+           "images": ["p/helix-001.jpg", "p/helix-002.jpg", "p/helix-004.jpg"]
+        },
+
+         {
+          "id": "triatlon-226",
+          "name": "Triatlon 226 otázek a odpovědí",
+          "price": "",
+          "description": [
+            "226 – to je součet kilometrů, který musí zdolat každý účastník dlouhého triatlonu, tedy ironmanu. A stejný počet otázek na všechna úskalí sportu tvořeného plaváním, cyklistikou a během najdete v této jedinečné publikaci. Na všechny odpovídá Petr Vabroušek, přední triatlonista se stovkami dlouhých triatlonů i dalších extrémních závodů na kontě. Metodika tréninku, vybavení, stravování, mentální příprava i samotné závodění – to vše vás čeká v jediné příručce, kterou pro úspěšné zvládnutí triatlonu potřebujete."
+          ],
+ 
+          "details": [
+            ""
+          ],
+           "images": ["p/helix-001.jpg", "p/helix-002.jpg", "p/helix-004.jpg"]
+        }
+      ]
+    }
+  ]
+}
+
+

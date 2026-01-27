@@ -9,7 +9,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Boldonse&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
-  <title>BLUE70</title>
+  <title>BLUE70 Contact</title>
 
       <style>
          * {
@@ -51,19 +51,20 @@
 // http://localhost:2000/products?cat=amenities
 // http://localhost:2000/products?cat=triskins
 
-import {Blue70Button} from "./components/blue70Button.js";
-import {Blue70Title} from "./components/blue70Title.js";
+import {Blue70Button} from "./components/blue-70-button.js";
+import {Blue70Title} from "./components/blue-70-title.js";
 
    new Blue70Title("KONTAKT").render().render("#mount");
 
 
 
   const neoprenTips = [
-  
-"zvažovaný model",
-"výšku + váhu",
-"rychlost plavání (zhruba nejrychlejší čas na 100m kraul)"
-    ]
+    "PODKOLENKY:",
+    "S/XS 36 - 38",
+    "S/M  38 - 43",
+    "M/L  43 - 45",
+    "L/XL 45 - 48"
+  ]
 
 
 class ContentP extends Base {
@@ -95,14 +96,31 @@ class ContactInfo extends Base {
 
   render(){
     return new Wrapper().set({}).add([
-      new ContentP("Veškeré objednávky zboží **Blueseventy** probíhají přes e-mail petr@vabrousek.cz. Zvolit vhodnou velikost neoprenu, ideální kombinézu nebo model brýlí není bez zkušeností úplně jednoduché a předejdeme tak případnému posílání různých modelů a velikostí tam a zpět.").render(),
+      new ContentP("Na e-mail pošlete svou adresu, velikost nohy v EUR (případně i výšku a váhu) a volbu produktu. Rádi vám poradíme s volbou správného produktu i velikosti. Objednávka bude neprodleně vyřízena poštou. V případě, že budete po vyzkoušení podkolenek nebo návleků nespokojeni, pošlete je prosím do dvou týdnů zpět na moji adres (viz. níže)").render(),
   
-    new ContentP("Pošlete mi prosím mail s těmito údaji:").render(),
+      new ContentP("Pevně věřím, že budete spokojeni a stejně jako 99% zákazníků před Vámi Vám budou sloužit k plné spokojenosti.V případě reklamace proším pošlete foto a popis defektu na:").render(),
+
+       new Image("img/ieurg.png").set({
+              width: "300px"
+            }),
  
     new Wrapper().set({pad: [{l: "2.2rem"}]}).add([
 
     
     new UList().setItems(this.obj.tips.map(el =>
+              new Text(el, { type: "li" }).set({
+                font: "Montserrat",
+                exact: "1.15rem",
+                color: "gray"
+              })
+            ))
+
+            ]),
+
+                new Wrapper().set({pad: [{l: "2.2rem"}]}).add([
+
+    
+    new UList().setItems(this.obj.sleeves.map(el =>
               new Text(el, { type: "li" }).set({
                 font: "Montserrat",
                 exact: "1.15rem",
@@ -123,9 +141,7 @@ class ContactInfo extends Base {
            
 
 
-            new Image("img/ieurg.png").set({
-              width: "300px"
-            }),
+           
 
 
             new ContentP("**​Petr Vabroušek**", true).render(),
@@ -135,7 +151,7 @@ new ContentP("+420 604 203 634", true).render(),
 
 new Link("www.petrvabrousek.cz", true).set({
   pad: [{a: "1rem"}],
-  url: "www.petrvabrousek.cz"
+  url: "https://www.petrvabrousek.cz"
 })
 
 
@@ -149,7 +165,14 @@ new Link("www.petrvabrousek.cz", true).set({
 
 
 
-  new ContactInfo({tips: neoprenTips})
+  new ContactInfo({
+      tips: neoprenTips,
+      sleeves: [
+        "Návleky – velikost S/XS: do výšky 172 cm",
+        "Návleky – velikost S/M: výška 170–184 cm",
+        "Návleky – velikost M/L: nad výšku 180 cm"
+      ]
+    })
     .render()
     .render("#mount");
 

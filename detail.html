@@ -8,7 +8,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Boldonse&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-  <title>BLUE70</title>
+  <title>SLS3 Detail </title>
 
       <style>
          * {
@@ -49,7 +49,9 @@ const id = urlParams.get("id"); // e.g. detail.html?id=helix
 // http://localhost:2000/detail?id=helix works
 
 
-  import {Blue70Button} from "./components/blue70Button.js";
+  import {Blue70Button} from "./components/blue-70-button.js";
+
+  import {Blue70Title} from "./components/blue-70-title.js";
 
     class ProductDetail extends Base {
       constructor(obj) {
@@ -87,16 +89,26 @@ const id = urlParams.get("id"); // e.g. detail.html?id=helix
             new Text(this.obj.name.toUpperCase()).set({
               font: "Boldonse",
               weight: "bold",
-              exact: "4rem"
+              exact: "2.8rem"
             }),
-             new Text(this.obj.price.toUpperCase()).set({
+             new Text(this.obj.price).set({
               font: "Montserrat",
               exact: "1.6rem",
               color: "#3498Db",
               weight: "bold",
               pad: [{ tb: "1rem" }],
-              isHidden: this.obj.price === "n/a" // 121740
+              hide: this.obj.price === "n/a" // 121740
             }), // http://localhost:2000/detail?id=helix
+
+             new Link("tricamp.cz").set({
+              font: "Montserrat",
+              exact: "1.6rem",
+              color: "#3498Db",
+              weight: "bold",
+              url: "https://tricamp.cz",
+              pad: [{ tb: "1rem" }],
+              hide: this.obj.id !== "triatlon-camps" // 121740
+            }),
 
             new Wrapper()
             .set({})
@@ -108,6 +120,8 @@ const id = urlParams.get("id"); // e.g. detail.html?id=helix
             })
           }
           )),
+
+         
 
          new Wrapper()
           .set({pad: [{l: "1rem"}]})
@@ -123,6 +137,32 @@ new UList().setItems(this.obj.details.map(el =>
             )),
 
           ]),
+
+
+           new Wrapper()
+            .set({})
+            .add(this.obj.sizing.sizes.map(el => {
+              return   new FlexRow()
+            .set({})
+            .items([
+        new Text(el.label).set({
+              font: "Montserrat",
+              exact: "1.2rem",
+              pad: [{ tbr: "1rem" }]
+            }),
+
+             new Text(el.range).set({
+              font: "Montserrat",
+              exact: "1.2rem",
+              pad: [{ tb: "1rem" }]
+            })
+
+            ])
+              
+              
+           
+          }
+          )),
             
 
 
@@ -166,7 +206,7 @@ new UList().setItems(this.obj.details.map(el =>
 
                 new Blue70Button({
                 text: "Thermal doplňky",
-                url: `https://blueseventy.github.io/products?cat=amenities`,
+                url: `https://www.blue70.cz/products.html?cat=amenities`,
                 hide: !["reaction-thermal", "helix-thermal",  "reaction", "reaction-thermal", "torpedo", "glide", "sprint", "alliance", "helix"].includes(this.obj.id)
               }).render(),
 // mail, preferences, Default E-mail renderer => Mail
@@ -189,6 +229,7 @@ new UList().setItems(this.obj.details.map(el =>
     const product = products.find(p => p.id === id);
 
     if (product) {
+      document.title = `BLUE70 ${product.name}`;
       new ProductDetail(product).render().render("#mount");
     } else {
       new Text("Product not found").render("#mount");

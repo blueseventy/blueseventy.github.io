@@ -8,7 +8,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
-  <title>BLUE70</title>
+  <title>SLS3 Categories</title>
 
       <style>
          * {
@@ -27,7 +27,7 @@
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'G-313YVHY7Y2');
+  //gtag('config', 'G-313YVHY7Y2');
 </script>
 
 
@@ -49,7 +49,7 @@
 // http://localhost:2000/products?cat=amenities
 // http://localhost:2000/products?cat=triskins
 
-import {Blue70Button} from "./components/blue70Button.js";
+import {Blue70Button} from "./components/blue-70-button.js";
 
     class ProductDetail extends Base {
       constructor(obj) {
@@ -140,6 +140,8 @@ import {Blue70Button} from "./components/blue70Button.js";
     import("./components/footer.js").then(({ FooterEl }) => {
       new FooterEl().render().render("#mount");
     });
+
+    
   })
   .catch(err => {
     console.error("Failed to load products.json", err);

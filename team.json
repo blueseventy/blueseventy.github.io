@@ -1,45 +1,62 @@
 [
   {
-    "name": "Pavel Wohl",
+    "name": "Petr Vabroušek",
     "secondName": "Jan Šneberger ",
-    "url": "team/pv-js-pw.png"
+    "url": "team/11-petr-vabrousek_orig.jpg"
   },
-
   {
-    "name": "Ondrej Kubo",
-    "url": "team/ondrej-kubo.jpeg"
+    "name": "Lenka Funtarová",
+    "url": "team/12-lenka-fanturova_orig.jpg"
   },
-
   {
-    "name": "Tomáš Svoboda",
+    "name": "Radka Kahlefeld",
     "secondName": "Petr Vabroušek",
     "thirdName": "(Swimrun model Alliance)",
-    "url": "team/tomas-svoboda-petr-vabrousek.png"
+    "url": "team/10-radka-vodickova_orig.jpg"
   },
-
   {
-    "name": "Jan Tománek",
-    "url": "team/jan-tomanek.png"
+    "name": "Eliška Klučinová",
+    "url": "team/2klucinova_orig.jpg"
   },
-
   {
-    "name": "Jan Oppolzer",
-    "url": "team/jan-oppolzer.png"
+    "name": "Jan Čelůstka",
+    "url": "team/16-celustka_orig.jpg"
   },
-
   {
-    "name": "Nejmenovaný sportovec",
-    "url": "team/nejmenovany-sportovec.png"
+    "name": "Martin Frei",
+    "url": "team/martin-frei-dolomitenman.jpeg"
   },
-
   {
-    "name": "Josef Svoboda",
+    "name": "Eva Puskarčíková",
     "secondName": "Lucie Zelenková",
-    "url": "team/josef-svoboda.jpeg"
+    "url": "team/eva.jpg"
   },
-
   {
-    "name": "Martin Vinař",
-    "url": "team/vinar.png"
+    "name": "Jaroslav Balaštík",
+    "url": "team/8-jaroslav-balastik_orig.jpg"
+  },
+  {
+    "name": "Vabroušek + Cypra",
+    "url": "team/vabr.jpeg"
+  },
+  {
+    "name": "Ondřej Moravec",
+    "url": "team/mor_orig.jpg"
+  },
+  {
+    "name": "Rychlý holky",
+    "url": "team/14-rychly-holky_1_orig.jpg"
+  },
+  {
+    "name": "Helena Kotopulu",
+    "url": "team/hk.jpg"
+  },
+  {
+    "name": "Petra Kamínková",
+    "url": "team/kam.jpg"
+  },
+  {
+    "name": "Petr Pechek",
+    "url": "team/pechek.jpg"
   }
 ]

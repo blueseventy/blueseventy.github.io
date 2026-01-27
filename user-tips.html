@@ -49,12 +49,12 @@
 // http://localhost:2000/products?cat=amenities
 // http://localhost:2000/products?cat=triskins
 
-import {Blue70Button} from "./components/blue70Button.js";
-import {Blue70Title} from "./components/blue70Title.js";
+import {Blue70Button} from "./components/blue-70-button.js";
+import {Blue70Title} from "./components/blue-70-title.js";
 
       new Blue70Title("UŽIVATELSKÉ TIPY").render().render("#mount");
 
-
+document.title = `BLUE70 User tips`;
 
 
       const neoprenTips = [
@@ -130,6 +130,7 @@ new Wrapper().set({mar:[{a: "2.2rem"}]}).add([
     max-width: 90vw;
     display: block;
     margin-bottom: 3rem;
+    border-radius: 1rem;
   }
 </style>
 
