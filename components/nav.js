@@ -8,7 +8,7 @@ let links = [
   {text: "Lýtkové návleky", url: `https://${BASE}/products.html?cat=lytkove-navleky`},
   {text: "Mužské triatlonové dresy", url: `https://${BASE}/products.html?cat=maletrisuits`},
   {text: "Ženské triatlonové dresy", url: `https://${BASE}/products.html?cat=womentrisuits`},
-  {text: "FX šortky", url: `https://${BASE}/products.html?cat=fx-sortky`},
+  //{text: "FX šortky", url: `https://${BASE}/products.html?cat=fx-sortky`},
   {text: "Sportovní opasek HippZip", url: `https://${BASE}/products.html?cat=hipzip`},
   {text: "Knihy", url: `https://${BASE}/products.html?cat=books`}
  // {text: "Triatlonové kombinézy", url: ""}
