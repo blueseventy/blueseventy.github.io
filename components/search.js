@@ -41,7 +41,14 @@
 
     let value = this.te.render().value;
 
-    let filter = cata.filter(el => el.name.toLowerCase().startsWith(value.toLowerCase()))
+    const search = value.trim().toLowerCase()
+   const regex = new RegExp(`\\b${search}`, 'i')
+
+const filter = cata.filter(el =>
+  regex.test(el.name)
+)
+
+   // let filter = cata.filter(el => el.name.toLowerCase().startsWith(value.toLowerCase()))
   
     console.log(filter);
 
